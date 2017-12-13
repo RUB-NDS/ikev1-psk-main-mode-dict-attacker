@@ -1,0 +1,457 @@
+Dec 08 09:52:31 osboxes systemd[1]: Started strongSwan IPsec IKEv1/IKEv2 daemon using ipsec.conf.
+Dec 08 09:52:31 osboxes charon[552]: 00[DMN] Starting IKE charon daemon (strongSwan 5.5.1, Linux 4.9.0-4-amd64, x86_64)
+Dec 08 09:52:32 osboxes charon[552]: 00[CFG]   loaded IKE secret for 192.168.0.1 192.168.0.100
+Dec 08 09:56:13 osboxes charon[552]: 14[IKE] received XAuth vendor ID
+Dec 08 09:56:13 osboxes charon[552]: 14[IKE] received DPD vendor ID
+Dec 08 09:56:13 osboxes charon[552]: 14[IKE] received FRAGMENTATION vendor ID
+Dec 08 09:56:13 osboxes charon[552]: 14[IKE] received NAT-T (RFC 3947) vendor ID
+Dec 08 09:56:13 osboxes charon[552]: 14[IKE] received draft-ietf-ipsec-nat-t-ike-02\n vendor ID
+Dec 08 09:56:13 osboxes charon[552]: 14[IKE] 192.168.0.100 is initiating a Aggressive Mode IKE_SA
+Dec 08 09:56:13 osboxes charon[552]: 14[IKE] 192.168.0.100 is initiating a Aggressive Mode IKE_SA
+Dec 08 09:56:13 osboxes charon[552]: 15[IKE] IKE_SA rw-carol[1] established between 192.168.0.1[192.168.0.1]...192.168.0.100[192.168.0.100]
+Dec 08 09:56:13 osboxes charon[552]: 15[IKE] IKE_SA rw-carol[1] established between 192.168.0.1[192.168.0.1]...192.168.0.100[192.168.0.100]
+Dec 08 09:56:13 osboxes charon[552]: 15[IKE] scheduling reauthentication in 3307s
+Dec 08 09:56:13 osboxes charon[552]: 15[IKE] maximum IKE_SA lifetime 3487s
+Dec 08 09:56:13 osboxes charon[552]: 07[IKE] CHILD_SA rw-carol{1} established with SPIs cc637e85_i ce3a4dbe_o and TS 10.1.0.0/16 === 192.168.0.100/32
+Dec 08 09:56:13 osboxes charon[552]: 07[IKE] CHILD_SA rw-carol{1} established with SPIs cc637e85_i ce3a4dbe_o and TS 10.1.0.0/16 === 192.168.0.100/32
+Dec 08 09:56:29 osboxes charon[552]: 12[IKE] detected rekeying of CHILD_SA rw-carol{1}
+Dec 08 09:56:29 osboxes charon[552]: 13[IKE] CHILD_SA rw-carol{2} established with SPIs cbc86a0d_i ce9f092b_o and TS 10.1.0.0/16 === 192.168.0.100/32
+Dec 08 09:56:29 osboxes charon[552]: 13[IKE] CHILD_SA rw-carol{2} established with SPIs cbc86a0d_i ce9f092b_o and TS 10.1.0.0/16 === 192.168.0.100/32
+Dec 08 09:56:45 osboxes charon[552]: 06[IKE] received DELETE for ESP CHILD_SA with SPI ce3a4dbe
+Dec 08 09:56:45 osboxes charon[552]: 06[IKE] closing CHILD_SA rw-carol{1} with SPIs cc637e85_i (0 bytes) ce3a4dbe_o (0 bytes) and TS 10.1.0.0/16 === 192.168.0.100/32
+Dec 08 09:56:45 osboxes charon[552]: 06[IKE] closing CHILD_SA rw-carol{1} with SPIs cc637e85_i (0 bytes) ce3a4dbe_o (0 bytes) and TS 10.1.0.0/16 === 192.168.0.100/32
+Dec 08 09:56:45 osboxes charon[552]: 05[IKE] received DELETE for ESP CHILD_SA with SPI ce9f092b
+Dec 08 09:56:45 osboxes charon[552]: 05[IKE] closing CHILD_SA rw-carol{2} with SPIs cbc86a0d_i (0 bytes) ce9f092b_o (0 bytes) and TS 10.1.0.0/16 === 192.168.0.100/32
+Dec 08 09:56:45 osboxes charon[552]: 05[IKE] closing CHILD_SA rw-carol{2} with SPIs cbc86a0d_i (0 bytes) ce9f092b_o (0 bytes) and TS 10.1.0.0/16 === 192.168.0.100/32
+Dec 08 09:56:45 osboxes ipsec[487]: 00[DMN] Starting IKE charon daemon (strongSwan 5.5.1, Linux 4.9.0-4-amd64, x86_64)
+Dec 08 09:56:45 osboxes ipsec[487]: 00[CFG]   loaded IKE secret for 192.168.0.1 192.168.0.100
+Dec 08 09:56:45 osboxes ipsec[487]: 14[IKE] received XAuth vendor ID
+Dec 08 09:56:45 osboxes ipsec[487]: 14[IKE] received DPD vendor ID
+Dec 08 09:56:45 osboxes ipsec[487]: 14[IKE] received FRAGMENTATION vendor ID
+Dec 08 09:56:45 osboxes ipsec[487]: 14[IKE] received NAT-T (RFC 3947) vendor ID
+Dec 08 09:56:45 osboxes ipsec[487]: 14[IKE] received draft-ietf-ipsec-nat-t-ike-02\n vendor ID
+Dec 08 09:56:45 osboxes ipsec[487]: 14[IKE] 192.168.0.100 is initiating a Aggressive Mode IKE_SA
+Dec 08 09:56:45 osboxes charon[552]: 16[IKE] received DELETE for IKE_SA rw-carol[1]
+Dec 08 09:56:45 osboxes ipsec[487]: 15[IKE] IKE_SA rw-carol[1] established between 192.168.0.1[192.168.0.1]...192.168.0.100[192.168.0.100]
+Dec 08 09:56:45 osboxes ipsec[487]: 15[IKE] scheduling reauthentication in 3307s
+Dec 08 09:56:45 osboxes ipsec[487]: 15[IKE] maximum IKE_SA lifetime 3487s
+Dec 08 09:56:45 osboxes ipsec[487]: 07[IKE] CHILD_SA rw-carol{1} established with SPIs cc637e85_i ce3a4dbe_o and TS 10.1.0.0/16 === 192.168.0.100/32
+Dec 08 09:56:45 osboxes ipsec[487]: 12[IKE] detected rekeying of CHILD_SA rw-carol{1}
+Dec 08 09:56:45 osboxes ipsec[487]: 13[IKE] CHILD_SA rw-carol{2} established with SPIs cbc86a0d_i ce9f092b_o and TS 10.1.0.0/16 === 192.168.0.100/32
+Dec 08 09:56:45 osboxes ipsec[487]: 06[IKE] received DELETE for ESP CHILD_SA with SPI ce3a4dbe
+Dec 08 09:56:45 osboxes ipsec[487]: 06[IKE] closing CHILD_SA rw-carol{1} with SPIs cc637e85_i (0 bytes) ce3a4dbe_o (0 bytes) and TS 10.1.0.0/16 === 192.168.0.100/32
+Dec 08 09:56:45 osboxes ipsec[487]: 05[IKE] received DELETE for ESP CHILD_SA with SPI ce9f092b
+Dec 08 09:56:45 osboxes ipsec[487]: 05[IKE] closing CHILD_SA rw-carol{2} with SPIs cbc86a0d_i (0 bytes) ce9f092b_o (0 bytes) and TS 10.1.0.0/16 === 192.168.0.100/32
+Dec 08 09:56:45 osboxes charon[552]: 16[IKE] deleting IKE_SA rw-carol[1] between 192.168.0.1[192.168.0.1]...192.168.0.100[192.168.0.100]
+Dec 08 09:56:45 osboxes charon[552]: 16[IKE] deleting IKE_SA rw-carol[1] between 192.168.0.1[192.168.0.1]...192.168.0.100[192.168.0.100]
+Dec 08 09:56:48 osboxes charon[552]: 08[IKE] received XAuth vendor ID
+Dec 08 09:56:48 osboxes charon[552]: 08[IKE] received DPD vendor ID
+Dec 08 09:56:48 osboxes charon[552]: 08[IKE] received FRAGMENTATION vendor ID
+Dec 08 09:56:48 osboxes charon[552]: 08[IKE] received NAT-T (RFC 3947) vendor ID
+Dec 08 09:56:48 osboxes charon[552]: 08[IKE] received draft-ietf-ipsec-nat-t-ike-02\n vendor ID
+Dec 08 09:56:48 osboxes charon[552]: 08[IKE] 192.168.0.100 is initiating a Aggressive Mode IKE_SA
+Dec 08 09:56:48 osboxes charon[552]: 08[IKE] 192.168.0.100 is initiating a Aggressive Mode IKE_SA
+Dec 08 09:56:48 osboxes charon[552]: 09[IKE] IKE_SA rw-carol[2] established between 192.168.0.1[192.168.0.1]...192.168.0.100[192.168.0.100]
+Dec 08 09:56:48 osboxes charon[552]: 09[IKE] IKE_SA rw-carol[2] established between 192.168.0.1[192.168.0.1]...192.168.0.100[192.168.0.100]
+Dec 08 09:56:48 osboxes charon[552]: 09[IKE] scheduling reauthentication in 3241s
+Dec 08 09:56:48 osboxes charon[552]: 09[IKE] maximum IKE_SA lifetime 3421s
+Dec 08 09:56:48 osboxes charon[552]: 12[IKE] CHILD_SA rw-carol{3} established with SPIs c5839ebd_i c14409c3_o and TS 10.1.0.0/16 === 192.168.0.100/32
+Dec 08 09:56:48 osboxes charon[552]: 12[IKE] CHILD_SA rw-carol{3} established with SPIs c5839ebd_i c14409c3_o and TS 10.1.0.0/16 === 192.168.0.100/32
+Dec 08 10:11:19 osboxes charon[552]: 08[IKE] detected rekeying of CHILD_SA rw-carol{3}
+Dec 08 10:11:19 osboxes charon[552]: 10[IKE] CHILD_SA rw-carol{4} established with SPIs c2e36a85_i c9e8ff11_o and TS 10.1.0.0/16 === 192.168.0.100/32
+Dec 08 10:11:19 osboxes charon[552]: 10[IKE] CHILD_SA rw-carol{4} established with SPIs c2e36a85_i c9e8ff11_o and TS 10.1.0.0/16 === 192.168.0.100/32
+Dec 08 10:11:33 osboxes charon[552]: 00[IKE] closing CHILD_SA rw-carol{3} with SPIs c5839ebd_i (0 bytes) c14409c3_o (0 bytes) and TS 10.1.0.0/16 === 192.168.0.100/32
+Dec 08 10:11:33 osboxes charon[552]: 00[IKE] closing CHILD_SA rw-carol{3} with SPIs c5839ebd_i (0 bytes) c14409c3_o (0 bytes) and TS 10.1.0.0/16 === 192.168.0.100/32
+Dec 08 10:11:33 osboxes charon[552]: 00[IKE] sending DELETE for ESP CHILD_SA with SPI c5839ebd
+Dec 08 10:11:33 osboxes charon[552]: 00[IKE] closing CHILD_SA rw-carol{4} with SPIs c2e36a85_i (0 bytes) c9e8ff11_o (0 bytes) and TS 10.1.0.0/16 === 192.168.0.100/32
+Dec 08 10:11:33 osboxes charon[552]: 00[IKE] closing CHILD_SA rw-carol{4} with SPIs c2e36a85_i (0 bytes) c9e8ff11_o (0 bytes) and TS 10.1.0.0/16 === 192.168.0.100/32
+Dec 08 10:11:33 osboxes charon[552]: 00[IKE] sending DELETE for ESP CHILD_SA with SPI c2e36a85
+Dec 08 10:11:33 osboxes charon[552]: 00[IKE] deleting IKE_SA rw-carol[2] between 192.168.0.1[192.168.0.1]...192.168.0.100[192.168.0.100]
+Dec 08 10:11:33 osboxes charon[552]: 00[IKE] deleting IKE_SA rw-carol[2] between 192.168.0.1[192.168.0.1]...192.168.0.100[192.168.0.100]
+Dec 08 10:11:33 osboxes charon[552]: 00[IKE] sending DELETE for IKE_SA rw-carol[2]
+Dec 08 10:11:33 osboxes ipsec[487]: 16[IKE] received DELETE for IKE_SA rw-carol[1]
+Dec 08 10:11:33 osboxes ipsec[487]: 16[IKE] deleting IKE_SA rw-carol[1] between 192.168.0.1[192.168.0.1]...192.168.0.100[192.168.0.100]
+Dec 08 10:11:33 osboxes ipsec[487]: 08[IKE] received XAuth vendor ID
+Dec 08 10:11:33 osboxes ipsec[487]: 08[IKE] received DPD vendor ID
+Dec 08 10:11:33 osboxes ipsec[487]: 08[IKE] received FRAGMENTATION vendor ID
+Dec 08 10:11:33 osboxes ipsec[487]: 08[IKE] received NAT-T (RFC 3947) vendor ID
+Dec 08 10:11:33 osboxes ipsec[487]: 08[IKE] received draft-ietf-ipsec-nat-t-ike-02\n vendor ID
+Dec 08 10:11:33 osboxes ipsec[487]: 08[IKE] 192.168.0.100 is initiating a Aggressive Mode IKE_SA
+Dec 08 10:11:33 osboxes ipsec[487]: 09[IKE] IKE_SA rw-carol[2] established between 192.168.0.1[192.168.0.1]...192.168.0.100[192.168.0.100]
+Dec 08 10:11:33 osboxes ipsec[487]: 09[IKE] scheduling reauthentication in 3241s
+Dec 08 10:11:33 osboxes ipsec[487]: 09[IKE] maximum IKE_SA lifetime 3421s
+Dec 08 10:11:33 osboxes ipsec[487]: 12[IKE] CHILD_SA rw-carol{3} established with SPIs c5839ebd_i c14409c3_o and TS 10.1.0.0/16 === 192.168.0.100/32
+Dec 08 10:11:33 osboxes ipsec[487]: 08[IKE] detected rekeying of CHILD_SA rw-carol{3}
+Dec 08 10:11:33 osboxes ipsec[487]: 10[IKE] CHILD_SA rw-carol{4} established with SPIs c2e36a85_i c9e8ff11_o and TS 10.1.0.0/16 === 192.168.0.100/32
+Dec 08 10:11:33 osboxes ipsec[487]: 00[IKE] closing CHILD_SA rw-carol{3} with SPIs c5839ebd_i (0 bytes) c14409c3_o (0 bytes) and TS 10.1.0.0/16 === 192.168.0.100/32
+Dec 08 10:11:33 osboxes ipsec[487]: 00[IKE] sending DELETE for ESP CHILD_SA with SPI c5839ebd
+Dec 08 10:11:33 osboxes ipsec[487]: 00[IKE] closing CHILD_SA rw-carol{4} with SPIs c2e36a85_i (0 bytes) c9e8ff11_o (0 bytes) and TS 10.1.0.0/16 === 192.168.0.100/32
+Dec 08 10:11:33 osboxes ipsec[487]: 00[IKE] sending DELETE for ESP CHILD_SA with SPI c2e36a85
+Dec 08 10:11:33 osboxes ipsec[487]: 00[IKE] deleting IKE_SA rw-carol[2] between 192.168.0.1[192.168.0.1]...192.168.0.100[192.168.0.100]
+Dec 08 10:11:33 osboxes ipsec[487]: 00[IKE] sending DELETE for IKE_SA rw-carol[2]
+Dec 08 10:11:35 osboxes charon[3088]: 00[DMN] Starting IKE charon daemon (strongSwan 5.5.1, Linux 4.9.0-4-amd64, x86_64)
+Dec 08 10:11:35 osboxes charon[3088]: 00[CFG]   loaded IKE secret for 192.168.0.1 192.168.0.100
+Dec 08 10:11:57 osboxes charon[3088]: 08[IKE] received XAuth vendor ID
+Dec 08 10:11:57 osboxes charon[3088]: 08[IKE] received DPD vendor ID
+Dec 08 10:11:57 osboxes charon[3088]: 08[IKE] received FRAGMENTATION vendor ID
+Dec 08 10:11:57 osboxes charon[3088]: 08[IKE] received NAT-T (RFC 3947) vendor ID
+Dec 08 10:11:57 osboxes charon[3088]: 08[IKE] received draft-ietf-ipsec-nat-t-ike-02\n vendor ID
+Dec 08 10:11:57 osboxes charon[3088]: 08[IKE] 192.168.0.100 is initiating a Aggressive Mode IKE_SA
+Dec 08 10:11:57 osboxes charon[3088]: 08[IKE] 192.168.0.100 is initiating a Aggressive Mode IKE_SA
+Dec 08 10:11:57 osboxes charon[3088]: 09[IKE] ignoring QUICK_MODE request while phase 1 is incomplete
+Dec 08 10:11:57 osboxes charon[3088]: 09[IKE] IKE_SA rw-carol[1] established between 192.168.0.1[192.168.0.1]...192.168.0.100[192.168.0.100]
+Dec 08 10:11:57 osboxes charon[3088]: 09[IKE] IKE_SA rw-carol[1] established between 192.168.0.1[192.168.0.1]...192.168.0.100[192.168.0.100]
+Dec 08 10:11:57 osboxes charon[3088]: 09[IKE] scheduling reauthentication in 3344s
+Dec 08 10:11:57 osboxes charon[3088]: 09[IKE] maximum IKE_SA lifetime 3524s
+Dec 08 10:12:01 osboxes charon[3088]: 13[IKE] CHILD_SA rw-carol{1} established with SPIs c7547cf9_i c2124e7c_o and TS 10.1.0.0/16 === 192.168.0.100/32
+Dec 08 10:12:01 osboxes charon[3088]: 13[IKE] CHILD_SA rw-carol{1} established with SPIs c7547cf9_i c2124e7c_o and TS 10.1.0.0/16 === 192.168.0.100/32
+Dec 08 10:27:18 osboxes charon[3088]: 12[IKE] CHILD_SA rw-carol{2} established with SPIs c484e64d_i cb5e1581_o and TS 10.1.0.0/16 === 192.168.0.100/32
+Dec 08 10:27:18 osboxes charon[3088]: 12[IKE] CHILD_SA rw-carol{2} established with SPIs c484e64d_i cb5e1581_o and TS 10.1.0.0/16 === 192.168.0.100/32
+Dec 08 10:32:01 osboxes charon[3088]: 07[IKE] received DELETE for ESP CHILD_SA with SPI c2124e7c
+Dec 08 10:32:01 osboxes charon[3088]: 07[IKE] closing CHILD_SA rw-carol{1} with SPIs c7547cf9_i (0 bytes) c2124e7c_o (0 bytes) and TS 10.1.0.0/16 === 192.168.0.100/32
+Dec 08 10:32:01 osboxes charon[3088]: 07[IKE] closing CHILD_SA rw-carol{1} with SPIs c7547cf9_i (0 bytes) c2124e7c_o (0 bytes) and TS 10.1.0.0/16 === 192.168.0.100/32
+Dec 08 10:42:31 osboxes charon[3088]: 12[IKE] CHILD_SA rw-carol{3} established with SPIs c0722187_i cb231ed5_o and TS 10.1.0.0/16 === 192.168.0.100/32
+Dec 08 10:42:31 osboxes charon[3088]: 12[IKE] CHILD_SA rw-carol{3} established with SPIs c0722187_i cb231ed5_o and TS 10.1.0.0/16 === 192.168.0.100/32
+Dec 08 10:47:18 osboxes charon[3088]: 08[IKE] received DELETE for ESP CHILD_SA with SPI cb5e1581
+Dec 08 10:47:18 osboxes charon[3088]: 08[IKE] closing CHILD_SA rw-carol{2} with SPIs c484e64d_i (0 bytes) cb5e1581_o (0 bytes) and TS 10.1.0.0/16 === 192.168.0.100/32
+Dec 08 10:47:18 osboxes charon[3088]: 08[IKE] closing CHILD_SA rw-carol{2} with SPIs c484e64d_i (0 bytes) cb5e1581_o (0 bytes) and TS 10.1.0.0/16 === 192.168.0.100/32
+Dec 08 10:47:49 osboxes charon[3088]: 04[IKE] old path is not available anymore, try to find another
+Dec 08 10:47:49 osboxes charon[3088]: 04[IKE] looking for a route to 192.168.0.100 ...
+Dec 08 10:47:52 osboxes charon[3088]: 12[IKE] old path is not available anymore, try to find another
+Dec 08 10:47:52 osboxes charon[3088]: 12[IKE] looking for a route to 192.168.0.100 ...
+Dec 08 10:48:06 osboxes charon[3088]: 10[IKE] old path is not available anymore, try to find another
+Dec 08 10:48:06 osboxes charon[3088]: 10[IKE] looking for a route to 192.168.0.100 ...
+Dec 08 10:48:07 osboxes charon[3088]: 09[IKE] old path is not available anymore, try to find another
+Dec 08 10:48:07 osboxes charon[3088]: 09[IKE] looking for a route to 192.168.0.100 ...
+Dec 08 10:48:09 osboxes charon[3088]: 04[IKE] old path is not available anymore, try to find another
+Dec 08 10:48:09 osboxes charon[3088]: 04[IKE] looking for a route to 192.168.0.100 ...
+Dec 08 10:52:40 osboxes charon[3088]: 11[IKE] old path is not available anymore, try to find another
+Dec 08 10:52:40 osboxes charon[3088]: 11[IKE] looking for a route to 192.168.0.100 ...
+Dec 08 10:52:50 osboxes charon[3088]: 00[IKE] closing CHILD_SA rw-carol{3} with SPIs c0722187_i (0 bytes) cb231ed5_o (0 bytes) and TS 10.1.0.0/16 === 192.168.0.100/32
+Dec 08 10:52:50 osboxes charon[3088]: 00[IKE] closing CHILD_SA rw-carol{3} with SPIs c0722187_i (0 bytes) cb231ed5_o (0 bytes) and TS 10.1.0.0/16 === 192.168.0.100/32
+Dec 08 10:52:50 osboxes charon[3088]: 00[IKE] sending DELETE for ESP CHILD_SA with SPI c0722187
+Dec 08 10:52:50 osboxes charon[3088]: 00[IKE] deleting IKE_SA rw-carol[1] between 192.168.0.1[192.168.0.1]...192.168.0.100[192.168.0.100]
+Dec 08 10:52:50 osboxes charon[3088]: 00[IKE] deleting IKE_SA rw-carol[1] between 192.168.0.1[192.168.0.1]...192.168.0.100[192.168.0.100]
+Dec 08 10:52:50 osboxes charon[3088]: 00[IKE] sending DELETE for IKE_SA rw-carol[1]
+Dec 08 10:52:52 osboxes charon[3734]: 00[DMN] Starting IKE charon daemon (strongSwan 5.5.1, Linux 4.9.0-4-amd64, x86_64)
+Dec 08 10:52:52 osboxes charon[3734]: 00[CFG]   loaded IKE secret for 192.168.0.1 192.168.0.100
+Dec 08 11:02:05 osboxes charon[3890]: 00[DMN] Starting IKE charon daemon (strongSwan 5.5.1, Linux 4.9.0-4-amd64, x86_64)
+Dec 08 11:02:05 osboxes charon[3890]: 00[CFG]   loaded IKE secret for 192.168.0.1 192.168.0.100
+Dec 08 11:05:23 osboxes charon[4155]: 00[DMN] Starting IKE charon daemon (strongSwan 5.5.1, Linux 4.9.0-4-amd64, x86_64)
+Dec 08 11:05:23 osboxes charon[4155]: 00[CFG]   loaded IKE secret for 192.168.0.1 192.168.0.100
+Dec 08 11:06:42 osboxes charon[4251]: 00[DMN] Starting IKE charon daemon (strongSwan 5.5.1, Linux 4.9.0-4-amd64, x86_64)
+Dec 08 11:06:42 osboxes charon[4251]: 00[CFG]   loaded IKE secret for 192.168.0.1 192.168.0.100
+Dec 08 11:06:59 osboxes charon[4251]: 08[IKE] received XAuth vendor ID
+Dec 08 11:06:59 osboxes charon[4251]: 08[IKE] received DPD vendor ID
+Dec 08 11:06:59 osboxes charon[4251]: 08[IKE] received FRAGMENTATION vendor ID
+Dec 08 11:06:59 osboxes charon[4251]: 08[IKE] received NAT-T (RFC 3947) vendor ID
+Dec 08 11:06:59 osboxes charon[4251]: 08[IKE] received draft-ietf-ipsec-nat-t-ike-02\n vendor ID
+Dec 08 11:06:59 osboxes charon[4251]: 08[IKE] 192.168.0.100 is initiating a Main Mode IKE_SA
+Dec 08 11:06:59 osboxes charon[4251]: 08[IKE] 192.168.0.100 is initiating a Main Mode IKE_SA
+Dec 08 11:06:59 osboxes charon[4251]: 10[IKE] IKE_SA rw-carol[1] established between 192.168.0.101[192.168.0.101]...192.168.0.100[192.168.0.100]
+Dec 08 11:06:59 osboxes charon[4251]: 10[IKE] IKE_SA rw-carol[1] established between 192.168.0.101[192.168.0.101]...192.168.0.100[192.168.0.100]
+Dec 08 11:06:59 osboxes charon[4251]: 10[IKE] scheduling reauthentication in 3306s
+Dec 08 11:06:59 osboxes charon[4251]: 10[IKE] maximum IKE_SA lifetime 3486s
+Dec 08 11:06:59 osboxes charon[4251]: 13[IKE] CHILD_SA rw-carol{1} established with SPIs cda5fcef_i ce1f9911_o and TS 10.1.0.0/16 === 192.168.0.100/32
+Dec 08 11:06:59 osboxes charon[4251]: 13[IKE] CHILD_SA rw-carol{1} established with SPIs cda5fcef_i ce1f9911_o and TS 10.1.0.0/16 === 192.168.0.100/32
+Dec 08 11:08:48 osboxes charon[4251]: 07[IKE] received DELETE for ESP CHILD_SA with SPI ce1f9911
+Dec 08 11:08:48 osboxes charon[4251]: 07[IKE] closing CHILD_SA rw-carol{1} with SPIs cda5fcef_i (0 bytes) ce1f9911_o (0 bytes) and TS 10.1.0.0/16 === 192.168.0.100/32
+Dec 08 11:08:48 osboxes charon[4251]: 07[IKE] closing CHILD_SA rw-carol{1} with SPIs cda5fcef_i (0 bytes) ce1f9911_o (0 bytes) and TS 10.1.0.0/16 === 192.168.0.100/32
+Dec 08 11:08:48 osboxes charon[4251]: 08[IKE] received DELETE for IKE_SA rw-carol[1]
+Dec 08 11:08:48 osboxes charon[4251]: 08[IKE] deleting IKE_SA rw-carol[1] between 192.168.0.101[192.168.0.101]...192.168.0.100[192.168.0.100]
+Dec 08 11:08:48 osboxes charon[4251]: 08[IKE] deleting IKE_SA rw-carol[1] between 192.168.0.101[192.168.0.101]...192.168.0.100[192.168.0.100]
+Dec 08 11:09:06 osboxes charon[4251]: 10[IKE] received XAuth vendor ID
+Dec 08 11:09:06 osboxes charon[4251]: 10[IKE] received DPD vendor ID
+Dec 08 11:09:06 osboxes charon[4251]: 10[IKE] received FRAGMENTATION vendor ID
+Dec 08 11:09:06 osboxes charon[4251]: 10[IKE] received NAT-T (RFC 3947) vendor ID
+Dec 08 11:09:06 osboxes charon[4251]: 10[IKE] received draft-ietf-ipsec-nat-t-ike-02\n vendor ID
+Dec 08 11:09:06 osboxes charon[4251]: 10[IKE] 192.168.0.100 is initiating a Main Mode IKE_SA
+Dec 08 11:09:06 osboxes charon[4251]: 10[IKE] 192.168.0.100 is initiating a Main Mode IKE_SA
+Dec 08 11:09:06 osboxes charon[4251]: 12[IKE] message parsing failed
+Dec 08 11:09:06 osboxes charon[4251]: 12[IKE] ID_PROT request with message ID 0 processing failed
+Dec 08 11:09:10 osboxes charon[4251]: 14[IKE] message parsing failed
+Dec 08 11:09:10 osboxes charon[4251]: 14[IKE] ID_PROT request with message ID 0 processing failed
+Dec 08 11:09:18 osboxes charon[4251]: 13[IKE] message parsing failed
+Dec 08 11:09:18 osboxes charon[4251]: 13[IKE] ID_PROT request with message ID 0 processing failed
+Dec 08 11:09:31 osboxes charon[4251]: 15[IKE] message parsing failed
+Dec 08 11:09:31 osboxes charon[4251]: 15[IKE] ID_PROT request with message ID 0 processing failed
+Dec 08 11:09:36 osboxes charon[4251]: 05[JOB] deleting half open IKE_SA after timeout
+Dec 08 11:29:45 osboxes charon-custom[4905]: 00[DMN] Starting IKE charon daemon (strongSwan 5.5.1, Linux 4.9.0-4-amd64, x86_64)
+Dec 08 11:29:45 osboxes charon-custom[4905]: 00[DMN] Starting IKE charon daemon (strongSwan 5.5.1, Linux 4.9.0-4-amd64, x86_64)
+Dec 08 11:29:46 osboxes charon-custom[4905]: 00[CFG]   loaded IKE secret for 192.168.0.1 192.168.0.100
+Dec 08 11:29:46 osboxes charon-custom[4905]: 00[CFG]   loaded IKE secret for 192.168.0.1 192.168.0.100
+Dec 08 11:30:51 osboxes charon-custom[4905]: 08[IKE] received XAuth vendor ID
+Dec 08 11:30:51 osboxes charon-custom[4905]: 08[IKE] received XAuth vendor ID
+Dec 08 11:30:51 osboxes charon-custom[4905]: 08[IKE] received DPD vendor ID
+Dec 08 11:30:51 osboxes charon-custom[4905]: 08[IKE] received DPD vendor ID
+Dec 08 11:30:51 osboxes charon-custom[4905]: 08[IKE] received FRAGMENTATION vendor ID
+Dec 08 11:30:51 osboxes charon-custom[4905]: 08[IKE] received FRAGMENTATION vendor ID
+Dec 08 11:30:51 osboxes charon-custom[4905]: 08[IKE] received NAT-T (RFC 3947) vendor ID
+Dec 08 11:30:51 osboxes charon-custom[4905]: 08[IKE] received NAT-T (RFC 3947) vendor ID
+Dec 08 11:30:51 osboxes charon-custom[4905]: 08[IKE] received draft-ietf-ipsec-nat-t-ike-02\n vendor ID
+Dec 08 11:30:51 osboxes charon-custom[4905]: 08[IKE] received draft-ietf-ipsec-nat-t-ike-02\n vendor ID
+Dec 08 11:30:51 osboxes charon-custom[4905]: 08[IKE] 192.168.0.100 is initiating a Main Mode IKE_SA
+Dec 08 11:30:51 osboxes charon-custom[4905]: 08[IKE] 192.168.0.100 is initiating a Main Mode IKE_SA
+Dec 08 11:30:51 osboxes charon-custom[4905]: 08[IKE] IKE_SA (unnamed)[1] state change: CREATED => CONNECTING
+Dec 08 11:30:51 osboxes charon-custom[4905]: 08[IKE] sending XAuth vendor ID
+Dec 08 11:30:51 osboxes charon-custom[4905]: 08[IKE] sending DPD vendor ID
+Dec 08 11:30:51 osboxes charon-custom[4905]: 08[IKE] sending FRAGMENTATION vendor ID
+Dec 08 11:30:51 osboxes charon-custom[4905]: 08[IKE] sending NAT-T (RFC 3947) vendor ID
+Dec 08 11:30:51 osboxes charon-custom[4905]: 09[IKE] natd_chunk => 22 bytes @ 0x7fe917171b90
+Dec 08 11:30:51 osboxes charon-custom[4905]: 09[IKE]    0: 51 65 0D 7B 54 33 19 C2 79 42 95 9A E0 C3 54 F9  Qe.{T3..yB....T.
+Dec 08 11:30:51 osboxes charon-custom[4905]: 09[IKE]   16: C0 A8 00 65 01 F4                                ...e..
+Dec 08 11:30:51 osboxes charon-custom[4905]: 09[IKE] natd_hash => 20 bytes @ 0x7fe8f4001b20
+Dec 08 11:30:51 osboxes charon-custom[4905]: 09[IKE]    0: 03 B4 2C 0F 55 DC 9E 40 81 39 5D 54 9F 06 3E DA  ..,.U..@.9]T..>.
+Dec 08 11:30:51 osboxes charon-custom[4905]: 09[IKE]   16: 4C 2E 55 7F                                      L.U.
+Dec 08 11:30:51 osboxes charon-custom[4905]: 09[IKE] natd_chunk => 22 bytes @ 0x7fe917171b90
+Dec 08 11:30:51 osboxes charon-custom[4905]: 09[IKE]    0: 51 65 0D 7B 54 33 19 C2 79 42 95 9A E0 C3 54 F9  Qe.{T3..yB....T.
+Dec 08 11:30:51 osboxes charon-custom[4905]: 09[IKE]   16: C0 A8 00 64 01 F4                                ...d..
+Dec 08 11:30:51 osboxes charon-custom[4905]: 09[IKE] natd_hash => 20 bytes @ 0x7fe8f4001000
+Dec 08 11:30:51 osboxes charon-custom[4905]: 09[IKE]    0: 13 C1 D2 44 18 9A F1 C7 27 CF 86 E6 5F 92 BC 58  ...D....'..._..X
+Dec 08 11:30:51 osboxes charon-custom[4905]: 09[IKE]   16: D8 72 BE A5                                      .r..
+Dec 08 11:30:51 osboxes charon-custom[4905]: 09[IKE] precalculated src_hash => 20 bytes @ 0x7fe8f4001000
+Dec 08 11:30:51 osboxes charon-custom[4905]: 09[IKE]    0: 13 C1 D2 44 18 9A F1 C7 27 CF 86 E6 5F 92 BC 58  ...D....'..._..X
+Dec 08 11:30:51 osboxes charon-custom[4905]: 09[IKE]   16: D8 72 BE A5                                      .r..
+Dec 08 11:30:51 osboxes charon-custom[4905]: 09[IKE] precalculated dst_hash => 20 bytes @ 0x7fe8f4001b20
+Dec 08 11:30:51 osboxes charon-custom[4905]: 09[IKE]    0: 03 B4 2C 0F 55 DC 9E 40 81 39 5D 54 9F 06 3E DA  ..,.U..@.9]T..>.
+Dec 08 11:30:51 osboxes charon-custom[4905]: 09[IKE]   16: 4C 2E 55 7F                                      L.U.
+Dec 08 11:30:51 osboxes charon-custom[4905]: 09[IKE] received dst_hash => 20 bytes @ 0x7fe8f4000b20
+Dec 08 11:30:51 osboxes charon-custom[4905]: 09[IKE]    0: 03 B4 2C 0F 55 DC 9E 40 81 39 5D 54 9F 06 3E DA  ..,.U..@.9]T..>.
+Dec 08 11:30:51 osboxes charon-custom[4905]: 09[IKE]   16: 4C 2E 55 7F                                      L.U.
+Dec 08 11:30:51 osboxes charon-custom[4905]: 09[IKE] received src_hash => 20 bytes @ 0x7fe8f4000c70
+Dec 08 11:30:51 osboxes charon-custom[4905]: 09[IKE]    0: 13 C1 D2 44 18 9A F1 C7 27 CF 86 E6 5F 92 BC 58  ...D....'..._..X
+Dec 08 11:30:51 osboxes charon-custom[4905]: 09[IKE]   16: D8 72 BE A5                                      .r..
+Dec 08 11:30:51 osboxes charon-custom[4905]: 09[IKE] shared Diffie Hellman secret => 128 bytes @ 0x7fe8f4002d90
+Dec 08 11:30:51 osboxes charon-custom[4905]: 09[IKE]    0: 34 B5 29 71 CD 61 F1 80 48 EE 97 D2 0D A4 88 A4  4.)q.a..H.......
+Dec 08 11:30:51 osboxes charon-custom[4905]: 09[IKE]   16: 63 41 25 F3 00 DC 2D 1F 47 0B DB B6 8B 98 9F B9  cA%...-.G.......
+Dec 08 11:30:51 osboxes charon-custom[4905]: 09[IKE]   32: 99 A2 72 13 28 08 4C 16 5C BE BD CA 0C 08 B5 16  ..r.(.L.\.......
+Dec 08 11:30:51 osboxes charon-custom[4905]: 09[IKE]   48: 79 91 32 B8 F6 47 AE 46 BD 26 01 02 8E C7 E3 95  y.2..G.F.&......
+Dec 08 11:30:51 osboxes charon-custom[4905]: 09[IKE]   64: 4A AF 61 28 28 82 6A 03 1F F0 8B 7A E4 05 7C AE  J.a((.j....z..|.
+Dec 08 11:30:51 osboxes charon-custom[4905]: 09[IKE]   80: 0A DB 51 45 3B AA E8 46 91 70 5E 91 3B A9 50 67  ..QE;..F.p^.;.Pg
+Dec 08 11:30:51 osboxes charon-custom[4905]: 09[IKE]   96: B8 16 38 5C 37 D2 BD 85 70 15 01 F9 4A 1A A2 7F  ..8\7...p...J...
+Dec 08 11:30:51 osboxes charon-custom[4905]: 09[IKE]  112: FC 20 A9 54 6E C9 DE FF 8A 1C B3 35 88 81 9A 55  . .Tn......5...U
+Dec 08 11:30:51 osboxes charon-custom[4905]: 09[IKE] SKEYID => 20 bytes @ 0x7fe8f4001ef0
+Dec 08 11:30:51 osboxes charon-custom[4905]: 09[IKE]    0: 72 56 A3 E3 D4 44 FA 8C 50 E9 52 6A 92 65 62 C9  rV...D..P.Rj.eb.
+Dec 08 11:30:51 osboxes charon-custom[4905]: 09[IKE]   16: 52 6B 8B CD                                      Rk..
+Dec 08 11:30:51 osboxes charon-custom[4905]: 09[IKE] SKEYID_d => 20 bytes @ 0x7fe8f4002ec0
+Dec 08 11:30:51 osboxes charon-custom[4905]: 09[IKE]    0: B0 62 CE 22 FC 4D B2 0D B7 63 63 71 73 ED A9 53  .b.".M...ccqs..S
+Dec 08 11:30:51 osboxes charon-custom[4905]: 09[IKE]   16: 8E 13 FD D1                                      ....
+Dec 08 11:30:51 osboxes charon-custom[4905]: 09[IKE] SKEYID_a => 20 bytes @ 0x7fe8f4002f90
+Dec 08 11:30:51 osboxes charon-custom[4905]: 09[IKE]    0: 06 E0 13 96 AE 9A D5 23 00 56 90 BE A9 41 3C 77  .......#.V...A<w
+Dec 08 11:30:51 osboxes charon-custom[4905]: 09[IKE]   16: 97 93 EA 20                                      ...
+Dec 08 11:30:51 osboxes charon-custom[4905]: 09[IKE] SKEYID_e => 20 bytes @ 0x7fe8f40019d0
+Dec 08 11:30:51 osboxes charon-custom[4905]: 09[IKE]    0: C6 21 4F 5F EA 3E 72 A2 A6 7F 23 19 3E 9D A8 07  .!O_.>r...#.>...
+Dec 08 11:30:51 osboxes charon-custom[4905]: 09[IKE]   16: 4C AF 64 34                                      L.d4
+Dec 08 11:30:51 osboxes charon-custom[4905]: 09[IKE] encryption key Ka => 16 bytes @ 0x7fe8f40019d0
+Dec 08 11:30:51 osboxes charon-custom[4905]: 09[IKE]    0: C6 21 4F 5F EA 3E 72 A2 A6 7F 23 19 3E 9D A8 07  .!O_.>r...#.>...
+Dec 08 11:30:51 osboxes charon-custom[4905]: 09[IKE] initial IV => 16 bytes @ 0x7fe8f4001ef0
+Dec 08 11:30:51 osboxes charon-custom[4905]: 09[IKE]    0: 40 9D E1 0C 92 6F 55 13 68 9A F8 BC 5C E5 43 D1  @....oU.h...\.C.
+Dec 08 11:30:51 osboxes charon-custom[4905]: 09[IKE] natd_chunk => 22 bytes @ 0x7fe917171ba0
+Dec 08 11:30:51 osboxes charon-custom[4905]: 09[IKE]    0: 51 65 0D 7B 54 33 19 C2 79 42 95 9A E0 C3 54 F9  Qe.{T3..yB....T.
+Dec 08 11:30:51 osboxes charon-custom[4905]: 09[IKE]   16: C0 A8 00 64 01 F4                                ...d..
+Dec 08 11:30:51 osboxes charon-custom[4905]: 09[IKE] natd_hash => 20 bytes @ 0x7fe8f4003490
+Dec 08 11:30:51 osboxes charon-custom[4905]: 09[IKE]    0: 13 C1 D2 44 18 9A F1 C7 27 CF 86 E6 5F 92 BC 58  ...D....'..._..X
+Dec 08 11:30:51 osboxes charon-custom[4905]: 09[IKE]   16: D8 72 BE A5                                      .r..
+Dec 08 11:30:51 osboxes charon-custom[4905]: 09[IKE] natd_chunk => 22 bytes @ 0x7fe917171ba0
+Dec 08 11:30:51 osboxes charon-custom[4905]: 09[IKE]    0: 51 65 0D 7B 54 33 19 C2 79 42 95 9A E0 C3 54 F9  Qe.{T3..yB....T.
+Dec 08 11:30:51 osboxes charon-custom[4905]: 09[IKE]   16: C0 A8 00 65 01 F4                                ...e..
+Dec 08 11:30:51 osboxes charon-custom[4905]: 09[IKE] natd_hash => 20 bytes @ 0x7fe8f4003550
+Dec 08 11:30:51 osboxes charon-custom[4905]: 09[IKE]    0: 03 B4 2C 0F 55 DC 9E 40 81 39 5D 54 9F 06 3E DA  ..,.U..@.9]T..>.
+Dec 08 11:30:51 osboxes charon-custom[4905]: 09[IKE]   16: 4C 2E 55 7F                                      L.U.
+Dec 08 11:30:51 osboxes charon-custom[4905]: 10[IKE] message parsing failed
+Dec 08 11:30:51 osboxes charon-custom[4905]: 10[IKE] message parsing failed
+Dec 08 11:30:51 osboxes charon-custom[4905]: 10[IKE] Hash => 20 bytes @ 0x7fe8e8001170
+Dec 08 11:30:51 osboxes charon-custom[4905]: 10[IKE]    0: 98 80 EC 76 FD AE 98 AA 5F BC 92 8B CD 9F 30 2E  ...v...._.....0.
+Dec 08 11:30:51 osboxes charon-custom[4905]: 10[IKE]   16: 81 DF 5D 37                                      ..]7
+Dec 08 11:30:51 osboxes charon-custom[4905]: 10[IKE] next IV for MID 1165181203 => 16 bytes @ 0x7fe8e8001410
+Dec 08 11:30:51 osboxes charon-custom[4905]: 10[IKE]    0: 81 16 35 E2 29 F7 D2 FE CD BA AF 18 56 9D ED D1  ..5.).......V...
+Dec 08 11:30:51 osboxes charon-custom[4905]: 10[IKE] ID_PROT request with message ID 0 processing failed
+Dec 08 11:30:51 osboxes charon-custom[4905]: 10[IKE] ID_PROT request with message ID 0 processing failed
+Dec 08 11:30:55 osboxes charon-custom[4905]: 11[IKE] message parsing failed
+Dec 08 11:30:55 osboxes charon-custom[4905]: 11[IKE] message parsing failed
+Dec 08 11:30:55 osboxes charon-custom[4905]: 11[IKE] Hash => 20 bytes @ 0x7fe8ec001170
+Dec 08 11:30:55 osboxes charon-custom[4905]: 11[IKE]    0: 69 81 88 93 E5 89 D3 8B F3 34 72 E0 49 60 32 DD  i........4r.I`2.
+Dec 08 11:30:55 osboxes charon-custom[4905]: 11[IKE]   16: 26 9C 95 95                                      &...
+Dec 08 11:30:55 osboxes charon-custom[4905]: 11[IKE] next IV for MID 930595285 => 16 bytes @ 0x7fe8ec001410
+Dec 08 11:30:55 osboxes charon-custom[4905]: 11[IKE]    0: E3 21 8C 48 D7 79 18 BE 8A B0 87 05 3E D2 E6 A5  .!.H.y......>...
+Dec 08 11:30:55 osboxes charon-custom[4905]: 11[IKE] ID_PROT request with message ID 0 processing failed
+Dec 08 11:30:55 osboxes charon-custom[4905]: 11[IKE] ID_PROT request with message ID 0 processing failed
+Dec 08 11:31:03 osboxes charon-custom[4905]: 13[IKE] message parsing failed
+Dec 08 11:31:03 osboxes charon-custom[4905]: 13[IKE] message parsing failed
+Dec 08 11:31:03 osboxes charon-custom[4905]: 13[IKE] Hash => 20 bytes @ 0x7fe8e4001170
+Dec 08 11:31:03 osboxes charon-custom[4905]: 13[IKE]    0: 91 D8 83 05 B3 C7 59 B7 D1 1C 25 75 CF FE 94 C5  ......Y...%u....
+Dec 08 11:31:03 osboxes charon-custom[4905]: 13[IKE]   16: 78 17 0F 67                                      x..g
+Dec 08 11:31:03 osboxes charon-custom[4905]: 13[IKE] next IV for MID 564069525 => 16 bytes @ 0x7fe8e4001410
+Dec 08 11:31:03 osboxes charon-custom[4905]: 13[IKE]    0: 16 3B BE 7C AE 44 A2 92 98 9F F1 15 BE 34 A8 32  .;.|.D.......4.2
+Dec 08 11:31:03 osboxes charon-custom[4905]: 13[IKE] ID_PROT request with message ID 0 processing failed
+Dec 08 11:31:03 osboxes charon-custom[4905]: 13[IKE] ID_PROT request with message ID 0 processing failed
+Dec 08 11:31:16 osboxes charon-custom[4905]: 15[IKE] message parsing failed
+Dec 08 11:31:16 osboxes charon-custom[4905]: 15[IKE] message parsing failed
+Dec 08 11:31:16 osboxes charon-custom[4905]: 15[IKE] Hash => 20 bytes @ 0x7fe8d8001170
+Dec 08 11:31:16 osboxes charon-custom[4905]: 15[IKE]    0: 08 2A 4D C3 88 62 CD 2E 4A 36 C5 98 87 B2 DD EE  .*M..b..J6......
+Dec 08 11:31:16 osboxes charon-custom[4905]: 15[IKE]   16: AB 4C D1 E1                                      .L..
+Dec 08 11:31:16 osboxes charon-custom[4905]: 15[IKE] next IV for MID 3139155389 => 16 bytes @ 0x7fe8d8001410
+Dec 08 11:31:16 osboxes charon-custom[4905]: 15[IKE]    0: D8 AE D8 4A F8 F5 E7 51 78 B1 AF FD 6F 57 29 82  ...J...Qx...oW).
+Dec 08 11:31:16 osboxes charon-custom[4905]: 15[IKE] ID_PROT request with message ID 0 processing failed
+Dec 08 11:31:16 osboxes charon-custom[4905]: 15[IKE] ID_PROT request with message ID 0 processing failed
+Dec 08 11:31:21 osboxes charon-custom[4905]: 16[JOB] deleting half open IKE_SA after timeout
+Dec 08 11:31:21 osboxes charon-custom[4905]: 16[JOB] deleting half open IKE_SA after timeout
+Dec 08 11:31:21 osboxes charon-custom[4905]: 16[IKE] IKE_SA (unnamed)[1] state change: CONNECTING => DESTROYING
+Dec 08 11:35:58 osboxes charon-custom[4905]: 09[IKE] received XAuth vendor ID
+Dec 08 11:35:58 osboxes charon-custom[4905]: 09[IKE] received XAuth vendor ID
+Dec 08 11:35:58 osboxes charon-custom[4905]: 09[IKE] received DPD vendor ID
+Dec 08 11:35:58 osboxes charon-custom[4905]: 09[IKE] received DPD vendor ID
+Dec 08 11:35:58 osboxes charon-custom[4905]: 09[IKE] received FRAGMENTATION vendor ID
+Dec 08 11:35:58 osboxes charon-custom[4905]: 09[IKE] received FRAGMENTATION vendor ID
+Dec 08 11:35:58 osboxes charon-custom[4905]: 09[IKE] received NAT-T (RFC 3947) vendor ID
+Dec 08 11:35:58 osboxes charon-custom[4905]: 09[IKE] received NAT-T (RFC 3947) vendor ID
+Dec 08 11:35:58 osboxes charon-custom[4905]: 09[IKE] received draft-ietf-ipsec-nat-t-ike-02\n vendor ID
+Dec 08 11:35:58 osboxes charon-custom[4905]: 09[IKE] received draft-ietf-ipsec-nat-t-ike-02\n vendor ID
+Dec 08 11:35:58 osboxes charon-custom[4905]: 09[IKE] 192.168.0.100 is initiating a Main Mode IKE_SA
+Dec 08 11:35:58 osboxes charon-custom[4905]: 09[IKE] 192.168.0.100 is initiating a Main Mode IKE_SA
+Dec 08 11:35:58 osboxes charon-custom[4905]: 09[IKE] IKE_SA (unnamed)[2] state change: CREATED => CONNECTING
+Dec 08 11:35:58 osboxes charon-custom[4905]: 09[IKE] sending XAuth vendor ID
+Dec 08 11:35:58 osboxes charon-custom[4905]: 09[IKE] sending DPD vendor ID
+Dec 08 11:35:58 osboxes charon-custom[4905]: 09[IKE] sending FRAGMENTATION vendor ID
+Dec 08 11:35:58 osboxes charon-custom[4905]: 09[IKE] sending NAT-T (RFC 3947) vendor ID
+Dec 08 11:35:58 osboxes charon-custom[4905]: 10[IKE] natd_chunk => 22 bytes @ 0x7fe916970b90
+Dec 08 11:35:58 osboxes charon-custom[4905]: 10[IKE]    0: 01 8E F0 4F 7C F7 2E 4F 5F 28 FD F2 79 30 8A 94  ...O|..O_(..y0..
+Dec 08 11:35:58 osboxes charon-custom[4905]: 10[IKE]   16: C0 A8 00 65 01 F4                                ...e..
+Dec 08 11:35:58 osboxes charon-custom[4905]: 10[IKE] natd_hash => 20 bytes @ 0x7fe8e8001b20
+Dec 08 11:35:58 osboxes charon-custom[4905]: 10[IKE]    0: 3C 10 F7 A5 CC B6 83 56 89 59 96 91 97 2E 4D 19  <......V.Y....M.
+Dec 08 11:35:58 osboxes charon-custom[4905]: 10[IKE]   16: 61 87 58 E5                                      a.X.
+Dec 08 11:35:58 osboxes charon-custom[4905]: 10[IKE] natd_chunk => 22 bytes @ 0x7fe916970b90
+Dec 08 11:35:58 osboxes charon-custom[4905]: 10[IKE]    0: 01 8E F0 4F 7C F7 2E 4F 5F 28 FD F2 79 30 8A 94  ...O|..O_(..y0..
+Dec 08 11:35:58 osboxes charon-custom[4905]: 10[IKE]   16: C0 A8 00 64 01 F4                                ...d..
+Dec 08 11:35:58 osboxes charon-custom[4905]: 10[IKE] natd_hash => 20 bytes @ 0x7fe8e8000c80
+Dec 08 11:35:58 osboxes charon-custom[4905]: 10[IKE]    0: D5 F3 26 AB 69 3E 1B 25 F2 71 A5 42 EF 63 68 1D  ..&.i>.%.q.B.ch.
+Dec 08 11:35:58 osboxes charon-custom[4905]: 10[IKE]   16: 4E 80 81 3C                                      N..<
+Dec 08 11:35:58 osboxes charon-custom[4905]: 10[IKE] precalculated src_hash => 20 bytes @ 0x7fe8e8000c80
+Dec 08 11:35:58 osboxes charon-custom[4905]: 10[IKE]    0: D5 F3 26 AB 69 3E 1B 25 F2 71 A5 42 EF 63 68 1D  ..&.i>.%.q.B.ch.
+Dec 08 11:35:58 osboxes charon-custom[4905]: 10[IKE]   16: 4E 80 81 3C                                      N..<
+Dec 08 11:35:58 osboxes charon-custom[4905]: 10[IKE] precalculated dst_hash => 20 bytes @ 0x7fe8e8001b20
+Dec 08 11:35:58 osboxes charon-custom[4905]: 10[IKE]    0: 3C 10 F7 A5 CC B6 83 56 89 59 96 91 97 2E 4D 19  <......V.Y....M.
+Dec 08 11:35:58 osboxes charon-custom[4905]: 10[IKE]   16: 61 87 58 E5                                      a.X.
+Dec 08 11:35:58 osboxes charon-custom[4905]: 10[IKE] received dst_hash => 20 bytes @ 0x7fe8e8001670
+Dec 08 11:35:58 osboxes charon-custom[4905]: 10[IKE]    0: 3C 10 F7 A5 CC B6 83 56 89 59 96 91 97 2E 4D 19  <......V.Y....M.
+Dec 08 11:35:58 osboxes charon-custom[4905]: 10[IKE]   16: 61 87 58 E5                                      a.X.
+Dec 08 11:35:58 osboxes charon-custom[4905]: 10[IKE] received src_hash => 20 bytes @ 0x7fe8e8000960
+Dec 08 11:35:58 osboxes charon-custom[4905]: 10[IKE]    0: D5 F3 26 AB 69 3E 1B 25 F2 71 A5 42 EF 63 68 1D  ..&.i>.%.q.B.ch.
+Dec 08 11:35:58 osboxes charon-custom[4905]: 10[IKE]   16: 4E 80 81 3C                                      N..<
+Dec 08 11:35:58 osboxes charon-custom[4905]: 10[IKE] shared Diffie Hellman secret => 128 bytes @ 0x7fe8e8002100
+Dec 08 11:35:58 osboxes charon-custom[4905]: 10[IKE]    0: 15 1B EE CA F9 7F 11 3A C8 A9 68 02 30 BB DA 0D  .......:..h.0...
+Dec 08 11:35:58 osboxes charon-custom[4905]: 10[IKE]   16: F2 78 F6 10 63 A1 69 07 78 7D 2A A0 F3 48 20 1C  .x..c.i.x}*..H .
+Dec 08 11:35:58 osboxes charon-custom[4905]: 10[IKE]   32: 19 CD D1 A7 B1 E5 04 0C D5 BE D0 D8 2B 7B 3E BA  ............+{>.
+Dec 08 11:35:58 osboxes charon-custom[4905]: 10[IKE]   48: DB 4B 5A 6E 55 84 C4 B4 26 F0 5A BA A9 B5 73 94  .KZnU...&.Z...s.
+Dec 08 11:35:58 osboxes charon-custom[4905]: 10[IKE]   64: CB C5 81 35 48 39 B6 FF 6C 2C 29 60 C4 F5 EC 8C  ...5H9..l,)`....
+Dec 08 11:35:58 osboxes charon-custom[4905]: 10[IKE]   80: 75 52 25 16 34 DE A1 F7 A0 08 54 31 D4 5E 1A 15  uR%.4.....T1.^..
+Dec 08 11:35:58 osboxes charon-custom[4905]: 10[IKE]   96: 8E F8 29 AD A2 36 2B A8 DA 16 A9 2D 56 A8 37 93  ..)..6+....-V.7.
+Dec 08 11:35:58 osboxes charon-custom[4905]: 10[IKE]  112: 99 31 A9 80 CD F3 8D 16 42 5D 7A 53 46 A3 10 79  .1......B]zSF..y
+Dec 08 11:35:58 osboxes charon-custom[4905]: 10[IKE] SKEYID => 20 bytes @ 0x7fe8e8000fb0
+Dec 08 11:35:58 osboxes charon-custom[4905]: 10[IKE]    0: 97 0C F3 D9 1D 94 2C F3 84 7E B0 21 A0 26 51 7F  ......,..~.!.&Q.
+Dec 08 11:35:58 osboxes charon-custom[4905]: 10[IKE]   16: E3 EB 5E C7                                      ..^.
+Dec 08 11:35:58 osboxes charon-custom[4905]: 10[IKE] SKEYID_d => 20 bytes @ 0x7fe8e8002230
+Dec 08 11:35:58 osboxes charon-custom[4905]: 10[IKE]    0: 87 5F 27 D8 AF A5 48 0B 24 BD 3F 3A 35 15 B1 46  ._'...H.$.?:5..F
+Dec 08 11:35:58 osboxes charon-custom[4905]: 10[IKE]   16: 2F 5B A3 FF                                      /[..
+Dec 08 11:35:58 osboxes charon-custom[4905]: 10[IKE] SKEYID_a => 20 bytes @ 0x7fe8e8002300
+Dec 08 11:35:58 osboxes charon-custom[4905]: 10[IKE]    0: 28 2B 8D E1 E9 40 AF 5A 12 03 6A 0B 2B AF 81 DA  (+...@.Z..j.+...
+Dec 08 11:35:58 osboxes charon-custom[4905]: 10[IKE]   16: 4C 26 87 C5                                      L&..
+Dec 08 11:35:58 osboxes charon-custom[4905]: 10[IKE] SKEYID_e => 20 bytes @ 0x7fe8e8001f60
+Dec 08 11:35:58 osboxes charon-custom[4905]: 10[IKE]    0: 4F 8E 65 65 F4 54 CC C7 7D E9 C3 13 FC 20 6F E9  O.ee.T..}.... o.
+Dec 08 11:35:58 osboxes charon-custom[4905]: 10[IKE]   16: 62 B4 11 93                                      b...
+Dec 08 11:35:58 osboxes charon-custom[4905]: 10[IKE] encryption key Ka => 16 bytes @ 0x7fe8e8001f60
+Dec 08 11:35:58 osboxes charon-custom[4905]: 10[IKE]    0: 4F 8E 65 65 F4 54 CC C7 7D E9 C3 13 FC 20 6F E9  O.ee.T..}.... o.
+Dec 08 11:35:58 osboxes charon-custom[4905]: 10[IKE] initial IV => 16 bytes @ 0x7fe8e8001d10
+Dec 08 11:35:58 osboxes charon-custom[4905]: 10[IKE]    0: 2C 46 D2 46 60 04 D8 58 61 F2 FF E3 A8 B8 D3 5B  ,F.F`..Xa......[
+Dec 08 11:35:58 osboxes charon-custom[4905]: 10[IKE] natd_chunk => 22 bytes @ 0x7fe916970ba0
+Dec 08 11:35:58 osboxes charon-custom[4905]: 10[IKE]    0: 01 8E F0 4F 7C F7 2E 4F 5F 28 FD F2 79 30 8A 94  ...O|..O_(..y0..
+Dec 08 11:35:58 osboxes charon-custom[4905]: 10[IKE]   16: C0 A8 00 64 01 F4                                ...d..
+Dec 08 11:35:58 osboxes charon-custom[4905]: 10[IKE] natd_hash => 20 bytes @ 0x7fe8e8000fb0
+Dec 08 11:35:58 osboxes charon-custom[4905]: 10[IKE]    0: D5 F3 26 AB 69 3E 1B 25 F2 71 A5 42 EF 63 68 1D  ..&.i>.%.q.B.ch.
+Dec 08 11:35:58 osboxes charon-custom[4905]: 10[IKE]   16: 4E 80 81 3C                                      N..<
+Dec 08 11:35:58 osboxes charon-custom[4905]: 10[IKE] natd_chunk => 22 bytes @ 0x7fe916970ba0
+Dec 08 11:35:58 osboxes charon-custom[4905]: 10[IKE]    0: 01 8E F0 4F 7C F7 2E 4F 5F 28 FD F2 79 30 8A 94  ...O|..O_(..y0..
+Dec 08 11:35:58 osboxes charon-custom[4905]: 10[IKE]   16: C0 A8 00 65 01 F4                                ...e..
+Dec 08 11:35:58 osboxes charon-custom[4905]: 10[IKE] natd_hash => 20 bytes @ 0x7fe8e80027c0
+Dec 08 11:35:58 osboxes charon-custom[4905]: 10[IKE]    0: 3C 10 F7 A5 CC B6 83 56 89 59 96 91 97 2E 4D 19  <......V.Y....M.
+Dec 08 11:35:58 osboxes charon-custom[4905]: 10[IKE]   16: 61 87 58 E5                                      a.X.
+Dec 08 11:35:58 osboxes charon-custom[4905]: 11[IKE] next IV for MID 0 => 16 bytes @ 0x7fe8ec000b50
+Dec 08 11:35:58 osboxes charon-custom[4905]: 11[IKE]    0: 1D 3E 9F 87 AA 61 35 7A 12 29 2F 17 9D A7 AD 64  .>...a5z.)/....d
+Dec 08 11:35:58 osboxes charon-custom[4905]: 11[IKE] HASH_I data => 332 bytes @ 0x7fe8ec000b70
+Dec 08 11:35:58 osboxes charon-custom[4905]: 11[IKE]    0: FB BF 07 8C 95 12 CC 3B 9B 03 8F 9C 15 D6 CA B4  .......;........
+Dec 08 11:35:58 osboxes charon-custom[4905]: 11[IKE]   16: 25 67 A8 A8 F9 D7 62 FE 4E 5A 82 E9 25 D1 88 44  %g....b.NZ..%..D
+Dec 08 11:35:58 osboxes charon-custom[4905]: 11[IKE]   32: 67 61 6C A7 43 37 C3 37 7A 80 FF 2E A5 A4 E3 B8  gal.C7.7z.......
+Dec 08 11:35:58 osboxes charon-custom[4905]: 11[IKE]   48: FB 0F 68 F4 D6 04 A2 A9 9F 6B 53 CA 45 62 4B B3  ..h......kS.EbK.
+Dec 08 11:35:58 osboxes charon-custom[4905]: 11[IKE]   64: 7C C6 7C AF 89 4A B3 D4 2D 4F 6D DC B6 BF FC 62  |.|..J..-Om....b
+Dec 08 11:35:58 osboxes charon-custom[4905]: 11[IKE]   80: 66 F2 FC 57 EE BE D3 1C AA 01 84 DF AD 9F 2B 6B  f..W..........+k
+Dec 08 11:35:58 osboxes charon-custom[4905]: 11[IKE]   96: 1B EB BA 28 54 5D F8 83 91 DF 5D 11 ED F8 BF 45  ...(T]....]....E
+Dec 08 11:35:58 osboxes charon-custom[4905]: 11[IKE]  112: C2 B4 29 EB 5B 48 E5 A4 88 0F DE 4B 66 F3 5A 4F  ..).[H.....Kf.ZO
+Dec 08 11:35:58 osboxes charon-custom[4905]: 11[IKE]  128: 69 4A 7E F2 D0 CB CF B0 2E 92 65 13 BB 14 E5 15  iJ~.......e.....
+Dec 08 11:35:58 osboxes charon-custom[4905]: 11[IKE]  144: 44 21 7E 81 A0 77 DC C9 10 B4 3B 70 33 B1 9D 32  D!~..w....;p3..2
+Dec 08 11:35:58 osboxes charon-custom[4905]: 11[IKE]  160: 9A 49 5E F5 D3 27 7B E2 D1 87 88 D6 B7 9E 3E C8  .I^..'{.......>.
+Dec 08 11:35:58 osboxes charon-custom[4905]: 11[IKE]  176: 4F 75 FF BE DB 5A CA D5 90 3D BB 7D 49 04 C0 D5  Ou...Z...=.}I...
+Dec 08 11:35:58 osboxes charon-custom[4905]: 11[IKE]  192: C6 42 E1 D0 8A 3C 03 01 19 7F 7B C6 80 C3 39 D8  .B...<....{...9.
+Dec 08 11:35:58 osboxes charon-custom[4905]: 11[IKE]  208: 52 17 CA 6A 55 30 3D ED CA B6 F3 41 2C B7 4D 3F  R..jU0=....A,.M?
+Dec 08 11:35:58 osboxes charon-custom[4905]: 11[IKE]  224: 23 33 7F 71 CC C1 F1 08 EB CB DC C2 78 3D CE 05  #3.q........x=..
+Dec 08 11:35:58 osboxes charon-custom[4905]: 11[IKE]  240: 9C 70 E0 3E 73 78 13 31 AC 2A D6 FD 0F 63 E1 FF  .p.>sx.1.*...c..
+Dec 08 11:35:58 osboxes charon-custom[4905]: 11[IKE]  256: 01 8E F0 4F 7C F7 2E 4F 5F 28 FD F2 79 30 8A 94  ...O|..O_(..y0..
+Dec 08 11:35:58 osboxes charon-custom[4905]: 11[IKE]  272: 00 00 00 01 00 00 00 01 00 00 00 2C 00 01 00 01  ...........,....
+Dec 08 11:35:58 osboxes charon-custom[4905]: 11[IKE]  288: 00 00 00 24 01 01 00 00 80 01 00 07 80 0E 00 80  ...$............
+Dec 08 11:35:58 osboxes charon-custom[4905]: 11[IKE]  304: 80 02 00 02 80 04 00 02 80 03 00 01 80 0B 00 01  ................
+Dec 08 11:35:58 osboxes charon-custom[4905]: 11[IKE]  320: 80 0C 0E 10 01 00 00 00 C0 A8 00 64              ...........d
+Dec 08 11:35:58 osboxes charon-custom[4905]: 11[IKE] HASH_I => 20 bytes @ 0x7fe8ec000cd0
+Dec 08 11:35:58 osboxes charon-custom[4905]: 11[IKE]    0: C0 0B 80 CF BA 96 E8 BB B7 FC 85 C7 1D E6 4F FB  ..............O.
+Dec 08 11:35:58 osboxes charon-custom[4905]: 11[IKE]   16: 62 72 91 52                                      br.R
+Dec 08 11:35:58 osboxes charon-custom[4905]: 11[IKE] HASH_R data => 332 bytes @ 0x7fe8ec001220
+Dec 08 11:35:58 osboxes charon-custom[4905]: 11[IKE]    0: 69 4A 7E F2 D0 CB CF B0 2E 92 65 13 BB 14 E5 15  iJ~.......e.....
+Dec 08 11:35:58 osboxes charon-custom[4905]: 11[IKE]   16: 44 21 7E 81 A0 77 DC C9 10 B4 3B 70 33 B1 9D 32  D!~..w....;p3..2
+Dec 08 11:35:58 osboxes charon-custom[4905]: 11[IKE]   32: 9A 49 5E F5 D3 27 7B E2 D1 87 88 D6 B7 9E 3E C8  .I^..'{.......>.
+Dec 08 11:35:58 osboxes charon-custom[4905]: 11[IKE]   48: 4F 75 FF BE DB 5A CA D5 90 3D BB 7D 49 04 C0 D5  Ou...Z...=.}I...
+Dec 08 11:35:58 osboxes charon-custom[4905]: 11[IKE]   64: C6 42 E1 D0 8A 3C 03 01 19 7F 7B C6 80 C3 39 D8  .B...<....{...9.
+Dec 08 11:35:58 osboxes charon-custom[4905]: 11[IKE]   80: 52 17 CA 6A 55 30 3D ED CA B6 F3 41 2C B7 4D 3F  R..jU0=....A,.M?
+Dec 08 11:35:58 osboxes charon-custom[4905]: 11[IKE]   96: 23 33 7F 71 CC C1 F1 08 EB CB DC C2 78 3D CE 05  #3.q........x=..
+Dec 08 11:35:58 osboxes charon-custom[4905]: 11[IKE]  112: 9C 70 E0 3E 73 78 13 31 AC 2A D6 FD 0F 63 E1 FF  .p.>sx.1.*...c..
+Dec 08 11:35:58 osboxes charon-custom[4905]: 11[IKE]  128: FB BF 07 8C 95 12 CC 3B 9B 03 8F 9C 15 D6 CA B4  .......;........
+Dec 08 11:35:58 osboxes charon-custom[4905]: 11[IKE]  144: 25 67 A8 A8 F9 D7 62 FE 4E 5A 82 E9 25 D1 88 44  %g....b.NZ..%..D
+Dec 08 11:35:58 osboxes charon-custom[4905]: 11[IKE]  160: 67 61 6C A7 43 37 C3 37 7A 80 FF 2E A5 A4 E3 B8  gal.C7.7z.......
+Dec 08 11:35:58 osboxes charon-custom[4905]: 11[IKE]  176: FB 0F 68 F4 D6 04 A2 A9 9F 6B 53 CA 45 62 4B B3  ..h......kS.EbK.
+Dec 08 11:35:58 osboxes charon-custom[4905]: 11[IKE]  192: 7C C6 7C AF 89 4A B3 D4 2D 4F 6D DC B6 BF FC 62  |.|..J..-Om....b
+Dec 08 11:35:58 osboxes charon-custom[4905]: 11[IKE]  208: 66 F2 FC 57 EE BE D3 1C AA 01 84 DF AD 9F 2B 6B  f..W..........+k
+Dec 08 11:35:58 osboxes charon-custom[4905]: 11[IKE]  224: 1B EB BA 28 54 5D F8 83 91 DF 5D 11 ED F8 BF 45  ...(T]....]....E
+Dec 08 11:35:58 osboxes charon-custom[4905]: 11[IKE]  240: C2 B4 29 EB 5B 48 E5 A4 88 0F DE 4B 66 F3 5A 4F  ..).[H.....Kf.ZO
+Dec 08 11:35:58 osboxes charon-custom[4905]: 11[IKE]  256: 5F 28 FD F2 79 30 8A 94 01 8E F0 4F 7C F7 2E 4F  _(..y0.....O|..O
+Dec 08 11:35:58 osboxes charon-custom[4905]: 11[IKE]  272: 00 00 00 01 00 00 00 01 00 00 00 2C 00 01 00 01  ...........,....
+Dec 08 11:35:58 osboxes charon-custom[4905]: 11[IKE]  288: 00 00 00 24 01 01 00 00 80 01 00 07 80 0E 00 80  ...$............
+Dec 08 11:35:58 osboxes charon-custom[4905]: 11[IKE]  304: 80 02 00 02 80 04 00 02 80 03 00 01 80 0B 00 01  ................
+Dec 08 11:35:58 osboxes charon-custom[4905]: 11[IKE]  320: 80 0C 0E 10 01 00 00 00 C0 A8 00 65              ...........e
+Dec 08 11:35:58 osboxes charon-custom[4905]: 11[IKE] HASH_R => 20 bytes @ 0x7fe8ec001670
+Dec 08 11:35:58 osboxes charon-custom[4905]: 11[IKE]    0: C1 B5 A2 51 49 78 78 2B F7 C1 4F 67 5C B5 ED A2  ...QIxx+..Og\...
+Dec 08 11:35:58 osboxes charon-custom[4905]: 11[IKE]   16: 5B A4 CE 0E                                      [...
+Dec 08 11:35:58 osboxes charon-custom[4905]: 11[IKE] IKE_SA rw-carol[2] established between 192.168.0.101[192.168.0.101]...192.168.0.100[192.168.0.100]
+Dec 08 11:35:58 osboxes charon-custom[4905]: 11[IKE] IKE_SA rw-carol[2] established between 192.168.0.101[192.168.0.101]...192.168.0.100[192.168.0.100]
+Dec 08 11:35:58 osboxes charon-custom[4905]: 11[IKE] IKE_SA rw-carol[2] state change: CONNECTING => ESTABLISHED
+Dec 08 11:35:58 osboxes charon-custom[4905]: 11[IKE] scheduling reauthentication in 3388s
+Dec 08 11:35:58 osboxes charon-custom[4905]: 11[IKE] scheduling reauthentication in 3388s
+Dec 08 11:35:58 osboxes charon-custom[4905]: 11[IKE] maximum IKE_SA lifetime 3568s
+Dec 08 11:35:58 osboxes charon-custom[4905]: 11[IKE] maximum IKE_SA lifetime 3568s
+Dec 08 11:35:58 osboxes charon-custom[4905]: 11[IKE] next IV for MID 0 => 16 bytes @ 0x7fe8ec000900
+Dec 08 11:35:58 osboxes charon-custom[4905]: 11[IKE]    0: 18 FF 09 78 E3 FD A5 A7 CE 48 C5 B9 09 43 F7 C7  ...x.....H...C..
+Dec 08 11:35:58 osboxes charon-custom[4905]: 13[IKE] next IV for MID 3116056716 => 16 bytes @ 0x7fe8e4000980
+Dec 08 11:35:58 osboxes charon-custom[4905]: 13[IKE]    0: D1 30 2C D4 D2 AC B6 ED EA 97 12 78 9C CF 3B 3C  .0,........x..;<
+Dec 08 11:35:58 osboxes charon-custom[4905]: 13[IKE] Hash(1) => 20 bytes @ 0x7fe8e4001ff0
+Dec 08 11:35:58 osboxes charon-custom[4905]: 13[IKE]    0: 99 DC 3B 3A AE 3D E0 6A 8D 59 76 77 9D 30 F6 41  ..;:.=.j.Yvw.0.A
+Dec 08 11:35:58 osboxes charon-custom[4905]: 13[IKE]   16: 05 D1 E3 48                                      ...H
+Dec 08 11:35:58 osboxes charon-custom[4905]: 13[IKE] next IV for MID 3116056716 => 16 bytes @ 0x7fe8e4001da0
+Dec 08 11:35:58 osboxes charon-custom[4905]: 13[IKE]    0: 1C 98 28 F7 3D 19 D3 DE 49 2D AB 7C 8C 90 98 EC  ..(.=...I-.|....
+Dec 08 11:35:58 osboxes charon-custom[4905]: 13[IKE] Hash(2) => 20 bytes @ 0x7fe8e4003740
+Dec 08 11:35:58 osboxes charon-custom[4905]: 13[IKE]    0: 78 2E 17 F4 3D 7A 0A CA F8 5D C3 70 D0 F7 9D 5D  x...=z...].p...]
+Dec 08 11:35:58 osboxes charon-custom[4905]: 13[IKE]   16: 95 C6 40 F7                                      ..@.
+Dec 08 11:35:58 osboxes charon-custom[4905]: 13[IKE] next IV for MID 3116056716 => 16 bytes @ 0x7fe8e4003b60
+Dec 08 11:35:58 osboxes charon-custom[4905]: 13[IKE]    0: A2 CA BC 80 0D 9F 82 CA 00 A7 3F D3 1F 57 40 8C  ..........?..W@.
+Dec 08 11:35:58 osboxes charon-custom[4905]: 15[IKE] Hash(3) => 20 bytes @ 0x7fe8d80008c0
+Dec 08 11:35:58 osboxes charon-custom[4905]: 15[IKE]    0: AD 14 20 65 D7 54 B9 31 7B 2C 28 65 7C F4 DD 64  .. e.T.1{,(e|..d
+Dec 08 11:35:58 osboxes charon-custom[4905]: 15[IKE]   16: 10 D3 12 E8                                      ....
+Dec 08 11:35:58 osboxes charon-custom[4905]: 15[IKE] next IV for MID 3116056716 => 16 bytes @ 0x7fe8d8000990
+Dec 08 11:35:58 osboxes charon-custom[4905]: 15[IKE]    0: 0E A2 17 28 FC B3 53 16 A6 7D 61 64 6D 77 3F 6D  ...(..S..}admw?m
+Dec 08 11:35:58 osboxes charon-custom[4905]: 15[IKE] CHILD_SA rw-carol{1} established with SPIs c9723901_i cc36d0c6_o and TS 10.1.0.0/16 === 192.168.0.100/32
+Dec 08 11:35:58 osboxes charon-custom[4905]: 15[IKE] CHILD_SA rw-carol{1} established with SPIs c9723901_i cc36d0c6_o and TS 10.1.0.0/16 === 192.168.0.100/32
