@@ -19,101 +19,106 @@ sending XAuth vendor ID
 sending DPD vendor ID
 sending FRAGMENTATION vendor ID
 sending NAT-T (RFC 3947) vendor ID
-natd_chunk => 22 bytes @ 0x7fe917171b90
-   0: 51 65 0D 7B 54 33 19 C2 79 42 95 9A E0 C3 54 F9  Qe.{T3..yB....T.
-  16: C0 A8 00 65 01 F4                                ...e..
-natd_hash => 20 bytes @ 0x7fe8f4001b20
-   0: 03 B4 2C 0F 55 DC 9E 40 81 39 5D 54 9F 06 3E DA  ..,.U..@.9]T..>.
-  16: 4C 2E 55 7F                                      L.U.
-natd_chunk => 22 bytes @ 0x7fe917171b90
-   0: 51 65 0D 7B 54 33 19 C2 79 42 95 9A E0 C3 54 F9  Qe.{T3..yB....T.
-  16: C0 A8 00 64 01 F4                                ...d..
-natd_hash => 20 bytes @ 0x7fe8f4001000
-   0: 13 C1 D2 44 18 9A F1 C7 27 CF 86 E6 5F 92 BC 58  ...D....'..._..X
-  16: D8 72 BE A5                                      .r..
-precalculated src_hash => 20 bytes @ 0x7fe8f4001000
-   0: 13 C1 D2 44 18 9A F1 C7 27 CF 86 E6 5F 92 BC 58  ...D....'..._..X
-  16: D8 72 BE A5                                      .r..
-precalculated dst_hash => 20 bytes @ 0x7fe8f4001b20
-   0: 03 B4 2C 0F 55 DC 9E 40 81 39 5D 54 9F 06 3E DA  ..,.U..@.9]T..>.
-  16: 4C 2E 55 7F                                      L.U.
-received dst_hash => 20 bytes @ 0x7fe8f4000b20
-   0: 03 B4 2C 0F 55 DC 9E 40 81 39 5D 54 9F 06 3E DA  ..,.U..@.9]T..>.
-  16: 4C 2E 55 7F                                      L.U.
-received src_hash => 20 bytes @ 0x7fe8f4000c70
-   0: 13 C1 D2 44 18 9A F1 C7 27 CF 86 E6 5F 92 BC 58  ...D....'..._..X
-  16: D8 72 BE A5                                      .r..
+
+init cookie:
+51 65 0d 7b 54 33 19 c2
+
+resp cookie:
+79 42 95 9a e0 c3 54 f9
+
+
+init Nonce:
+9c 9c 6e f9 41 8c 3f c4 a2 c7 ac 15 8e 1b a5 03
+4e 7e f0 1c 17 f3 ff e6 bf c7 50 a9 2b 2b eb 69
+
+resp Nonce:
+70 70 aa 34 5b 71 27 36 40 6a cc 08 0f 9f 2c c0
+52 bf 9c c0 21 c9 b7 77 57 9f c9 42 21 d5 40 a8
+
+
+init Kex:
+7d b1 8a 28 c7 fa 40 b1 2a 79 d7 e3 8c 47 a7 94
+2f 47 98 e6 8e 3f 86 cf 7a aa 0f 59 6d 8d 10 24
+84 04 04 b6 d4 59 05 ea eb fb ee a5 97 20 b8 fd
+ab 51 00 05 4d 8b 6b e7 b2 d3 19 ca f3 a1 86 5d
+ef 04 3f 77 b0 cc 20 ff 7c 93 75 3f 13 29 50 bd
+af ff 2e 17 20 bf cb bb bc 1f a3 ee c6 ab a1 7e
+31 d4 bc 30 2c c0 eb 1b a0 3d 78 8d bd 05 39 e2
+f5 c3 17 70 36 a7 2c 5f e2 46 a8 69 0e f7 85 9a
+
+resp Kex:
+82 76 bd c6 9b f3 02 d0 1a 40 f5 82 18 6f 1d 20
+d7 59 f3 04 32 64 57 4e 89 6d 62 71 53 3f c7 ea
+f0 0b c7 7b 1d 71 02 9e f0 f7 d6 9a 91 17 e8 54
+a8 4d 44 da c1 47 16 d7 3d c5 dc 49 fe 75 40 51
+ed eb 81 3c e2 b5 22 81 88 b7 af 0f 9c bf 4a 08
+6e 79 9f 17 9f f6 e9 14 59 88 03 f4 1f 52 ac 81
+71 d3 43 f5 fc 48 7d a4 86 9d 21 ab 46 66 bd 72
+37 cb b3 6c bd e1 ec 2f a5 ed 5e 21 7f 91 80 60
+
 shared Diffie Hellman secret => 128 bytes @ 0x7fe8f4002d90
-   0: 34 B5 29 71 CD 61 F1 80 48 EE 97 D2 0D A4 88 A4  4.)q.a..H.......
-  16: 63 41 25 F3 00 DC 2D 1F 47 0B DB B6 8B 98 9F B9  cA%...-.G.......
-  32: 99 A2 72 13 28 08 4C 16 5C BE BD CA 0C 08 B5 16  ..r.(.L.\.......
-  48: 79 91 32 B8 F6 47 AE 46 BD 26 01 02 8E C7 E3 95  y.2..G.F.&......
-  64: 4A AF 61 28 28 82 6A 03 1F F0 8B 7A E4 05 7C AE  J.a((.j....z..|.
-  80: 0A DB 51 45 3B AA E8 46 91 70 5E 91 3B A9 50 67  ..QE;..F.p^.;.Pg
-  96: B8 16 38 5C 37 D2 BD 85 70 15 01 F9 4A 1A A2 7F  ..8\7...p...J...
- 112: FC 20 A9 54 6E C9 DE FF 8A 1C B3 35 88 81 9A 55  . .Tn......5...U
+34 B5 29 71 CD 61 F1 80 48 EE 97 D2 0D A4 88 A4
+63 41 25 F3 00 DC 2D 1F 47 0B DB B6 8B 98 9F B9
+99 A2 72 13 28 08 4C 16 5C BE BD CA 0C 08 B5 16
+79 91 32 B8 F6 47 AE 46 BD 26 01 02 8E C7 E3 95
+4A AF 61 28 28 82 6A 03 1F F0 8B 7A E4 05 7C AE
+0A DB 51 45 3B AA E8 46 91 70 5E 91 3B A9 50 67
+B8 16 38 5C 37 D2 BD 85 70 15 01 F9 4A 1A A2 7F
+FC 20 A9 54 6E C9 DE FF 8A 1C B3 35 88 81 9A 55
+
+correct psk: Wollowitz
+used psk: XMd3azP95q
+
 SKEYID => 20 bytes @ 0x7fe8f4001ef0
-   0: 72 56 A3 E3 D4 44 FA 8C 50 E9 52 6A 92 65 62 C9  rV...D..P.Rj.eb.
-  16: 52 6B 8B CD                                      Rk..
+72 56 A3 E3 D4 44 FA 8C 50 E9 52 6A 92 65 62 C9
+52 6B 8B CD
+
 SKEYID_d => 20 bytes @ 0x7fe8f4002ec0
-   0: B0 62 CE 22 FC 4D B2 0D B7 63 63 71 73 ED A9 53  .b.".M...ccqs..S
-  16: 8E 13 FD D1                                      ....
+B0 62 CE 22 FC 4D B2 0D B7 63 63 71 73 ED A9 53
+8E 13 FD D1
+
 SKEYID_a => 20 bytes @ 0x7fe8f4002f90
-   0: 06 E0 13 96 AE 9A D5 23 00 56 90 BE A9 41 3C 77  .......#.V...A<w
-  16: 97 93 EA 20                                      ...
+06 E0 13 96 AE 9A D5 23 00 56 90 BE A9 41 3C 77
+97 93 EA 20
+
 SKEYID_e => 20 bytes @ 0x7fe8f40019d0
-   0: C6 21 4F 5F EA 3E 72 A2 A6 7F 23 19 3E 9D A8 07  .!O_.>r...#.>...
-  16: 4C AF 64 34                                      L.d4
+C6 21 4F 5F EA 3E 72 A2 A6 7F 23 19 3E 9D A8 07
+4C AF 64 34
+
 encryption key Ka => 16 bytes @ 0x7fe8f40019d0
-   0: C6 21 4F 5F EA 3E 72 A2 A6 7F 23 19 3E 9D A8 07  .!O_.>r...#.>...
+C6 21 4F 5F EA 3E 72 A2 A6 7F 23 19 3E 9D A8 07
+
+
+
+
 initial IV => 16 bytes @ 0x7fe8f4001ef0
-   0: 40 9D E1 0C 92 6F 55 13 68 9A F8 BC 5C E5 43 D1  @....oU.h...\.C.
-natd_chunk => 22 bytes @ 0x7fe917171ba0
-   0: 51 65 0D 7B 54 33 19 C2 79 42 95 9A E0 C3 54 F9  Qe.{T3..yB....T.
-  16: C0 A8 00 64 01 F4                                ...d..
-natd_hash => 20 bytes @ 0x7fe8f4003490
-   0: 13 C1 D2 44 18 9A F1 C7 27 CF 86 E6 5F 92 BC 58  ...D....'..._..X
-  16: D8 72 BE A5                                      .r..
-natd_chunk => 22 bytes @ 0x7fe917171ba0
-   0: 51 65 0D 7B 54 33 19 C2 79 42 95 9A E0 C3 54 F9  Qe.{T3..yB....T.
-  16: C0 A8 00 65 01 F4                                ...e..
-natd_hash => 20 bytes @ 0x7fe8f4003550
-   0: 03 B4 2C 0F 55 DC 9E 40 81 39 5D 54 9F 06 3E DA  ..,.U..@.9]T..>.
-  16: 4C 2E 55 7F                                      L.U.
-message parsing failed
-message parsing failed
+40 9D E1 0C 92 6F 55 13 68 9A F8 BC 5C E5 43 D1  @....oU.h...\.C.
+
 Hash => 20 bytes @ 0x7fe8e8001170
-   0: 98 80 EC 76 FD AE 98 AA 5F BC 92 8B CD 9F 30 2E  ...v...._.....0.
+: 98 80 EC 76 FD AE 98 AA 5F BC 92 8B CD 9F 30 2E  ...v...._.....0.
   16: 81 DF 5D 37                                      ..]7
+
 next IV for MID 1165181203 => 16 bytes @ 0x7fe8e8001410
    0: 81 16 35 E2 29 F7 D2 FE CD BA AF 18 56 9D ED D1  ..5.).......V...
-ID_PROT request with message ID 0 processing failed
-ID_PROT request with message ID 0 processing failed
-message parsing failed
-message parsing failed
+
 Hash => 20 bytes @ 0x7fe8ec001170
    0: 69 81 88 93 E5 89 D3 8B F3 34 72 E0 49 60 32 DD  i........4r.I`2.
   16: 26 9C 95 95                                      &...
-next IV for MID 930595285 => 16 bytes @ 0x7fe8ec001410
-   0: E3 21 8C 48 D7 79 18 BE 8A B0 87 05 3E D2 E6 A5  .!.H.y......>...
-ID_PROT request with message ID 0 processing failed
-ID_PROT request with message ID 0 processing failed
-message parsing failed
-message parsing failed
+
 Hash => 20 bytes @ 0x7fe8e4001170
    0: 91 D8 83 05 B3 C7 59 B7 D1 1C 25 75 CF FE 94 C5  ......Y...%u....
   16: 78 17 0F 67                                      x..g
+
 next IV for MID 564069525 => 16 bytes @ 0x7fe8e4001410
    0: 16 3B BE 7C AE 44 A2 92 98 9F F1 15 BE 34 A8 32  .;.|.D.......4.2
-ID_PROT request with message ID 0 processing failed
-ID_PROT request with message ID 0 processing failed
-message parsing failed
-message parsing failed
+
 Hash => 20 bytes @ 0x7fe8d8001170
    0: 08 2A 4D C3 88 62 CD 2E 4A 36 C5 98 87 B2 DD EE  .*M..b..J6......
   16: AB 4C D1 E1                                      .L..
+
 next IV for MID 3139155389 => 16 bytes @ 0x7fe8d8001410
    0: D8 AE D8 4A F8 F5 E7 51 78 B1 AF FD 6F 57 29 82  ...J...Qx...oW).
+
 ID_PROT request with message ID 0 processing failed
 ID_PROT request with message ID 0 processing failed
 deleting half open IKE_SA after timeout

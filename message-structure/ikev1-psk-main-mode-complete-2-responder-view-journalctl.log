@@ -1,0 +1,2032 @@
+Dec 08 11:52:10 osboxes ipsec_starter[5788]: Starting weakSwan 5.5.1 IPsec [starter]...
+Dec 08 11:52:11 osboxes charon-custom[5812]: 00[DMN] Starting IKE charon daemon (strongSwan 5.5.1, Linux 4.9.0-4-amd64, x86_64)
+Dec 08 11:52:11 osboxes charon-custom[5812]: 00[DMN] Starting IKE charon daemon (strongSwan 5.5.1, Linux 4.9.0-4-amd64, x86_64)
+Dec 08 11:52:11 osboxes charon-custom[5812]: 00[CFG] loading ca certificates from '/etc/ipsec.d/cacerts'
+Dec 08 11:52:11 osboxes charon-custom[5812]: 00[CFG] loading ca certificates from '/etc/ipsec.d/cacerts'
+Dec 08 11:52:11 osboxes charon-custom[5812]: 00[CFG] loading aa certificates from '/etc/ipsec.d/aacerts'
+Dec 08 11:52:11 osboxes charon-custom[5812]: 00[CFG] loading aa certificates from '/etc/ipsec.d/aacerts'
+Dec 08 11:52:11 osboxes charon-custom[5812]: 00[CFG] loading ocsp signer certificates from '/etc/ipsec.d/ocspcerts'
+Dec 08 11:52:11 osboxes charon-custom[5812]: 00[CFG] loading ocsp signer certificates from '/etc/ipsec.d/ocspcerts'
+Dec 08 11:52:11 osboxes charon-custom[5812]: 00[CFG] loading attribute certificates from '/etc/ipsec.d/acerts'
+Dec 08 11:52:11 osboxes charon-custom[5812]: 00[CFG] loading attribute certificates from '/etc/ipsec.d/acerts'
+Dec 08 11:52:11 osboxes charon-custom[5812]: 00[CFG] loading crls from '/etc/ipsec.d/crls'
+Dec 08 11:52:11 osboxes charon-custom[5812]: 00[CFG] loading crls from '/etc/ipsec.d/crls'
+Dec 08 11:52:11 osboxes charon-custom[5812]: 00[CFG] loading secrets from '/etc/ipsec.secrets'
+Dec 08 11:52:11 osboxes charon-custom[5812]: 00[CFG] loading secrets from '/etc/ipsec.secrets'
+Dec 08 11:52:11 osboxes charon-custom[5812]: 00[CFG]   loaded IKE secret for 192.168.0.1 192.168.0.100
+Dec 08 11:52:11 osboxes charon-custom[5812]: 00[CFG]   loaded IKE secret for 192.168.0.1 192.168.0.100
+Dec 08 11:52:11 osboxes charon-custom[5812]: 00[LIB] loaded plugins: charon aesni aes rc2 sha2 sha1 md5 random nonce x509 revocation constraints pubkey pkcs1 pkcs7 pkcs8 pkcs12 pgp dnskey sshkey pem openssl fips-prf gmp agent xcbc hmac gcm attr kernel-netlink resolve socket-default connmark stroke updown
+Dec 08 11:52:11 osboxes charon-custom[5812]: 00[LIB] loaded plugins: charon aesni aes rc2 sha2 sha1 md5 random nonce x509 revocation constraints pubkey pkcs1 pkcs7 pkcs8 pkcs12 pgp dnskey sshkey pem openssl fips-prf gmp agent xcbc hmac gcm attr kernel-netlink resolve socket-default connmark stroke updown
+Dec 08 11:52:11 osboxes charon-custom[5812]: 00[LIB] dropped capabilities, running as uid 0, gid 0
+Dec 08 11:52:11 osboxes charon-custom[5812]: 00[LIB] dropped capabilities, running as uid 0, gid 0
+Dec 08 11:52:11 osboxes charon-custom[5812]: 00[JOB] spawning 16 worker threads
+Dec 08 11:52:11 osboxes charon-custom[5812]: 00[JOB] spawning 16 worker threads
+Dec 08 11:52:11 osboxes ipsec_starter[5811]: charon (5812) started after 40 ms
+Dec 08 11:52:11 osboxes charon-custom[5812]: 03[CFG] received stroke: add connection 'rw-carol'
+Dec 08 11:52:11 osboxes charon-custom[5812]: 03[CFG] received stroke: add connection 'rw-carol'
+Dec 08 11:52:11 osboxes charon-custom[5812]: 03[CFG] added configuration 'rw-carol'
+Dec 08 11:52:11 osboxes charon-custom[5812]: 03[CFG] added configuration 'rw-carol'
+Dec 08 11:52:25 osboxes kernel: device enp0s3 entered promiscuous mode
+Dec 08 11:52:32 osboxes charon-custom[5812]: 01[ENC] parsing header of message
+Dec 08 11:52:32 osboxes charon-custom[5812]: 01[ENC] parsing HEADER payload, 180 bytes left
+Dec 08 11:52:32 osboxes charon-custom[5812]: 01[ENC] parsing payload from => 180 bytes @ 0x7f4fb4000bc0
+Dec 08 11:52:32 osboxes charon-custom[5812]: 01[ENC]    0: D3 B1 42 B4 07 1F 1B 52 00 00 00 00 00 00 00 00  ..B....R........
+Dec 08 11:52:32 osboxes charon-custom[5812]: 01[ENC]   16: 01 10 02 00 00 00 00 00 00 00 00 B4 0D 00 00 38  ...............8
+Dec 08 11:52:32 osboxes charon-custom[5812]: 01[ENC]   32: 00 00 00 01 00 00 00 01 00 00 00 2C 00 01 00 01  ...........,....
+Dec 08 11:52:32 osboxes charon-custom[5812]: 01[ENC]   48: 00 00 00 24 01 01 00 00 80 01 00 07 80 0E 00 80  ...$............
+Dec 08 11:52:32 osboxes charon-custom[5812]: 01[ENC]   64: 80 02 00 02 80 04 00 02 80 03 00 01 80 0B 00 01  ................
+Dec 08 11:52:32 osboxes charon-custom[5812]: 01[ENC]   80: 80 0C 0E 10 0D 00 00 0C 09 00 26 89 DF D6 B7 12  ..........&.....
+Dec 08 11:52:32 osboxes charon-custom[5812]: 01[ENC]   96: 0D 00 00 14 AF CA D7 13 68 A1 F1 C9 6B 86 96 FC  ........h...k...
+Dec 08 11:52:32 osboxes charon-custom[5812]: 01[ENC]  112: 77 57 01 00 0D 00 00 18 40 48 B7 D5 6E BC E8 85  wW......@H..n...
+Dec 08 11:52:32 osboxes charon-custom[5812]: 01[ENC]  128: 25 E7 DE 7F 00 D6 C2 D3 80 00 00 00 0D 00 00 14  %...............
+Dec 08 11:52:32 osboxes charon-custom[5812]: 01[ENC]  144: 4A 13 1C 81 07 03 58 45 5C 57 28 F2 0E 95 45 2F  J.....XE\W(...E/
+Dec 08 11:52:32 osboxes charon-custom[5812]: 01[ENC]  160: 00 00 00 14 90 CB 80 91 3E BB 69 6E 08 63 81 B5  ........>.in.c..
+Dec 08 11:52:32 osboxes charon-custom[5812]: 01[ENC]  176: EC 42 7B 1F                                      .B{.
+Dec 08 11:52:32 osboxes charon-custom[5812]: 01[ENC]   parsing rule 0 IKE_SPI
+Dec 08 11:52:32 osboxes charon-custom[5812]: 01[ENC]    => 8 bytes @ 0x7f4fb4001058
+Dec 08 11:52:32 osboxes charon-custom[5812]: 01[ENC]    0: D3 B1 42 B4 07 1F 1B 52                          ..B....R
+Dec 08 11:52:32 osboxes charon-custom[5812]: 01[ENC]   parsing rule 1 IKE_SPI
+Dec 08 11:52:32 osboxes charon-custom[5812]: 01[ENC]    => 8 bytes @ 0x7f4fb4001060
+Dec 08 11:52:32 osboxes charon-custom[5812]: 01[ENC]    0: 00 00 00 00 00 00 00 00                          ........
+Dec 08 11:52:32 osboxes charon-custom[5812]: 01[ENC]   parsing rule 2 U_INT_8
+Dec 08 11:52:32 osboxes charon-custom[5812]: 01[ENC]    => 1
+Dec 08 11:52:32 osboxes charon-custom[5812]: 01[ENC]   parsing rule 3 U_INT_4
+Dec 08 11:52:32 osboxes charon-custom[5812]: 01[ENC]    => 1
+Dec 08 11:52:32 osboxes charon-custom[5812]: 01[ENC]   parsing rule 4 U_INT_4
+Dec 08 11:52:32 osboxes charon-custom[5812]: 01[ENC]    => 0
+Dec 08 11:52:32 osboxes charon-custom[5812]: 01[ENC]   parsing rule 5 U_INT_8
+Dec 08 11:52:32 osboxes charon-custom[5812]: 01[ENC]    => 2
+Dec 08 11:52:32 osboxes charon-custom[5812]: 01[ENC]   parsing rule 6 RESERVED_BIT
+Dec 08 11:52:32 osboxes charon-custom[5812]: 01[ENC]    => 0
+Dec 08 11:52:32 osboxes charon-custom[5812]: 01[ENC]   parsing rule 7 RESERVED_BIT
+Dec 08 11:52:32 osboxes charon-custom[5812]: 01[ENC]    => 0
+Dec 08 11:52:32 osboxes charon-custom[5812]: 01[ENC]   parsing rule 8 FLAG
+Dec 08 11:52:32 osboxes charon-custom[5812]: 01[ENC]    => 0
+Dec 08 11:52:32 osboxes charon-custom[5812]: 01[ENC]   parsing rule 9 FLAG
+Dec 08 11:52:32 osboxes charon-custom[5812]: 01[ENC]    => 0
+Dec 08 11:52:32 osboxes charon-custom[5812]: 01[ENC]   parsing rule 10 FLAG
+Dec 08 11:52:32 osboxes charon-custom[5812]: 01[ENC]    => 0
+Dec 08 11:52:32 osboxes charon-custom[5812]: 01[ENC]   parsing rule 11 FLAG
+Dec 08 11:52:32 osboxes charon-custom[5812]: 01[ENC]    => 0
+Dec 08 11:52:32 osboxes charon-custom[5812]: 01[ENC]   parsing rule 12 FLAG
+Dec 08 11:52:32 osboxes charon-custom[5812]: 01[ENC]    => 0
+Dec 08 11:52:32 osboxes charon-custom[5812]: 01[ENC]   parsing rule 13 FLAG
+Dec 08 11:52:32 osboxes charon-custom[5812]: 01[ENC]    => 0
+Dec 08 11:52:32 osboxes charon-custom[5812]: 01[ENC]   parsing rule 14 U_INT_32
+Dec 08 11:52:32 osboxes charon-custom[5812]: 01[ENC]    => 0
+Dec 08 11:52:32 osboxes charon-custom[5812]: 01[ENC]   parsing rule 15 HEADER_LENGTH
+Dec 08 11:52:32 osboxes charon-custom[5812]: 01[ENC]    => 180
+Dec 08 11:52:32 osboxes charon-custom[5812]: 01[ENC] parsing HEADER payload finished
+Dec 08 11:52:32 osboxes charon-custom[5812]: 01[ENC] parsed a ID_PROT message header
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[NET] received packet: from 192.168.0.100[500] to 192.168.0.101[500] (180 bytes)
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[NET] received packet: from 192.168.0.100[500] to 192.168.0.101[500] (180 bytes)
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC] parsing body of message, first payload is SECURITY_ASSOCIATION_V1
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC] starting parsing a SECURITY_ASSOCIATION_V1 payload
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC] parsing SECURITY_ASSOCIATION_V1 payload, 152 bytes left
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC] parsing payload from => 152 bytes @ 0x7f4fb4000bdc
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]    0: 0D 00 00 38 00 00 00 01 00 00 00 01 00 00 00 2C  ...8...........,
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   16: 00 01 00 01 00 00 00 24 01 01 00 00 80 01 00 07  .......$........
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   32: 80 0E 00 80 80 02 00 02 80 04 00 02 80 03 00 01  ................
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   48: 80 0B 00 01 80 0C 0E 10 0D 00 00 0C 09 00 26 89  ..............&.
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   64: DF D6 B7 12 0D 00 00 14 AF CA D7 13 68 A1 F1 C9  ............h...
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   80: 6B 86 96 FC 77 57 01 00 0D 00 00 18 40 48 B7 D5  k...wW......@H..
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   96: 6E BC E8 85 25 E7 DE 7F 00 D6 C2 D3 80 00 00 00  n...%...........
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]  112: 0D 00 00 14 4A 13 1C 81 07 03 58 45 5C 57 28 F2  ....J.....XE\W(.
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]  128: 0E 95 45 2F 00 00 00 14 90 CB 80 91 3E BB 69 6E  ..E/........>.in
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]  144: 08 63 81 B5 EC 42 7B 1F                          .c...B{.
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   parsing rule 0 U_INT_8
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]    => 13
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   parsing rule 1 RESERVED_BIT
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]    => 0
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   parsing rule 2 RESERVED_BIT
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]    => 0
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   parsing rule 3 RESERVED_BIT
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]    => 0
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   parsing rule 4 RESERVED_BIT
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]    => 0
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   parsing rule 5 RESERVED_BIT
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]    => 0
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   parsing rule 6 RESERVED_BIT
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]    => 0
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   parsing rule 7 RESERVED_BIT
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]    => 0
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   parsing rule 8 RESERVED_BIT
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]    => 0
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   parsing rule 9 PAYLOAD_LENGTH
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]    => 56
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   parsing rule 10 U_INT_32
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]    => 1
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   parsing rule 11 U_INT_32
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]    => 1
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   parsing rule 12 (1259)
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   44 bytes left, parsing recursively PROPOSAL_SUBSTRUCTURE_V1
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC] parsing PROPOSAL_SUBSTRUCTURE_V1 payload, 140 bytes left
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC] parsing payload from => 140 bytes @ 0x7f4fb4000be8
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]    0: 00 00 00 2C 00 01 00 01 00 00 00 24 01 01 00 00  ...,.......$....
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   16: 80 01 00 07 80 0E 00 80 80 02 00 02 80 04 00 02  ................
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   32: 80 03 00 01 80 0B 00 01 80 0C 0E 10 0D 00 00 0C  ................
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   48: 09 00 26 89 DF D6 B7 12 0D 00 00 14 AF CA D7 13  ..&.............
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   64: 68 A1 F1 C9 6B 86 96 FC 77 57 01 00 0D 00 00 18  h...k...wW......
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   80: 40 48 B7 D5 6E BC E8 85 25 E7 DE 7F 00 D6 C2 D3  @H..n...%.......
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   96: 80 00 00 00 0D 00 00 14 4A 13 1C 81 07 03 58 45  ........J.....XE
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]  112: 5C 57 28 F2 0E 95 45 2F 00 00 00 14 90 CB 80 91  \W(...E/........
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]  128: 3E BB 69 6E 08 63 81 B5 EC 42 7B 1F              >.in.c...B{.
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   parsing rule 0 U_INT_8
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]    => 0
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   parsing rule 1 RESERVED_BYTE
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]    => 0
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   parsing rule 2 PAYLOAD_LENGTH
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]    => 44
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   parsing rule 3 U_INT_8
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]    => 0
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   parsing rule 4 U_INT_8
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]    => 1
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   parsing rule 5 SPI_SIZE
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]    => 0
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   parsing rule 6 U_INT_8
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]    => 1
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   parsing rule 7 SPI
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]    => 0 bytes @ (nil)
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   parsing rule 8 (1261)
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   36 bytes left, parsing recursively TRANSFORM_SUBSTRUCTURE_V1
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC] parsing TRANSFORM_SUBSTRUCTURE_V1 payload, 132 bytes left
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC] parsing payload from => 132 bytes @ 0x7f4fb4000bf0
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]    0: 00 00 00 24 01 01 00 00 80 01 00 07 80 0E 00 80  ...$............
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   16: 80 02 00 02 80 04 00 02 80 03 00 01 80 0B 00 01  ................
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   32: 80 0C 0E 10 0D 00 00 0C 09 00 26 89 DF D6 B7 12  ..........&.....
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   48: 0D 00 00 14 AF CA D7 13 68 A1 F1 C9 6B 86 96 FC  ........h...k...
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   64: 77 57 01 00 0D 00 00 18 40 48 B7 D5 6E BC E8 85  wW......@H..n...
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   80: 25 E7 DE 7F 00 D6 C2 D3 80 00 00 00 0D 00 00 14  %...............
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   96: 4A 13 1C 81 07 03 58 45 5C 57 28 F2 0E 95 45 2F  J.....XE\W(...E/
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]  112: 00 00 00 14 90 CB 80 91 3E BB 69 6E 08 63 81 B5  ........>.in.c..
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]  128: EC 42 7B 1F                                      .B{.
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   parsing rule 0 U_INT_8
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]    => 0
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   parsing rule 1 RESERVED_BYTE
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]    => 0
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   parsing rule 2 PAYLOAD_LENGTH
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]    => 36
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   parsing rule 3 U_INT_8
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]    => 1
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   parsing rule 4 U_INT_8
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]    => 1
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   parsing rule 5 RESERVED_BYTE
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]    => 0
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   parsing rule 6 RESERVED_BYTE
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]    => 0
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   parsing rule 7 (1263)
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   28 bytes left, parsing recursively TRANSFORM_ATTRIBUTE_V1
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC] parsing TRANSFORM_ATTRIBUTE_V1 payload, 124 bytes left
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC] parsing payload from => 124 bytes @ 0x7f4fb4000bf8
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]    0: 80 01 00 07 80 0E 00 80 80 02 00 02 80 04 00 02  ................
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   16: 80 03 00 01 80 0B 00 01 80 0C 0E 10 0D 00 00 0C  ................
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   32: 09 00 26 89 DF D6 B7 12 0D 00 00 14 AF CA D7 13  ..&.............
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   48: 68 A1 F1 C9 6B 86 96 FC 77 57 01 00 0D 00 00 18  h...k...wW......
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   64: 40 48 B7 D5 6E BC E8 85 25 E7 DE 7F 00 D6 C2 D3  @H..n...%.......
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   80: 80 00 00 00 0D 00 00 14 4A 13 1C 81 07 03 58 45  ........J.....XE
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   96: 5C 57 28 F2 0E 95 45 2F 00 00 00 14 90 CB 80 91  \W(...E/........
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]  112: 3E BB 69 6E 08 63 81 B5 EC 42 7B 1F              >.in.c...B{.
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   parsing rule 0 ATTRIBUTE_FORMAT
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]    => 1
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   parsing rule 1 ATTRIBUTE_TYPE
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]    => 1
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   parsing rule 2 ATTRIBUTE_LENGTH_OR_VALUE
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]    => 7
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   parsing rule 3 ATTRIBUTE_VALUE
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC] parsing TRANSFORM_ATTRIBUTE_V1 payload finished
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   24 bytes left, parsing recursively TRANSFORM_ATTRIBUTE_V1
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC] parsing TRANSFORM_ATTRIBUTE_V1 payload, 120 bytes left
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC] parsing payload from => 120 bytes @ 0x7f4fb4000bfc
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]    0: 80 0E 00 80 80 02 00 02 80 04 00 02 80 03 00 01  ................
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   16: 80 0B 00 01 80 0C 0E 10 0D 00 00 0C 09 00 26 89  ..............&.
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   32: DF D6 B7 12 0D 00 00 14 AF CA D7 13 68 A1 F1 C9  ............h...
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   48: 6B 86 96 FC 77 57 01 00 0D 00 00 18 40 48 B7 D5  k...wW......@H..
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   64: 6E BC E8 85 25 E7 DE 7F 00 D6 C2 D3 80 00 00 00  n...%...........
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   80: 0D 00 00 14 4A 13 1C 81 07 03 58 45 5C 57 28 F2  ....J.....XE\W(.
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   96: 0E 95 45 2F 00 00 00 14 90 CB 80 91 3E BB 69 6E  ..E/........>.in
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]  112: 08 63 81 B5 EC 42 7B 1F                          .c...B{.
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   parsing rule 0 ATTRIBUTE_FORMAT
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]    => 1
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   parsing rule 1 ATTRIBUTE_TYPE
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]    => 14
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   parsing rule 2 ATTRIBUTE_LENGTH_OR_VALUE
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]    => 128
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   parsing rule 3 ATTRIBUTE_VALUE
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC] parsing TRANSFORM_ATTRIBUTE_V1 payload finished
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   20 bytes left, parsing recursively TRANSFORM_ATTRIBUTE_V1
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC] parsing TRANSFORM_ATTRIBUTE_V1 payload, 116 bytes left
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC] parsing payload from => 116 bytes @ 0x7f4fb4000c00
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]    0: 80 02 00 02 80 04 00 02 80 03 00 01 80 0B 00 01  ................
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   16: 80 0C 0E 10 0D 00 00 0C 09 00 26 89 DF D6 B7 12  ..........&.....
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   32: 0D 00 00 14 AF CA D7 13 68 A1 F1 C9 6B 86 96 FC  ........h...k...
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   48: 77 57 01 00 0D 00 00 18 40 48 B7 D5 6E BC E8 85  wW......@H..n...
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   64: 25 E7 DE 7F 00 D6 C2 D3 80 00 00 00 0D 00 00 14  %...............
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   80: 4A 13 1C 81 07 03 58 45 5C 57 28 F2 0E 95 45 2F  J.....XE\W(...E/
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   96: 00 00 00 14 90 CB 80 91 3E BB 69 6E 08 63 81 B5  ........>.in.c..
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]  112: EC 42 7B 1F                                      .B{.
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   parsing rule 0 ATTRIBUTE_FORMAT
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]    => 1
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   parsing rule 1 ATTRIBUTE_TYPE
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]    => 2
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   parsing rule 2 ATTRIBUTE_LENGTH_OR_VALUE
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]    => 2
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   parsing rule 3 ATTRIBUTE_VALUE
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC] parsing TRANSFORM_ATTRIBUTE_V1 payload finished
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   16 bytes left, parsing recursively TRANSFORM_ATTRIBUTE_V1
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC] parsing TRANSFORM_ATTRIBUTE_V1 payload, 112 bytes left
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC] parsing payload from => 112 bytes @ 0x7f4fb4000c04
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]    0: 80 04 00 02 80 03 00 01 80 0B 00 01 80 0C 0E 10  ................
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   16: 0D 00 00 0C 09 00 26 89 DF D6 B7 12 0D 00 00 14  ......&.........
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   32: AF CA D7 13 68 A1 F1 C9 6B 86 96 FC 77 57 01 00  ....h...k...wW..
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   48: 0D 00 00 18 40 48 B7 D5 6E BC E8 85 25 E7 DE 7F  ....@H..n...%...
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   64: 00 D6 C2 D3 80 00 00 00 0D 00 00 14 4A 13 1C 81  ............J...
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   80: 07 03 58 45 5C 57 28 F2 0E 95 45 2F 00 00 00 14  ..XE\W(...E/....
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   96: 90 CB 80 91 3E BB 69 6E 08 63 81 B5 EC 42 7B 1F  ....>.in.c...B{.
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   parsing rule 0 ATTRIBUTE_FORMAT
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]    => 1
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   parsing rule 1 ATTRIBUTE_TYPE
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]    => 4
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   parsing rule 2 ATTRIBUTE_LENGTH_OR_VALUE
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]    => 2
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   parsing rule 3 ATTRIBUTE_VALUE
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC] parsing TRANSFORM_ATTRIBUTE_V1 payload finished
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   12 bytes left, parsing recursively TRANSFORM_ATTRIBUTE_V1
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC] parsing TRANSFORM_ATTRIBUTE_V1 payload, 108 bytes left
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC] parsing payload from => 108 bytes @ 0x7f4fb4000c08
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]    0: 80 03 00 01 80 0B 00 01 80 0C 0E 10 0D 00 00 0C  ................
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   16: 09 00 26 89 DF D6 B7 12 0D 00 00 14 AF CA D7 13  ..&.............
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   32: 68 A1 F1 C9 6B 86 96 FC 77 57 01 00 0D 00 00 18  h...k...wW......
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   48: 40 48 B7 D5 6E BC E8 85 25 E7 DE 7F 00 D6 C2 D3  @H..n...%.......
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   64: 80 00 00 00 0D 00 00 14 4A 13 1C 81 07 03 58 45  ........J.....XE
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   80: 5C 57 28 F2 0E 95 45 2F 00 00 00 14 90 CB 80 91  \W(...E/........
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   96: 3E BB 69 6E 08 63 81 B5 EC 42 7B 1F              >.in.c...B{.
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   parsing rule 0 ATTRIBUTE_FORMAT
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]    => 1
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   parsing rule 1 ATTRIBUTE_TYPE
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]    => 3
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   parsing rule 2 ATTRIBUTE_LENGTH_OR_VALUE
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]    => 1
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   parsing rule 3 ATTRIBUTE_VALUE
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC] parsing TRANSFORM_ATTRIBUTE_V1 payload finished
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   8 bytes left, parsing recursively TRANSFORM_ATTRIBUTE_V1
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC] parsing TRANSFORM_ATTRIBUTE_V1 payload, 104 bytes left
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC] parsing payload from => 104 bytes @ 0x7f4fb4000c0c
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]    0: 80 0B 00 01 80 0C 0E 10 0D 00 00 0C 09 00 26 89  ..............&.
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   16: DF D6 B7 12 0D 00 00 14 AF CA D7 13 68 A1 F1 C9  ............h...
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   32: 6B 86 96 FC 77 57 01 00 0D 00 00 18 40 48 B7 D5  k...wW......@H..
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   48: 6E BC E8 85 25 E7 DE 7F 00 D6 C2 D3 80 00 00 00  n...%...........
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   64: 0D 00 00 14 4A 13 1C 81 07 03 58 45 5C 57 28 F2  ....J.....XE\W(.
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   80: 0E 95 45 2F 00 00 00 14 90 CB 80 91 3E BB 69 6E  ..E/........>.in
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   96: 08 63 81 B5 EC 42 7B 1F                          .c...B{.
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   parsing rule 0 ATTRIBUTE_FORMAT
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]    => 1
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   parsing rule 1 ATTRIBUTE_TYPE
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]    => 11
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   parsing rule 2 ATTRIBUTE_LENGTH_OR_VALUE
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]    => 1
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   parsing rule 3 ATTRIBUTE_VALUE
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC] parsing TRANSFORM_ATTRIBUTE_V1 payload finished
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   4 bytes left, parsing recursively TRANSFORM_ATTRIBUTE_V1
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC] parsing TRANSFORM_ATTRIBUTE_V1 payload, 100 bytes left
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC] parsing payload from => 100 bytes @ 0x7f4fb4000c10
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]    0: 80 0C 0E 10 0D 00 00 0C 09 00 26 89 DF D6 B7 12  ..........&.....
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   16: 0D 00 00 14 AF CA D7 13 68 A1 F1 C9 6B 86 96 FC  ........h...k...
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   32: 77 57 01 00 0D 00 00 18 40 48 B7 D5 6E BC E8 85  wW......@H..n...
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   48: 25 E7 DE 7F 00 D6 C2 D3 80 00 00 00 0D 00 00 14  %...............
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   64: 4A 13 1C 81 07 03 58 45 5C 57 28 F2 0E 95 45 2F  J.....XE\W(...E/
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   80: 00 00 00 14 90 CB 80 91 3E BB 69 6E 08 63 81 B5  ........>.in.c..
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   96: EC 42 7B 1F                                      .B{.
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   parsing rule 0 ATTRIBUTE_FORMAT
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]    => 1
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   parsing rule 1 ATTRIBUTE_TYPE
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]    => 12
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   parsing rule 2 ATTRIBUTE_LENGTH_OR_VALUE
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]    => 3600
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   parsing rule 3 ATTRIBUTE_VALUE
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC] parsing TRANSFORM_ATTRIBUTE_V1 payload finished
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC] parsing TRANSFORM_SUBSTRUCTURE_V1 payload finished
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC] parsing PROPOSAL_SUBSTRUCTURE_V1 payload finished
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC] parsing SECURITY_ASSOCIATION_V1 payload finished
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC] verifying payload of type SECURITY_ASSOCIATION_V1
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC] SECURITY_ASSOCIATION_V1 payload verified, adding to payload list
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC] starting parsing a VENDOR_ID_V1 payload
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC] parsing VENDOR_ID_V1 payload, 96 bytes left
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC] parsing payload from => 96 bytes @ 0x7f4fb4000c14
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]    0: 0D 00 00 0C 09 00 26 89 DF D6 B7 12 0D 00 00 14  ......&.........
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   16: AF CA D7 13 68 A1 F1 C9 6B 86 96 FC 77 57 01 00  ....h...k...wW..
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   32: 0D 00 00 18 40 48 B7 D5 6E BC E8 85 25 E7 DE 7F  ....@H..n...%...
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   48: 00 D6 C2 D3 80 00 00 00 0D 00 00 14 4A 13 1C 81  ............J...
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   64: 07 03 58 45 5C 57 28 F2 0E 95 45 2F 00 00 00 14  ..XE\W(...E/....
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   80: 90 CB 80 91 3E BB 69 6E 08 63 81 B5 EC 42 7B 1F  ....>.in.c...B{.
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   parsing rule 0 U_INT_8
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]    => 13
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   parsing rule 1 FLAG
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]    => 0
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   parsing rule 2 RESERVED_BIT
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]    => 0
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   parsing rule 3 RESERVED_BIT
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]    => 0
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   parsing rule 4 RESERVED_BIT
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]    => 0
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   parsing rule 5 RESERVED_BIT
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]    => 0
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   parsing rule 6 RESERVED_BIT
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]    => 0
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   parsing rule 7 RESERVED_BIT
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]    => 0
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   parsing rule 8 RESERVED_BIT
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]    => 0
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   parsing rule 9 PAYLOAD_LENGTH
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]    => 12
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   parsing rule 10 CHUNK_DATA
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]    => 8 bytes @ 0x7f4fa80024f0
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]    0: 09 00 26 89 DF D6 B7 12                          ..&.....
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC] parsing VENDOR_ID_V1 payload finished
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC] verifying payload of type VENDOR_ID_V1
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC] VENDOR_ID_V1 payload verified, adding to payload list
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC] starting parsing a VENDOR_ID_V1 payload
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC] parsing VENDOR_ID_V1 payload, 84 bytes left
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC] parsing payload from => 84 bytes @ 0x7f4fb4000c20
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]    0: 0D 00 00 14 AF CA D7 13 68 A1 F1 C9 6B 86 96 FC  ........h...k...
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   16: 77 57 01 00 0D 00 00 18 40 48 B7 D5 6E BC E8 85  wW......@H..n...
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   32: 25 E7 DE 7F 00 D6 C2 D3 80 00 00 00 0D 00 00 14  %...............
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   48: 4A 13 1C 81 07 03 58 45 5C 57 28 F2 0E 95 45 2F  J.....XE\W(...E/
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   64: 00 00 00 14 90 CB 80 91 3E BB 69 6E 08 63 81 B5  ........>.in.c..
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   80: EC 42 7B 1F                                      .B{.
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   parsing rule 0 U_INT_8
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]    => 13
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   parsing rule 1 FLAG
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]    => 0
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   parsing rule 2 RESERVED_BIT
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]    => 0
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   parsing rule 3 RESERVED_BIT
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]    => 0
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   parsing rule 4 RESERVED_BIT
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]    => 0
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   parsing rule 5 RESERVED_BIT
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]    => 0
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   parsing rule 6 RESERVED_BIT
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]    => 0
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   parsing rule 7 RESERVED_BIT
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]    => 0
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   parsing rule 8 RESERVED_BIT
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]    => 0
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   parsing rule 9 PAYLOAD_LENGTH
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]    => 20
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   parsing rule 10 CHUNK_DATA
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]    => 16 bytes @ 0x7f4fa80025b0
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]    0: AF CA D7 13 68 A1 F1 C9 6B 86 96 FC 77 57 01 00  ....h...k...wW..
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC] parsing VENDOR_ID_V1 payload finished
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC] verifying payload of type VENDOR_ID_V1
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC] VENDOR_ID_V1 payload verified, adding to payload list
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC] starting parsing a VENDOR_ID_V1 payload
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC] parsing VENDOR_ID_V1 payload, 64 bytes left
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC] parsing payload from => 64 bytes @ 0x7f4fb4000c34
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]    0: 0D 00 00 18 40 48 B7 D5 6E BC E8 85 25 E7 DE 7F  ....@H..n...%...
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   16: 00 D6 C2 D3 80 00 00 00 0D 00 00 14 4A 13 1C 81  ............J...
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   32: 07 03 58 45 5C 57 28 F2 0E 95 45 2F 00 00 00 14  ..XE\W(...E/....
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   48: 90 CB 80 91 3E BB 69 6E 08 63 81 B5 EC 42 7B 1F  ....>.in.c...B{.
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   parsing rule 0 U_INT_8
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]    => 13
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   parsing rule 1 FLAG
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]    => 0
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   parsing rule 2 RESERVED_BIT
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]    => 0
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   parsing rule 3 RESERVED_BIT
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]    => 0
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   parsing rule 4 RESERVED_BIT
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]    => 0
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   parsing rule 5 RESERVED_BIT
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]    => 0
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   parsing rule 6 RESERVED_BIT
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]    => 0
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   parsing rule 7 RESERVED_BIT
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]    => 0
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   parsing rule 8 RESERVED_BIT
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]    => 0
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   parsing rule 9 PAYLOAD_LENGTH
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]    => 24
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   parsing rule 10 CHUNK_DATA
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]    => 20 bytes @ 0x7f4fa8002670
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]    0: 40 48 B7 D5 6E BC E8 85 25 E7 DE 7F 00 D6 C2 D3  @H..n...%.......
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   16: 80 00 00 00                                      ....
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC] parsing VENDOR_ID_V1 payload finished
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC] verifying payload of type VENDOR_ID_V1
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC] VENDOR_ID_V1 payload verified, adding to payload list
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC] starting parsing a VENDOR_ID_V1 payload
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC] parsing VENDOR_ID_V1 payload, 40 bytes left
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC] parsing payload from => 40 bytes @ 0x7f4fb4000c4c
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]    0: 0D 00 00 14 4A 13 1C 81 07 03 58 45 5C 57 28 F2  ....J.....XE\W(.
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   16: 0E 95 45 2F 00 00 00 14 90 CB 80 91 3E BB 69 6E  ..E/........>.in
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   32: 08 63 81 B5 EC 42 7B 1F                          .c...B{.
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   parsing rule 0 U_INT_8
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]    => 13
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   parsing rule 1 FLAG
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]    => 0
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   parsing rule 2 RESERVED_BIT
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]    => 0
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   parsing rule 3 RESERVED_BIT
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]    => 0
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   parsing rule 4 RESERVED_BIT
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]    => 0
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   parsing rule 5 RESERVED_BIT
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]    => 0
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   parsing rule 6 RESERVED_BIT
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]    => 0
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   parsing rule 7 RESERVED_BIT
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]    => 0
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   parsing rule 8 RESERVED_BIT
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]    => 0
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   parsing rule 9 PAYLOAD_LENGTH
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]    => 20
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   parsing rule 10 CHUNK_DATA
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]    => 16 bytes @ 0x7f4fa8002730
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]    0: 4A 13 1C 81 07 03 58 45 5C 57 28 F2 0E 95 45 2F  J.....XE\W(...E/
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC] parsing VENDOR_ID_V1 payload finished
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC] verifying payload of type VENDOR_ID_V1
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC] VENDOR_ID_V1 payload verified, adding to payload list
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC] starting parsing a VENDOR_ID_V1 payload
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC] parsing VENDOR_ID_V1 payload, 20 bytes left
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC] parsing payload from => 20 bytes @ 0x7f4fb4000c60
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]    0: 00 00 00 14 90 CB 80 91 3E BB 69 6E 08 63 81 B5  ........>.in.c..
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   16: EC 42 7B 1F                                      .B{.
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   parsing rule 0 U_INT_8
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]    => 0
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   parsing rule 1 FLAG
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]    => 0
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   parsing rule 2 RESERVED_BIT
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]    => 0
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   parsing rule 3 RESERVED_BIT
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]    => 0
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   parsing rule 4 RESERVED_BIT
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]    => 0
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   parsing rule 5 RESERVED_BIT
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]    => 0
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   parsing rule 6 RESERVED_BIT
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]    => 0
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   parsing rule 7 RESERVED_BIT
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]    => 0
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   parsing rule 8 RESERVED_BIT
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]    => 0
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   parsing rule 9 PAYLOAD_LENGTH
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]    => 20
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   parsing rule 10 CHUNK_DATA
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]    => 16 bytes @ 0x7f4fa80027f0
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]    0: 90 CB 80 91 3E BB 69 6E 08 63 81 B5 EC 42 7B 1F  ....>.in.c...B{.
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC] parsing VENDOR_ID_V1 payload finished
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC] verifying payload of type VENDOR_ID_V1
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC] VENDOR_ID_V1 payload verified, adding to payload list
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC] process payload of type SECURITY_ASSOCIATION_V1
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC] process payload of type VENDOR_ID_V1
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC] process payload of type VENDOR_ID_V1
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC] process payload of type VENDOR_ID_V1
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC] process payload of type VENDOR_ID_V1
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC] process payload of type VENDOR_ID_V1
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC] verifying message structure
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC] found payload of type SECURITY_ASSOCIATION_V1
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC] found payload of type VENDOR_ID_V1
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC] found payload of type VENDOR_ID_V1
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC] found payload of type VENDOR_ID_V1
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC] found payload of type VENDOR_ID_V1
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC] found payload of type VENDOR_ID_V1
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC] parsed ID_PROT request 0 [ SA V V V V V ]
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC] parsed ID_PROT request 0 [ SA V V V V V ]
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[IKE] received XAuth vendor ID
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[IKE] received XAuth vendor ID
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[IKE] received DPD vendor ID
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[IKE] received DPD vendor ID
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[IKE] received FRAGMENTATION vendor ID
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[IKE] received FRAGMENTATION vendor ID
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[IKE] received NAT-T (RFC 3947) vendor ID
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[IKE] received NAT-T (RFC 3947) vendor ID
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[IKE] received draft-ietf-ipsec-nat-t-ike-02\n vendor ID
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[IKE] received draft-ietf-ipsec-nat-t-ike-02\n vendor ID
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[IKE] 192.168.0.100 is initiating a Main Mode IKE_SA
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[IKE] 192.168.0.100 is initiating a Main Mode IKE_SA
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[IKE] IKE_SA (unnamed)[1] state change: CREATED => CONNECTING
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[IKE] sending XAuth vendor ID
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC] added payload of type VENDOR_ID_V1 to message
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[IKE] sending DPD vendor ID
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC] added payload of type VENDOR_ID_V1 to message
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[IKE] sending FRAGMENTATION vendor ID
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC] added payload of type VENDOR_ID_V1 to message
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[IKE] sending NAT-T (RFC 3947) vendor ID
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC] added payload of type VENDOR_ID_V1 to message
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC] added payload of type SECURITY_ASSOCIATION_V1 to message
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC] order payloads in message
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC] added payload of type SECURITY_ASSOCIATION_V1 to message
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC] added payload of type VENDOR_ID_V1 to message
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC] added payload of type VENDOR_ID_V1 to message
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC] added payload of type VENDOR_ID_V1 to message
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC] added payload of type VENDOR_ID_V1 to message
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC] generating ID_PROT response 0 [ SA V V V V ]
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC] generating ID_PROT response 0 [ SA V V V V ]
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC] not encrypting payloads
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC] generating payload of type HEADER
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]   generating rule 0 IKE_SPI
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]    => 8 bytes @ 0x7f4fa80046c8
+Dec 08 11:52:32 osboxes charon-custom[5812]: 07[ENC]    0: D3 B1 42 B4 07 1F 1B 52                          ..B....R
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]   generating rule 1 IKE_SPI
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]    => 8 bytes @ 0x7f4fa80046d0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]    0: E4 11 66 F6 01 5D A2 B5                          ..f..]..
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]   generating rule 2 U_INT_8
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]    => 1
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]   generating rule 3 U_INT_4
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]    => 21
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]   generating rule 4 U_INT_4
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]    => 16
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]   generating rule 5 U_INT_8
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]    => 2
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]   generating rule 6 RESERVED_BIT
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]    => 0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]   generating rule 7 RESERVED_BIT
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]    => 0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]   generating rule 8 FLAG
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]    => 0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]   generating rule 9 FLAG
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]    => 0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]   generating rule 10 FLAG
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]    => 0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]   generating rule 11 FLAG
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]    => 0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]   generating rule 12 FLAG
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]    => 0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]   generating rule 13 FLAG
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]    => 0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]   generating rule 14 U_INT_32
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]    => 4 bytes @ 0x7f4fd99a7894
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]    0: 00 00 00 00                                      ....
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]   generating rule 15 HEADER_LENGTH
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]    => 4 bytes @ 0x7f4fd99a7894
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]    0: 00 00 00 1C                                      ....
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC] generating HEADER payload finished
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC] generated data for this payload => 28 bytes @ 0x7f4fa8004320
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]    0: D3 B1 42 B4 07 1F 1B 52 E4 11 66 F6 01 5D A2 B5  ..B....R..f..]..
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]   16: 01 10 02 00 00 00 00 00 00 00 00 1C              ............
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC] generating payload of type SECURITY_ASSOCIATION_V1
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]   generating rule 0 U_INT_8
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]    => 13
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]   generating rule 1 RESERVED_BIT
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]    => 0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]   generating rule 2 RESERVED_BIT
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]    => 0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]   generating rule 3 RESERVED_BIT
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]    => 0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]   generating rule 4 RESERVED_BIT
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]    => 0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]   generating rule 5 RESERVED_BIT
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]    => 0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]   generating rule 6 RESERVED_BIT
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]    => 0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]   generating rule 7 RESERVED_BIT
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]    => 0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]   generating rule 8 RESERVED_BIT
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]    => 0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]   generating rule 9 PAYLOAD_LENGTH
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]    => 2 bytes @ 0x7f4fd99a7894
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]    0: 00 38                                            .8
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]   generating rule 10 U_INT_32
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]    => 4 bytes @ 0x7f4fd99a7894
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]    0: 00 00 00 01                                      ....
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]   generating rule 11 U_INT_32
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]    => 4 bytes @ 0x7f4fd99a7894
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]    0: 00 00 00 01                                      ....
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]   generating rule 12 (1259)
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC] generating payload of type PROPOSAL_SUBSTRUCTURE_V1
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]   generating rule 0 U_INT_8
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]    => 0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]   generating rule 1 RESERVED_BYTE
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]    => 0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]   generating rule 2 PAYLOAD_LENGTH
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]    => 2 bytes @ 0x7f4fd99a7824
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]    0: 00 2C                                            .,
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]   generating rule 3 U_INT_8
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]    => 0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]   generating rule 4 U_INT_8
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]    => 1
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]   generating rule 5 SPI_SIZE
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]    => 0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]   generating rule 6 U_INT_8
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]    => 1
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]   generating rule 7 SPI
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]    => 0 bytes @ (nil)
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]   generating rule 8 (1261)
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC] generating payload of type TRANSFORM_SUBSTRUCTURE_V1
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]   generating rule 0 U_INT_8
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]    => 0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]   generating rule 1 RESERVED_BYTE
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]    => 0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]   generating rule 2 PAYLOAD_LENGTH
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]    => 2 bytes @ 0x7f4fd99a77b4
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]    0: 00 24                                            .$
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]   generating rule 3 U_INT_8
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]    => 1
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]   generating rule 4 U_INT_8
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]    => 1
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]   generating rule 5 RESERVED_BYTE
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]    => 0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]   generating rule 6 RESERVED_BYTE
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]    => 0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]   generating rule 7 (1263)
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC] generating payload of type TRANSFORM_ATTRIBUTE_V1
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]   generating rule 0 ATTRIBUTE_FORMAT
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]    => 128
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]   generating rule 1 ATTRIBUTE_TYPE
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]    => 384
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]   generating rule 2 ATTRIBUTE_LENGTH_OR_VALUE
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]    => 2 bytes @ 0x7f4fd99a7744
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]    0: 00 07                                            ..
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]   generating rule 3 ATTRIBUTE_VALUE
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC] generating TRANSFORM_ATTRIBUTE_V1 payload finished
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC] generated data for this payload => 4 bytes @ 0x7f4fa8004358
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]    0: 80 01 00 07                                      ....
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC] generating payload of type TRANSFORM_ATTRIBUTE_V1
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]   generating rule 0 ATTRIBUTE_FORMAT
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]    => 128
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]   generating rule 1 ATTRIBUTE_TYPE
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]    => 3712
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]   generating rule 2 ATTRIBUTE_LENGTH_OR_VALUE
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]    => 2 bytes @ 0x7f4fd99a7744
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]    0: 00 80                                            ..
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]   generating rule 3 ATTRIBUTE_VALUE
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC] generating TRANSFORM_ATTRIBUTE_V1 payload finished
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC] generated data for this payload => 4 bytes @ 0x7f4fa800435c
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]    0: 80 0E 00 80                                      ....
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC] generating payload of type TRANSFORM_ATTRIBUTE_V1
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]   generating rule 0 ATTRIBUTE_FORMAT
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]    => 128
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]   generating rule 1 ATTRIBUTE_TYPE
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]    => 640
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]   generating rule 2 ATTRIBUTE_LENGTH_OR_VALUE
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]    => 2 bytes @ 0x7f4fd99a7744
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]    0: 00 02                                            ..
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]   generating rule 3 ATTRIBUTE_VALUE
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC] generating TRANSFORM_ATTRIBUTE_V1 payload finished
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC] generated data for this payload => 4 bytes @ 0x7f4fa8004360
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]    0: 80 02 00 02                                      ....
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC] generating payload of type TRANSFORM_ATTRIBUTE_V1
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]   generating rule 0 ATTRIBUTE_FORMAT
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]    => 128
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]   generating rule 1 ATTRIBUTE_TYPE
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]    => 1152
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]   generating rule 2 ATTRIBUTE_LENGTH_OR_VALUE
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]    => 2 bytes @ 0x7f4fd99a7744
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]    0: 00 02                                            ..
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]   generating rule 3 ATTRIBUTE_VALUE
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC] generating TRANSFORM_ATTRIBUTE_V1 payload finished
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC] generated data for this payload => 4 bytes @ 0x7f4fa8004364
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]    0: 80 04 00 02                                      ....
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC] generating payload of type TRANSFORM_ATTRIBUTE_V1
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]   generating rule 0 ATTRIBUTE_FORMAT
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]    => 128
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]   generating rule 1 ATTRIBUTE_TYPE
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]    => 896
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]   generating rule 2 ATTRIBUTE_LENGTH_OR_VALUE
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]    => 2 bytes @ 0x7f4fd99a7744
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]    0: 00 01                                            ..
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]   generating rule 3 ATTRIBUTE_VALUE
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC] generating TRANSFORM_ATTRIBUTE_V1 payload finished
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC] generated data for this payload => 4 bytes @ 0x7f4fa8004368
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]    0: 80 03 00 01                                      ....
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC] generating payload of type TRANSFORM_ATTRIBUTE_V1
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]   generating rule 0 ATTRIBUTE_FORMAT
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]    => 128
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]   generating rule 1 ATTRIBUTE_TYPE
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]    => 2944
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]   generating rule 2 ATTRIBUTE_LENGTH_OR_VALUE
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]    => 2 bytes @ 0x7f4fd99a7744
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]    0: 00 01                                            ..
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]   generating rule 3 ATTRIBUTE_VALUE
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC] generating TRANSFORM_ATTRIBUTE_V1 payload finished
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC] generated data for this payload => 4 bytes @ 0x7f4fa800436c
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]    0: 80 0B 00 01                                      ....
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC] generating payload of type TRANSFORM_ATTRIBUTE_V1
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]   generating rule 0 ATTRIBUTE_FORMAT
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]    => 128
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]   generating rule 1 ATTRIBUTE_TYPE
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]    => 3200
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]   generating rule 2 ATTRIBUTE_LENGTH_OR_VALUE
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]    => 2 bytes @ 0x7f4fd99a7744
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]    0: 0E 10                                            ..
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]   generating rule 3 ATTRIBUTE_VALUE
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC] generating TRANSFORM_ATTRIBUTE_V1 payload finished
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC] generated data for this payload => 4 bytes @ 0x7f4fa8004370
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]    0: 80 0C 0E 10                                      ....
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC] generating TRANSFORM_SUBSTRUCTURE_V1 payload finished
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC] generated data for this payload => 36 bytes @ 0x7f4fa8004350
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]    0: 00 00 00 24 01 01 00 00 80 01 00 07 80 0E 00 80  ...$............
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]   16: 80 02 00 02 80 04 00 02 80 03 00 01 80 0B 00 01  ................
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]   32: 80 0C 0E 10                                      ....
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC] generating PROPOSAL_SUBSTRUCTURE_V1 payload finished
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC] generated data for this payload => 44 bytes @ 0x7f4fa8004348
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]    0: 00 00 00 2C 00 01 00 01 00 00 00 24 01 01 00 00  ...,.......$....
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]   16: 80 01 00 07 80 0E 00 80 80 02 00 02 80 04 00 02  ................
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]   32: 80 03 00 01 80 0B 00 01 80 0C 0E 10              ............
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC] generating SECURITY_ASSOCIATION_V1 payload finished
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC] generated data for this payload => 56 bytes @ 0x7f4fa800433c
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]    0: 0D 00 00 38 00 00 00 01 00 00 00 01 00 00 00 2C  ...8...........,
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]   16: 00 01 00 01 00 00 00 24 01 01 00 00 80 01 00 07  .......$........
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]   32: 80 0E 00 80 80 02 00 02 80 04 00 02 80 03 00 01  ................
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]   48: 80 0B 00 01 80 0C 0E 10                          ........
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC] generating payload of type VENDOR_ID_V1
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]   generating rule 0 U_INT_8
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]    => 13
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]   generating rule 1 FLAG
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]    => 0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]   generating rule 2 RESERVED_BIT
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]    => 0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]   generating rule 3 RESERVED_BIT
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]    => 0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]   generating rule 4 RESERVED_BIT
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]    => 0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]   generating rule 5 RESERVED_BIT
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]    => 0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]   generating rule 6 RESERVED_BIT
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]    => 0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]   generating rule 7 RESERVED_BIT
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]    => 0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]   generating rule 8 RESERVED_BIT
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]    => 0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]   generating rule 9 PAYLOAD_LENGTH
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]    => 2 bytes @ 0x7f4fd99a7894
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]    0: 00 0C                                            ..
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]   generating rule 10 CHUNK_DATA
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]    => 8 bytes @ 0x7f4fa8003010
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]    0: 09 00 26 89 DF D6 B7 12                          ..&.....
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC] generating VENDOR_ID_V1 payload finished
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC] generated data for this payload => 12 bytes @ 0x7f4fa8004374
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]    0: 0D 00 00 0C 09 00 26 89 DF D6 B7 12              ......&.....
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC] generating payload of type VENDOR_ID_V1
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]   generating rule 0 U_INT_8
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]    => 13
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]   generating rule 1 FLAG
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]    => 0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]   generating rule 2 RESERVED_BIT
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]    => 0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]   generating rule 3 RESERVED_BIT
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]    => 0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]   generating rule 4 RESERVED_BIT
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]    => 0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]   generating rule 5 RESERVED_BIT
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]    => 0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]   generating rule 6 RESERVED_BIT
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]    => 0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]   generating rule 7 RESERVED_BIT
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]    => 0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]   generating rule 8 RESERVED_BIT
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]    => 0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]   generating rule 9 PAYLOAD_LENGTH
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]    => 2 bytes @ 0x7f4fd99a7894
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]    0: 00 14                                            ..
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]   generating rule 10 CHUNK_DATA
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]    => 16 bytes @ 0x7f4fa8002fb0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]    0: AF CA D7 13 68 A1 F1 C9 6B 86 96 FC 77 57 01 00  ....h...k...wW..
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC] generating VENDOR_ID_V1 payload finished
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC] generated data for this payload => 20 bytes @ 0x7f4fa8004380
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]    0: 0D 00 00 14 AF CA D7 13 68 A1 F1 C9 6B 86 96 FC  ........h...k...
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]   16: 77 57 01 00                                      wW..
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC] generating payload of type VENDOR_ID_V1
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]   generating rule 0 U_INT_8
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]    => 13
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]   generating rule 1 FLAG
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]    => 0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]   generating rule 2 RESERVED_BIT
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]    => 0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]   generating rule 3 RESERVED_BIT
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]    => 0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]   generating rule 4 RESERVED_BIT
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]    => 0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]   generating rule 5 RESERVED_BIT
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]    => 0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]   generating rule 6 RESERVED_BIT
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]    => 0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]   generating rule 7 RESERVED_BIT
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]    => 0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]   generating rule 8 RESERVED_BIT
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]    => 0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]   generating rule 9 PAYLOAD_LENGTH
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]    => 2 bytes @ 0x7f4fd99a7894
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]    0: 00 18                                            ..
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]   generating rule 10 CHUNK_DATA
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]    => 20 bytes @ 0x7f4fa80010f0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]    0: 40 48 B7 D5 6E BC E8 85 25 E7 DE 7F 00 D6 C2 D3  @H..n...%.......
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]   16: 80 00 00 00                                      ....
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC] generating VENDOR_ID_V1 payload finished
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC] generated data for this payload => 24 bytes @ 0x7f4fa8004394
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]    0: 0D 00 00 18 40 48 B7 D5 6E BC E8 85 25 E7 DE 7F  ....@H..n...%...
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]   16: 00 D6 C2 D3 80 00 00 00                          ........
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC] generating payload of type VENDOR_ID_V1
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]   generating rule 0 U_INT_8
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]    => 0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]   generating rule 1 FLAG
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]    => 0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]   generating rule 2 RESERVED_BIT
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]    => 0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]   generating rule 3 RESERVED_BIT
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]    => 0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]   generating rule 4 RESERVED_BIT
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]    => 0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]   generating rule 5 RESERVED_BIT
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]    => 0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]   generating rule 6 RESERVED_BIT
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]    => 0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]   generating rule 7 RESERVED_BIT
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]    => 0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]   generating rule 8 RESERVED_BIT
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]    => 0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]   generating rule 9 PAYLOAD_LENGTH
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]    => 2 bytes @ 0x7f4fd99a7894
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]    0: 00 14                                            ..
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]   generating rule 10 CHUNK_DATA
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]    => 16 bytes @ 0x7f4fa8002eb0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]    0: 4A 13 1C 81 07 03 58 45 5C 57 28 F2 0E 95 45 2F  J.....XE\W(...E/
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC] generating VENDOR_ID_V1 payload finished
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC] generated data for this payload => 20 bytes @ 0x7f4fa80043ac
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]    0: 00 00 00 14 4A 13 1C 81 07 03 58 45 5C 57 28 F2  ....J.....XE\W(.
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]   16: 0E 95 45 2F                                      ..E/
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC] generated data of this generator => 160 bytes @ 0x7f4fa8004320
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]    0: D3 B1 42 B4 07 1F 1B 52 E4 11 66 F6 01 5D A2 B5  ..B....R..f..]..
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]   16: 01 10 02 00 00 00 00 00 00 00 00 1C 0D 00 00 38  ...............8
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]   32: 00 00 00 01 00 00 00 01 00 00 00 2C 00 01 00 01  ...........,....
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]   48: 00 00 00 24 01 01 00 00 80 01 00 07 80 0E 00 80  ...$............
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]   64: 80 02 00 02 80 04 00 02 80 03 00 01 80 0B 00 01  ................
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]   80: 80 0C 0E 10 0D 00 00 0C 09 00 26 89 DF D6 B7 12  ..........&.....
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]   96: 0D 00 00 14 AF CA D7 13 68 A1 F1 C9 6B 86 96 FC  ........h...k...
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]  112: 77 57 01 00 0D 00 00 18 40 48 B7 D5 6E BC E8 85  wW......@H..n...
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]  128: 25 E7 DE 7F 00 D6 C2 D3 80 00 00 00 00 00 00 14  %...............
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]  144: 4A 13 1C 81 07 03 58 45 5C 57 28 F2 0E 95 45 2F  J.....XE\W(...E/
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC] generated data of this generator => 160 bytes @ 0x7f4fa8004320
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]    0: D3 B1 42 B4 07 1F 1B 52 E4 11 66 F6 01 5D A2 B5  ..B....R..f..]..
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]   16: 01 10 02 00 00 00 00 00 00 00 00 1C 0D 00 00 38  ...............8
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]   32: 00 00 00 01 00 00 00 01 00 00 00 2C 00 01 00 01  ...........,....
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]   48: 00 00 00 24 01 01 00 00 80 01 00 07 80 0E 00 80  ...$............
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]   64: 80 02 00 02 80 04 00 02 80 03 00 01 80 0B 00 01  ................
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]   80: 80 0C 0E 10 0D 00 00 0C 09 00 26 89 DF D6 B7 12  ..........&.....
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]   96: 0D 00 00 14 AF CA D7 13 68 A1 F1 C9 6B 86 96 FC  ........h...k...
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]  112: 77 57 01 00 0D 00 00 18 40 48 B7 D5 6E BC E8 85  wW......@H..n...
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]  128: 25 E7 DE 7F 00 D6 C2 D3 80 00 00 00 00 00 00 14  %...............
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[ENC]  144: 4A 13 1C 81 07 03 58 45 5C 57 28 F2 0E 95 45 2F  J.....XE\W(...E/
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[NET] sending packet: from 192.168.0.101[500] to 192.168.0.100[500] (160 bytes)
+Dec 08 11:52:33 osboxes charon-custom[5812]: 07[NET] sending packet: from 192.168.0.101[500] to 192.168.0.100[500] (160 bytes)
+Dec 08 11:52:33 osboxes charon-custom[5812]: 01[ENC] parsing header of message
+Dec 08 11:52:33 osboxes charon-custom[5812]: 01[ENC] parsing HEADER payload, 244 bytes left
+Dec 08 11:52:33 osboxes charon-custom[5812]: 01[ENC] parsing payload from => 244 bytes @ 0x7f4fb40012e0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 01[ENC]    0: D3 B1 42 B4 07 1F 1B 52 E4 11 66 F6 01 5D A2 B5  ..B....R..f..]..
+Dec 08 11:52:33 osboxes charon-custom[5812]: 01[ENC]   16: 04 10 02 00 00 00 00 00 00 00 00 F4 0A 00 00 84  ................
+Dec 08 11:52:33 osboxes charon-custom[5812]: 01[ENC]   32: 06 C6 E1 8C F8 C8 32 33 33 72 4F 12 8E 71 10 AE  ......233rO..q..
+Dec 08 11:52:33 osboxes charon-custom[5812]: 01[ENC]   48: 0C 75 A1 B7 4F CA C3 00 3A A0 B9 31 9C 05 0A EA  .u..O...:..1....
+Dec 08 11:52:33 osboxes charon-custom[5812]: 01[ENC]   64: E2 1C 70 4A 84 D0 78 8E F7 40 32 CF 65 99 49 CE  ..pJ..x..@2.e.I.
+Dec 08 11:52:33 osboxes charon-custom[5812]: 01[ENC]   80: 82 64 0B 92 17 B9 43 37 14 DE 78 66 08 E4 5D DA  .d....C7..xf..].
+Dec 08 11:52:33 osboxes charon-custom[5812]: 01[ENC]   96: EA 90 5B 62 8B 13 EF 1F D1 DB 26 4B D0 FC 92 F0  ..[b......&K....
+Dec 08 11:52:33 osboxes charon-custom[5812]: 01[ENC]  112: B6 D0 B6 F6 58 15 5E 67 00 A5 A4 0D 18 10 6D 4F  ....X.^g......mO
+Dec 08 11:52:33 osboxes charon-custom[5812]: 01[ENC]  128: 48 7F F6 BA CE 53 E7 A3 77 84 09 95 F5 BE 9A F3  H....S..w.......
+Dec 08 11:52:33 osboxes charon-custom[5812]: 01[ENC]  144: F8 EF 40 7D DC F8 8E 99 77 A6 05 65 FA 3B F1 A3  ..@}....w..e.;..
+Dec 08 11:52:33 osboxes charon-custom[5812]: 01[ENC]  160: 14 00 00 24 D3 AC 98 67 8F 2A AB 28 44 32 C0 64  ...$...g.*.(D2.d
+Dec 08 11:52:33 osboxes charon-custom[5812]: 01[ENC]  176: 7A D5 13 DE 8E 1D 12 98 E8 FF 5D E2 C1 ED F9 BD  z.........].....
+Dec 08 11:52:33 osboxes charon-custom[5812]: 01[ENC]  192: 27 54 27 E0 14 00 00 18 C0 20 5A 57 03 F3 ED D3  'T'...... ZW....
+Dec 08 11:52:33 osboxes charon-custom[5812]: 01[ENC]  208: 6D 6B AE D0 60 25 6C 02 8C F0 21 20 00 00 00 18  mk..`%l...! ....
+Dec 08 11:52:33 osboxes charon-custom[5812]: 01[ENC]  224: BD A4 7B 55 49 E6 07 13 2C D6 76 F8 D1 06 E8 05  ..{UI...,.v.....
+Dec 08 11:52:33 osboxes charon-custom[5812]: 01[ENC]  240: 8C 26 CF AF                                      .&..
+Dec 08 11:52:33 osboxes charon-custom[5812]: 01[ENC]   parsing rule 0 IKE_SPI
+Dec 08 11:52:33 osboxes charon-custom[5812]: 01[ENC]    => 8 bytes @ 0x7f4fb4000b18
+Dec 08 11:52:33 osboxes charon-custom[5812]: 01[ENC]    0: D3 B1 42 B4 07 1F 1B 52                          ..B....R
+Dec 08 11:52:33 osboxes charon-custom[5812]: 01[ENC]   parsing rule 1 IKE_SPI
+Dec 08 11:52:33 osboxes charon-custom[5812]: 01[ENC]    => 8 bytes @ 0x7f4fb4000b20
+Dec 08 11:52:33 osboxes charon-custom[5812]: 01[ENC]    0: E4 11 66 F6 01 5D A2 B5                          ..f..]..
+Dec 08 11:52:33 osboxes charon-custom[5812]: 01[ENC]   parsing rule 2 U_INT_8
+Dec 08 11:52:33 osboxes charon-custom[5812]: 01[ENC]    => 4
+Dec 08 11:52:33 osboxes charon-custom[5812]: 01[ENC]   parsing rule 3 U_INT_4
+Dec 08 11:52:33 osboxes charon-custom[5812]: 01[ENC]    => 1
+Dec 08 11:52:33 osboxes charon-custom[5812]: 01[ENC]   parsing rule 4 U_INT_4
+Dec 08 11:52:33 osboxes charon-custom[5812]: 01[ENC]    => 0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 01[ENC]   parsing rule 5 U_INT_8
+Dec 08 11:52:33 osboxes charon-custom[5812]: 01[ENC]    => 2
+Dec 08 11:52:33 osboxes charon-custom[5812]: 01[ENC]   parsing rule 6 RESERVED_BIT
+Dec 08 11:52:33 osboxes charon-custom[5812]: 01[ENC]    => 0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 01[ENC]   parsing rule 7 RESERVED_BIT
+Dec 08 11:52:33 osboxes charon-custom[5812]: 01[ENC]    => 0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 01[ENC]   parsing rule 8 FLAG
+Dec 08 11:52:33 osboxes charon-custom[5812]: 01[ENC]    => 0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 01[ENC]   parsing rule 9 FLAG
+Dec 08 11:52:33 osboxes charon-custom[5812]: 01[ENC]    => 0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 01[ENC]   parsing rule 10 FLAG
+Dec 08 11:52:33 osboxes charon-custom[5812]: 01[ENC]    => 0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 01[ENC]   parsing rule 11 FLAG
+Dec 08 11:52:33 osboxes charon-custom[5812]: 01[ENC]    => 0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 01[ENC]   parsing rule 12 FLAG
+Dec 08 11:52:33 osboxes charon-custom[5812]: 01[ENC]    => 0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 01[ENC]   parsing rule 13 FLAG
+Dec 08 11:52:33 osboxes charon-custom[5812]: 01[ENC]    => 0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 01[ENC]   parsing rule 14 U_INT_32
+Dec 08 11:52:33 osboxes charon-custom[5812]: 01[ENC]    => 0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 01[ENC]   parsing rule 15 HEADER_LENGTH
+Dec 08 11:52:33 osboxes charon-custom[5812]: 01[ENC]    => 244
+Dec 08 11:52:33 osboxes charon-custom[5812]: 01[ENC] parsing HEADER payload finished
+Dec 08 11:52:33 osboxes charon-custom[5812]: 01[ENC] parsed a ID_PROT message header
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[NET] received packet: from 192.168.0.100[500] to 192.168.0.101[500] (244 bytes)
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[NET] received packet: from 192.168.0.100[500] to 192.168.0.101[500] (244 bytes)
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC] parsing body of message, first payload is KEY_EXCHANGE_V1
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC] starting parsing a KEY_EXCHANGE_V1 payload
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC] parsing KEY_EXCHANGE_V1 payload, 216 bytes left
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC] parsing payload from => 216 bytes @ 0x7f4fb40012fc
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]    0: 0A 00 00 84 06 C6 E1 8C F8 C8 32 33 33 72 4F 12  ..........233rO.
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]   16: 8E 71 10 AE 0C 75 A1 B7 4F CA C3 00 3A A0 B9 31  .q...u..O...:..1
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]   32: 9C 05 0A EA E2 1C 70 4A 84 D0 78 8E F7 40 32 CF  ......pJ..x..@2.
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]   48: 65 99 49 CE 82 64 0B 92 17 B9 43 37 14 DE 78 66  e.I..d....C7..xf
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]   64: 08 E4 5D DA EA 90 5B 62 8B 13 EF 1F D1 DB 26 4B  ..]...[b......&K
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]   80: D0 FC 92 F0 B6 D0 B6 F6 58 15 5E 67 00 A5 A4 0D  ........X.^g....
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]   96: 18 10 6D 4F 48 7F F6 BA CE 53 E7 A3 77 84 09 95  ..mOH....S..w...
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]  112: F5 BE 9A F3 F8 EF 40 7D DC F8 8E 99 77 A6 05 65  ......@}....w..e
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]  128: FA 3B F1 A3 14 00 00 24 D3 AC 98 67 8F 2A AB 28  .;.....$...g.*.(
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]  144: 44 32 C0 64 7A D5 13 DE 8E 1D 12 98 E8 FF 5D E2  D2.dz.........].
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]  160: C1 ED F9 BD 27 54 27 E0 14 00 00 18 C0 20 5A 57  ....'T'...... ZW
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]  176: 03 F3 ED D3 6D 6B AE D0 60 25 6C 02 8C F0 21 20  ....mk..`%l...!
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]  192: 00 00 00 18 BD A4 7B 55 49 E6 07 13 2C D6 76 F8  ......{UI...,.v.
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]  208: D1 06 E8 05 8C 26 CF AF                          .....&..
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]   parsing rule 0 U_INT_8
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]    => 10
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]   parsing rule 1 RESERVED_BYTE
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]    => 0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]   parsing rule 2 PAYLOAD_LENGTH
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]    => 132
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]   parsing rule 3 CHUNK_DATA
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]    => 128 bytes @ 0x7f4f9c000990
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]    0: 06 C6 E1 8C F8 C8 32 33 33 72 4F 12 8E 71 10 AE  ......233rO..q..
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]   16: 0C 75 A1 B7 4F CA C3 00 3A A0 B9 31 9C 05 0A EA  .u..O...:..1....
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]   32: E2 1C 70 4A 84 D0 78 8E F7 40 32 CF 65 99 49 CE  ..pJ..x..@2.e.I.
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]   48: 82 64 0B 92 17 B9 43 37 14 DE 78 66 08 E4 5D DA  .d....C7..xf..].
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]   64: EA 90 5B 62 8B 13 EF 1F D1 DB 26 4B D0 FC 92 F0  ..[b......&K....
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]   80: B6 D0 B6 F6 58 15 5E 67 00 A5 A4 0D 18 10 6D 4F  ....X.^g......mO
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]   96: 48 7F F6 BA CE 53 E7 A3 77 84 09 95 F5 BE 9A F3  H....S..w.......
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]  112: F8 EF 40 7D DC F8 8E 99 77 A6 05 65 FA 3B F1 A3  ..@}....w..e.;..
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC] parsing KEY_EXCHANGE_V1 payload finished
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC] verifying payload of type KEY_EXCHANGE_V1
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC] KEY_EXCHANGE_V1 payload verified, adding to payload list
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC] starting parsing a NONCE_V1 payload
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC] parsing NONCE_V1 payload, 84 bytes left
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC] parsing payload from => 84 bytes @ 0x7f4fb4001380
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]    0: 14 00 00 24 D3 AC 98 67 8F 2A AB 28 44 32 C0 64  ...$...g.*.(D2.d
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]   16: 7A D5 13 DE 8E 1D 12 98 E8 FF 5D E2 C1 ED F9 BD  z.........].....
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]   32: 27 54 27 E0 14 00 00 18 C0 20 5A 57 03 F3 ED D3  'T'...... ZW....
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]   48: 6D 6B AE D0 60 25 6C 02 8C F0 21 20 00 00 00 18  mk..`%l...! ....
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]   64: BD A4 7B 55 49 E6 07 13 2C D6 76 F8 D1 06 E8 05  ..{UI...,.v.....
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]   80: 8C 26 CF AF                                      .&..
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]   parsing rule 0 U_INT_8
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]    => 20
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]   parsing rule 1 FLAG
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]    => 0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]   parsing rule 2 RESERVED_BIT
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]    => 0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]   parsing rule 3 RESERVED_BIT
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]    => 0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]   parsing rule 4 RESERVED_BIT
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]    => 0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]   parsing rule 5 RESERVED_BIT
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]    => 0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]   parsing rule 6 RESERVED_BIT
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]    => 0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]   parsing rule 7 RESERVED_BIT
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]    => 0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]   parsing rule 8 RESERVED_BIT
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]    => 0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]   parsing rule 9 PAYLOAD_LENGTH
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]    => 36
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]   parsing rule 10 CHUNK_DATA
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]    => 32 bytes @ 0x7f4f9c000ad0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]    0: D3 AC 98 67 8F 2A AB 28 44 32 C0 64 7A D5 13 DE  ...g.*.(D2.dz...
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]   16: 8E 1D 12 98 E8 FF 5D E2 C1 ED F9 BD 27 54 27 E0  ......].....'T'.
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC] parsing NONCE_V1 payload finished
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC] verifying payload of type NONCE_V1
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC] NONCE_V1 payload verified, adding to payload list
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC] starting parsing a NAT_D_V1 payload
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC] parsing NAT_D_V1 payload, 48 bytes left
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC] parsing payload from => 48 bytes @ 0x7f4fb40013a4
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]    0: 14 00 00 18 C0 20 5A 57 03 F3 ED D3 6D 6B AE D0  ..... ZW....mk..
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]   16: 60 25 6C 02 8C F0 21 20 00 00 00 18 BD A4 7B 55  `%l...! ......{U
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]   32: 49 E6 07 13 2C D6 76 F8 D1 06 E8 05 8C 26 CF AF  I...,.v......&..
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]   parsing rule 0 U_INT_8
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]    => 20
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]   parsing rule 1 RESERVED_BYTE
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]    => 0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]   parsing rule 2 PAYLOAD_LENGTH
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]    => 24
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]   parsing rule 3 CHUNK_DATA
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]    => 20 bytes @ 0x7f4f9c000ba0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]    0: C0 20 5A 57 03 F3 ED D3 6D 6B AE D0 60 25 6C 02  . ZW....mk..`%l.
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]   16: 8C F0 21 20                                      ..!
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC] parsing NAT_D_V1 payload finished
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC] verifying payload of type NAT_D_V1
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC] NAT_D_V1 payload verified, adding to payload list
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC] starting parsing a NAT_D_V1 payload
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC] parsing NAT_D_V1 payload, 24 bytes left
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC] parsing payload from => 24 bytes @ 0x7f4fb40013bc
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]    0: 00 00 00 18 BD A4 7B 55 49 E6 07 13 2C D6 76 F8  ......{UI...,.v.
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]   16: D1 06 E8 05 8C 26 CF AF                          .....&..
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]   parsing rule 0 U_INT_8
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]    => 0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]   parsing rule 1 RESERVED_BYTE
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]    => 0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]   parsing rule 2 PAYLOAD_LENGTH
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]    => 24
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]   parsing rule 3 CHUNK_DATA
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]    => 20 bytes @ 0x7f4f9c000c60
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]    0: BD A4 7B 55 49 E6 07 13 2C D6 76 F8 D1 06 E8 05  ..{UI...,.v.....
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]   16: 8C 26 CF AF                                      .&..
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC] parsing NAT_D_V1 payload finished
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC] verifying payload of type NAT_D_V1
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC] NAT_D_V1 payload verified, adding to payload list
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC] process payload of type KEY_EXCHANGE_V1
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC] process payload of type NONCE_V1
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC] process payload of type NAT_D_V1
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC] process payload of type NAT_D_V1
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC] verifying message structure
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC] found payload of type KEY_EXCHANGE_V1
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC] found payload of type NONCE_V1
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC] found payload of type NAT_D_V1
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC] found payload of type NAT_D_V1
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC] parsed ID_PROT request 0 [ KE No NAT-D NAT-D ]
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC] parsed ID_PROT request 0 [ KE No NAT-D NAT-D ]
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[IKE] natd_chunk => 22 bytes @ 0x7f4fd69a1b90
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[IKE]    0: D3 B1 42 B4 07 1F 1B 52 E4 11 66 F6 01 5D A2 B5  ..B....R..f..]..
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[IKE]   16: C0 A8 00 65 01 F4                                ...e..
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[IKE] natd_hash => 20 bytes @ 0x7f4f9c001b10
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[IKE]    0: C0 20 5A 57 03 F3 ED D3 6D 6B AE D0 60 25 6C 02  . ZW....mk..`%l.
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[IKE]   16: 8C F0 21 20                                      ..!
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[IKE] natd_chunk => 22 bytes @ 0x7f4fd69a1b90
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[IKE]    0: D3 B1 42 B4 07 1F 1B 52 E4 11 66 F6 01 5D A2 B5  ..B....R..f..]..
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[IKE]   16: C0 A8 00 64 01 F4                                ...d..
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[IKE] natd_hash => 20 bytes @ 0x7f4f9c000ff0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[IKE]    0: BD A4 7B 55 49 E6 07 13 2C D6 76 F8 D1 06 E8 05  ..{UI...,.v.....
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[IKE]   16: 8C 26 CF AF                                      .&..
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[IKE] precalculated src_hash => 20 bytes @ 0x7f4f9c000ff0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[IKE]    0: BD A4 7B 55 49 E6 07 13 2C D6 76 F8 D1 06 E8 05  ..{UI...,.v.....
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[IKE]   16: 8C 26 CF AF                                      .&..
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[IKE] precalculated dst_hash => 20 bytes @ 0x7f4f9c001b10
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[IKE]    0: C0 20 5A 57 03 F3 ED D3 6D 6B AE D0 60 25 6C 02  . ZW....mk..`%l.
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[IKE]   16: 8C F0 21 20                                      ..!
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[IKE] received dst_hash => 20 bytes @ 0x7f4f9c000ba0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[IKE]    0: C0 20 5A 57 03 F3 ED D3 6D 6B AE D0 60 25 6C 02  . ZW....mk..`%l.
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[IKE]   16: 8C F0 21 20                                      ..!
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[IKE] received src_hash => 20 bytes @ 0x7f4f9c000c60
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[IKE]    0: BD A4 7B 55 49 E6 07 13 2C D6 76 F8 D1 06 E8 05  ..{UI...,.v.....
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[IKE]   16: 8C 26 CF AF                                      .&..
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC] added payload of type KEY_EXCHANGE_V1 to message
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC] added payload of type NONCE_V1 to message
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[IKE] shared Diffie Hellman secret => 128 bytes @ 0x7f4f9c002df0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[IKE]    0: EF C1 05 22 BF FE 40 10 AC 90 1E 4B 2F 7D EA 15  ..."..@....K/}..
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[IKE]   16: 5B 43 8A ED C4 0A 39 FD 4D 5F B8 26 19 DD 13 DA  [C....9.M_.&....
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[IKE]   32: 54 93 DB 1D EE 00 F7 49 EC 03 2A 0B 7F 5B DA CD  T......I..*..[..
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[IKE]   48: 9F 6D F3 06 0F 60 F8 41 99 AD 17 A9 81 8F 8C B9  .m...`.A........
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[IKE]   64: 70 F7 25 51 DC EF A7 55 C2 5C 62 23 BD 07 67 8A  p.%Q...U.\b#..g.
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[IKE]   80: E4 9A 82 41 44 BD 3E 1A 21 06 BB D0 39 85 0D 00  ...AD.>.!...9...
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[IKE]   96: 0C 0A 5E CF CF 22 06 5D E2 BE 7D 9A 36 CB 89 C9  ..^..".]..}.6...
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[IKE]  112: 4E 99 A0 48 6B B4 9A A1 06 92 38 1A 4E 63 4C 96  N..Hk.....8.NcL.
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[IKE] SKEYID => 20 bytes @ 0x7f4f9c002ef0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[IKE]    0: 6C 3F C0 70 EC 7E 3A E4 3A 8A 58 A8 D8 FF C6 2C  l?.p.~:.:.X....,
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[IKE]   16: 9C D8 11 8B                                      ....
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[IKE] SKEYID_d => 20 bytes @ 0x7f4f9c002fb0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[IKE]    0: 96 39 9B 08 C4 4E D4 69 17 0B 28 1A 62 D7 9F 27  .9...N.i..(.b..'
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[IKE]   16: 6A B1 FB 72                                      j..r
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[IKE] SKEYID_a => 20 bytes @ 0x7f4f9c003080
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[IKE]    0: E3 F7 D3 85 25 78 80 A4 22 75 3C C3 67 1B 0E 30  ....%x.."u<.g..0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[IKE]   16: 96 1B 13 13                                      ....
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[IKE] SKEYID_e => 20 bytes @ 0x7f4f9c0019c0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[IKE]    0: BB EF E4 90 10 39 51 82 F9 2E 24 B7 C8 E5 BD 1E  .....9Q...$.....
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[IKE]   16: 14 1F 91 39                                      ...9
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[IKE] encryption key Ka => 16 bytes @ 0x7f4f9c0019c0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[IKE]    0: BB EF E4 90 10 39 51 82 F9 2E 24 B7 C8 E5 BD 1E  .....9Q...$.....
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[IKE] initial IV => 16 bytes @ 0x7f4f9c001e40
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[IKE]    0: 33 BB 83 0B A1 0F E6 8E 5B B5 EE 40 42 00 B5 A5  3.......[..@B...
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[IKE] natd_chunk => 22 bytes @ 0x7f4fd69a1ba0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[IKE]    0: D3 B1 42 B4 07 1F 1B 52 E4 11 66 F6 01 5D A2 B5  ..B....R..f..]..
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[IKE]   16: C0 A8 00 64 01 F4                                ...d..
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[IKE] natd_hash => 20 bytes @ 0x7f4f9c001ee0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[IKE]    0: BD A4 7B 55 49 E6 07 13 2C D6 76 F8 D1 06 E8 05  ..{UI...,.v.....
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[IKE]   16: 8C 26 CF AF                                      .&..
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC] added payload of type NAT_D_V1 to message
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[IKE] natd_chunk => 22 bytes @ 0x7f4fd69a1ba0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[IKE]    0: D3 B1 42 B4 07 1F 1B 52 E4 11 66 F6 01 5D A2 B5  ..B....R..f..]..
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[IKE]   16: C0 A8 00 65 01 F4                                ...e..
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[IKE] natd_hash => 20 bytes @ 0x7f4f9c002ef0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[IKE]    0: C0 20 5A 57 03 F3 ED D3 6D 6B AE D0 60 25 6C 02  . ZW....mk..`%l.
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[IKE]   16: 8C F0 21 20                                      ..!
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC] added payload of type NAT_D_V1 to message
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC] order payloads in message
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC] added payload of type KEY_EXCHANGE_V1 to message
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC] added payload of type NONCE_V1 to message
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC] added payload of type NAT_D_V1 to message
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC] added payload of type NAT_D_V1 to message
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC] generating ID_PROT response 0 [ KE No NAT-D NAT-D ]
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC] generating ID_PROT response 0 [ KE No NAT-D NAT-D ]
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC] not encrypting payloads
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC] generating payload of type HEADER
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]   generating rule 0 IKE_SPI
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]    => 8 bytes @ 0x7f4f9c0037a8
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]    0: D3 B1 42 B4 07 1F 1B 52                          ..B....R
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]   generating rule 1 IKE_SPI
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]    => 8 bytes @ 0x7f4f9c0037b0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]    0: E4 11 66 F6 01 5D A2 B5                          ..f..]..
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]   generating rule 2 U_INT_8
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]    => 4
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]   generating rule 3 U_INT_4
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]    => 16
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]   generating rule 4 U_INT_4
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]    => 16
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]   generating rule 5 U_INT_8
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]    => 2
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]   generating rule 6 RESERVED_BIT
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]    => 0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]   generating rule 7 RESERVED_BIT
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]    => 0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]   generating rule 8 FLAG
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]    => 0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]   generating rule 9 FLAG
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]    => 0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]   generating rule 10 FLAG
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]    => 0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]   generating rule 11 FLAG
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]    => 0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]   generating rule 12 FLAG
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]    => 0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]   generating rule 13 FLAG
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]    => 0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]   generating rule 14 U_INT_32
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]    => 4 bytes @ 0x7f4fd69a1894
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]    0: 00 00 00 00                                      ....
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]   generating rule 15 HEADER_LENGTH
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]    => 4 bytes @ 0x7f4fd69a1894
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]    0: 00 00 00 1C                                      ....
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC] generating HEADER payload finished
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC] generated data for this payload => 28 bytes @ 0x7f4f9c0038e0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]    0: D3 B1 42 B4 07 1F 1B 52 E4 11 66 F6 01 5D A2 B5  ..B....R..f..]..
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]   16: 04 10 02 00 00 00 00 00 00 00 00 1C              ............
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC] generating payload of type KEY_EXCHANGE_V1
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]   generating rule 0 U_INT_8
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]    => 10
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]   generating rule 1 RESERVED_BYTE
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]    => 0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]   generating rule 2 PAYLOAD_LENGTH
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]    => 2 bytes @ 0x7f4fd69a1894
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]    0: 00 84                                            ..
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]   generating rule 3 CHUNK_DATA
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]    => 128 bytes @ 0x7f4f9c0012b0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]    0: 5F 50 30 D4 82 79 4A 02 83 C9 6A B2 0D A6 CF 7F  _P0..yJ...j.....
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]   16: 38 40 E0 B4 4A 3A 10 B7 8B EB 69 8F E7 F0 B6 38  8@..J:....i....8
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]   32: 15 00 FB 16 2D F7 0A C4 F9 F4 C4 73 AF 4A 67 FE  ....-......s.Jg.
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]   48: EA 5C 95 B2 9D BE F7 65 A5 D1 66 97 AF 8B BD 60  .\.....e..f....`
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]   64: 88 54 93 46 0B 16 02 2A 9D 22 B3 BE 97 54 40 27  .T.F...*."...T@'
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]   80: CE 16 13 7C FD 86 D2 C5 9D 1E 3C 7D 57 F2 BE 91  ...|......<}W...
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]   96: 27 DD F8 3F C7 EE 55 3C 9C 27 32 6A 83 B2 C2 1E  '..?..U<.'2j....
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]  112: E7 62 F9 4A D5 22 AA 64 03 A7 99 93 35 FF 33 16  .b.J.".d....5.3.
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC] generating KEY_EXCHANGE_V1 payload finished
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC] generated data for this payload => 132 bytes @ 0x7f4f9c0038fc
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]    0: 0A 00 00 84 5F 50 30 D4 82 79 4A 02 83 C9 6A B2  ...._P0..yJ...j.
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]   16: 0D A6 CF 7F 38 40 E0 B4 4A 3A 10 B7 8B EB 69 8F  ....8@..J:....i.
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]   32: E7 F0 B6 38 15 00 FB 16 2D F7 0A C4 F9 F4 C4 73  ...8....-......s
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]   48: AF 4A 67 FE EA 5C 95 B2 9D BE F7 65 A5 D1 66 97  .Jg..\.....e..f.
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]   64: AF 8B BD 60 88 54 93 46 0B 16 02 2A 9D 22 B3 BE  ...`.T.F...*."..
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]   80: 97 54 40 27 CE 16 13 7C FD 86 D2 C5 9D 1E 3C 7D  .T@'...|......<}
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]   96: 57 F2 BE 91 27 DD F8 3F C7 EE 55 3C 9C 27 32 6A  W...'..?..U<.'2j
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]  112: 83 B2 C2 1E E7 62 F9 4A D5 22 AA 64 03 A7 99 93  .....b.J.".d....
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]  128: 35 FF 33 16                                      5.3.
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC] generating payload of type NONCE_V1
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]   generating rule 0 U_INT_8
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]    => 20
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]   generating rule 1 FLAG
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]    => 0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]   generating rule 2 RESERVED_BIT
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]    => 0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]   generating rule 3 RESERVED_BIT
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]    => 0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]   generating rule 4 RESERVED_BIT
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]    => 0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]   generating rule 5 RESERVED_BIT
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]    => 0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]   generating rule 6 RESERVED_BIT
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]    => 0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]   generating rule 7 RESERVED_BIT
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]    => 0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]   generating rule 8 RESERVED_BIT
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]    => 0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]   generating rule 9 PAYLOAD_LENGTH
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]    => 2 bytes @ 0x7f4fd69a1894
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]    0: 00 24                                            .$
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]   generating rule 10 CHUNK_DATA
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]    => 32 bytes @ 0x7f4f9c001990
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]    0: 3A 0C 29 09 6C F7 D4 4F 43 65 B3 F7 D3 9A C6 31  :.).l..OCe.....1
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]   16: F3 84 7A 76 DA 76 46 D2 32 10 CD F4 66 68 2C B2  ..zv.vF.2...fh,.
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC] generating NONCE_V1 payload finished
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC] generated data for this payload => 36 bytes @ 0x7f4f9c003980
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]    0: 14 00 00 24 3A 0C 29 09 6C F7 D4 4F 43 65 B3 F7  ...$:.).l..OCe..
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]   16: D3 9A C6 31 F3 84 7A 76 DA 76 46 D2 32 10 CD F4  ...1..zv.vF.2...
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]   32: 66 68 2C B2                                      fh,.
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC] generating payload of type NAT_D_V1
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]   generating rule 0 U_INT_8
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]    => 20
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]   generating rule 1 RESERVED_BYTE
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]    => 0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]   generating rule 2 PAYLOAD_LENGTH
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]    => 2 bytes @ 0x7f4fd69a1894
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]    0: 00 18                                            ..
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]   generating rule 3 CHUNK_DATA
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]    => 20 bytes @ 0x7f4f9c002210
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]    0: BD A4 7B 55 49 E6 07 13 2C D6 76 F8 D1 06 E8 05  ..{UI...,.v.....
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]   16: 8C 26 CF AF                                      .&..
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC] generating NAT_D_V1 payload finished
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC] generated data for this payload => 24 bytes @ 0x7f4f9c0039a4
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]    0: 14 00 00 18 BD A4 7B 55 49 E6 07 13 2C D6 76 F8  ......{UI...,.v.
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]   16: D1 06 E8 05 8C 26 CF AF                          .....&..
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC] generating payload of type NAT_D_V1
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]   generating rule 0 U_INT_8
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]    => 0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]   generating rule 1 RESERVED_BYTE
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]    => 0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]   generating rule 2 PAYLOAD_LENGTH
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]    => 2 bytes @ 0x7f4fd69a1894
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]    0: 00 18                                            ..
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]   generating rule 3 CHUNK_DATA
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]    => 20 bytes @ 0x7f4f9c0035a0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]    0: C0 20 5A 57 03 F3 ED D3 6D 6B AE D0 60 25 6C 02  . ZW....mk..`%l.
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]   16: 8C F0 21 20                                      ..!
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC] generating NAT_D_V1 payload finished
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC] generated data for this payload => 24 bytes @ 0x7f4f9c0039bc
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]    0: 00 00 00 18 C0 20 5A 57 03 F3 ED D3 6D 6B AE D0  ..... ZW....mk..
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]   16: 60 25 6C 02 8C F0 21 20                          `%l...!
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC] generated data of this generator => 244 bytes @ 0x7f4f9c0038e0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]    0: D3 B1 42 B4 07 1F 1B 52 E4 11 66 F6 01 5D A2 B5  ..B....R..f..]..
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]   16: 04 10 02 00 00 00 00 00 00 00 00 1C 0A 00 00 84  ................
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]   32: 5F 50 30 D4 82 79 4A 02 83 C9 6A B2 0D A6 CF 7F  _P0..yJ...j.....
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]   48: 38 40 E0 B4 4A 3A 10 B7 8B EB 69 8F E7 F0 B6 38  8@..J:....i....8
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]   64: 15 00 FB 16 2D F7 0A C4 F9 F4 C4 73 AF 4A 67 FE  ....-......s.Jg.
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]   80: EA 5C 95 B2 9D BE F7 65 A5 D1 66 97 AF 8B BD 60  .\.....e..f....`
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]   96: 88 54 93 46 0B 16 02 2A 9D 22 B3 BE 97 54 40 27  .T.F...*."...T@'
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]  112: CE 16 13 7C FD 86 D2 C5 9D 1E 3C 7D 57 F2 BE 91  ...|......<}W...
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]  128: 27 DD F8 3F C7 EE 55 3C 9C 27 32 6A 83 B2 C2 1E  '..?..U<.'2j....
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]  144: E7 62 F9 4A D5 22 AA 64 03 A7 99 93 35 FF 33 16  .b.J.".d....5.3.
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]  160: 14 00 00 24 3A 0C 29 09 6C F7 D4 4F 43 65 B3 F7  ...$:.).l..OCe..
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]  176: D3 9A C6 31 F3 84 7A 76 DA 76 46 D2 32 10 CD F4  ...1..zv.vF.2...
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]  192: 66 68 2C B2 14 00 00 18 BD A4 7B 55 49 E6 07 13  fh,.......{UI...
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]  208: 2C D6 76 F8 D1 06 E8 05 8C 26 CF AF 00 00 00 18  ,.v......&......
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]  224: C0 20 5A 57 03 F3 ED D3 6D 6B AE D0 60 25 6C 02  . ZW....mk..`%l.
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]  240: 8C F0 21 20                                      ..!
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC] generated data of this generator => 244 bytes @ 0x7f4f9c0038e0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]    0: D3 B1 42 B4 07 1F 1B 52 E4 11 66 F6 01 5D A2 B5  ..B....R..f..]..
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]   16: 04 10 02 00 00 00 00 00 00 00 00 1C 0A 00 00 84  ................
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]   32: 5F 50 30 D4 82 79 4A 02 83 C9 6A B2 0D A6 CF 7F  _P0..yJ...j.....
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]   48: 38 40 E0 B4 4A 3A 10 B7 8B EB 69 8F E7 F0 B6 38  8@..J:....i....8
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]   64: 15 00 FB 16 2D F7 0A C4 F9 F4 C4 73 AF 4A 67 FE  ....-......s.Jg.
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]   80: EA 5C 95 B2 9D BE F7 65 A5 D1 66 97 AF 8B BD 60  .\.....e..f....`
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]   96: 88 54 93 46 0B 16 02 2A 9D 22 B3 BE 97 54 40 27  .T.F...*."...T@'
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]  112: CE 16 13 7C FD 86 D2 C5 9D 1E 3C 7D 57 F2 BE 91  ...|......<}W...
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]  128: 27 DD F8 3F C7 EE 55 3C 9C 27 32 6A 83 B2 C2 1E  '..?..U<.'2j....
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]  144: E7 62 F9 4A D5 22 AA 64 03 A7 99 93 35 FF 33 16  .b.J.".d....5.3.
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]  160: 14 00 00 24 3A 0C 29 09 6C F7 D4 4F 43 65 B3 F7  ...$:.).l..OCe..
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]  176: D3 9A C6 31 F3 84 7A 76 DA 76 46 D2 32 10 CD F4  ...1..zv.vF.2...
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]  192: 66 68 2C B2 14 00 00 18 BD A4 7B 55 49 E6 07 13  fh,.......{UI...
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]  208: 2C D6 76 F8 D1 06 E8 05 8C 26 CF AF 00 00 00 18  ,.v......&......
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]  224: C0 20 5A 57 03 F3 ED D3 6D 6B AE D0 60 25 6C 02  . ZW....mk..`%l.
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[ENC]  240: 8C F0 21 20                                      ..!
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[NET] sending packet: from 192.168.0.101[500] to 192.168.0.100[500] (244 bytes)
+Dec 08 11:52:33 osboxes charon-custom[5812]: 08[NET] sending packet: from 192.168.0.101[500] to 192.168.0.100[500] (244 bytes)
+Dec 08 11:52:33 osboxes charon-custom[5812]: 01[ENC] parsing header of message
+Dec 08 11:52:33 osboxes charon-custom[5812]: 01[ENC] parsing HEADER payload, 108 bytes left
+Dec 08 11:52:33 osboxes charon-custom[5812]: 01[ENC] parsing payload from => 108 bytes @ 0x7f4fb4001040
+Dec 08 11:52:33 osboxes charon-custom[5812]: 01[ENC]    0: D3 B1 42 B4 07 1F 1B 52 E4 11 66 F6 01 5D A2 B5  ..B....R..f..]..
+Dec 08 11:52:33 osboxes charon-custom[5812]: 01[ENC]   16: 05 10 02 01 00 00 00 00 00 00 00 6C A8 F9 7B 8A  ...........l..{.
+Dec 08 11:52:33 osboxes charon-custom[5812]: 01[ENC]   32: C1 A4 8B CE 1C 5E 77 82 90 6F 26 A2 ED A0 B5 4A  .....^w..o&....J
+Dec 08 11:52:33 osboxes charon-custom[5812]: 01[ENC]   48: 34 FA A0 14 87 69 A0 0C D2 B9 0F F8 08 21 CA B1  4....i.......!..
+Dec 08 11:52:33 osboxes charon-custom[5812]: 01[ENC]   64: A7 AB 7C 3E B3 36 95 33 CB E7 0E F2 68 31 48 1D  ..|>.6.3....h1H.
+Dec 08 11:52:33 osboxes charon-custom[5812]: 01[ENC]   80: 8C 79 C3 02 4D 44 0D 75 55 4E 54 64 03 4D 3C B8  .y..MD.uUNTd.M<.
+Dec 08 11:52:33 osboxes charon-custom[5812]: 01[ENC]   96: E2 AF 3A 30 BC 03 A8 45 12 1A 29 A9              ..:0...E..).
+Dec 08 11:52:33 osboxes charon-custom[5812]: 01[ENC]   parsing rule 0 IKE_SPI
+Dec 08 11:52:33 osboxes charon-custom[5812]: 01[ENC]    => 8 bytes @ 0x7f4fb4000a08
+Dec 08 11:52:33 osboxes charon-custom[5812]: 01[ENC]    0: D3 B1 42 B4 07 1F 1B 52                          ..B....R
+Dec 08 11:52:33 osboxes charon-custom[5812]: 01[ENC]   parsing rule 1 IKE_SPI
+Dec 08 11:52:33 osboxes charon-custom[5812]: 01[ENC]    => 8 bytes @ 0x7f4fb4000a10
+Dec 08 11:52:33 osboxes charon-custom[5812]: 01[ENC]    0: E4 11 66 F6 01 5D A2 B5                          ..f..]..
+Dec 08 11:52:33 osboxes charon-custom[5812]: 01[ENC]   parsing rule 2 U_INT_8
+Dec 08 11:52:33 osboxes charon-custom[5812]: 01[ENC]    => 5
+Dec 08 11:52:33 osboxes charon-custom[5812]: 01[ENC]   parsing rule 3 U_INT_4
+Dec 08 11:52:33 osboxes charon-custom[5812]: 01[ENC]    => 1
+Dec 08 11:52:33 osboxes charon-custom[5812]: 01[ENC]   parsing rule 4 U_INT_4
+Dec 08 11:52:33 osboxes charon-custom[5812]: 01[ENC]    => 0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 01[ENC]   parsing rule 5 U_INT_8
+Dec 08 11:52:33 osboxes charon-custom[5812]: 01[ENC]    => 2
+Dec 08 11:52:33 osboxes charon-custom[5812]: 01[ENC]   parsing rule 6 RESERVED_BIT
+Dec 08 11:52:33 osboxes charon-custom[5812]: 01[ENC]    => 0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 01[ENC]   parsing rule 7 RESERVED_BIT
+Dec 08 11:52:33 osboxes charon-custom[5812]: 01[ENC]    => 0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 01[ENC]   parsing rule 8 FLAG
+Dec 08 11:52:33 osboxes charon-custom[5812]: 01[ENC]    => 0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 01[ENC]   parsing rule 9 FLAG
+Dec 08 11:52:33 osboxes charon-custom[5812]: 01[ENC]    => 0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 01[ENC]   parsing rule 10 FLAG
+Dec 08 11:52:33 osboxes charon-custom[5812]: 01[ENC]    => 0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 01[ENC]   parsing rule 11 FLAG
+Dec 08 11:52:33 osboxes charon-custom[5812]: 01[ENC]    => 0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 01[ENC]   parsing rule 12 FLAG
+Dec 08 11:52:33 osboxes charon-custom[5812]: 01[ENC]    => 0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 01[ENC]   parsing rule 13 FLAG
+Dec 08 11:52:33 osboxes charon-custom[5812]: 01[ENC]    => 1
+Dec 08 11:52:33 osboxes charon-custom[5812]: 01[ENC]   parsing rule 14 U_INT_32
+Dec 08 11:52:33 osboxes charon-custom[5812]: 01[ENC]    => 0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 01[ENC]   parsing rule 15 HEADER_LENGTH
+Dec 08 11:52:33 osboxes charon-custom[5812]: 01[ENC]    => 108
+Dec 08 11:52:33 osboxes charon-custom[5812]: 01[ENC] parsing HEADER payload finished
+Dec 08 11:52:33 osboxes charon-custom[5812]: 01[ENC] parsed a ID_PROT message header
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[NET] received packet: from 192.168.0.100[500] to 192.168.0.101[500] (108 bytes)
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[NET] received packet: from 192.168.0.100[500] to 192.168.0.101[500] (108 bytes)
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC] parsing body of message, first payload is ID_V1
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC] parsing ENCRYPTED_V1 payload, 80 bytes left
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC] parsing payload from => 80 bytes @ 0x7f4fb400105c
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC]    0: A8 F9 7B 8A C1 A4 8B CE 1C 5E 77 82 90 6F 26 A2  ..{......^w..o&.
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC]   16: ED A0 B5 4A 34 FA A0 14 87 69 A0 0C D2 B9 0F F8  ...J4....i......
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC]   32: 08 21 CA B1 A7 AB 7C 3E B3 36 95 33 CB E7 0E F2  .!....|>.6.3....
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC]   48: 68 31 48 1D 8C 79 C3 02 4D 44 0D 75 55 4E 54 64  h1H..y..MD.uUNTd
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC]   64: 03 4D 3C B8 E2 AF 3A 30 BC 03 A8 45 12 1A 29 A9  .M<...:0...E..).
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC]   parsing rule 0 ENCRYPTED_DATA
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC]    => 80 bytes @ 0x7f4fa0000ce0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC]    0: A8 F9 7B 8A C1 A4 8B CE 1C 5E 77 82 90 6F 26 A2  ..{......^w..o&.
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC]   16: ED A0 B5 4A 34 FA A0 14 87 69 A0 0C D2 B9 0F F8  ...J4....i......
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC]   32: 08 21 CA B1 A7 AB 7C 3E B3 36 95 33 CB E7 0E F2  .!....|>.6.3....
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC]   48: 68 31 48 1D 8C 79 C3 02 4D 44 0D 75 55 4E 54 64  h1H..y..MD.uUNTd
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC]   64: 03 4D 3C B8 E2 AF 3A 30 BC 03 A8 45 12 1A 29 A9  .M<...:0...E..).
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC] parsing ENCRYPTED_V1 payload finished
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC] process payload of type ENCRYPTED_V1
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC] found an encrypted payload
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC] decrypting payloads:
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC] encrypted => 80 bytes @ 0x7f4fa0000ce0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC]    0: A8 F9 7B 8A C1 A4 8B CE 1C 5E 77 82 90 6F 26 A2  ..{......^w..o&.
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC]   16: ED A0 B5 4A 34 FA A0 14 87 69 A0 0C D2 B9 0F F8  ...J4....i......
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC]   32: 08 21 CA B1 A7 AB 7C 3E B3 36 95 33 CB E7 0E F2  .!....|>.6.3....
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC]   48: 68 31 48 1D 8C 79 C3 02 4D 44 0D 75 55 4E 54 64  h1H..y..MD.uUNTd
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC]   64: 03 4D 3C B8 E2 AF 3A 30 BC 03 A8 45 12 1A 29 A9  .M<...:0...E..).
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC] plain => 80 bytes @ 0x7f4fa0000ce0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC]    0: 08 00 00 0C 01 00 00 00 C0 A8 00 64 0B 00 00 18  ...........d....
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC]   16: 41 E6 A6 D8 7D F3 9D B8 BC 15 1B 1F 2A DF D5 4D  A...}.......*..M
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC]   32: F8 25 28 8F 00 00 00 1C 00 00 00 01 01 10 60 02  .%(...........`.
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC]   48: D3 B1 42 B4 07 1F 1B 52 E4 11 66 F6 01 5D A2 B5  ..B....R..f..]..
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC]   64: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC] parsing ID_V1 payload, 80 bytes left
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC] parsing payload from => 80 bytes @ 0x7f4fa0000ce0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC]    0: 08 00 00 0C 01 00 00 00 C0 A8 00 64 0B 00 00 18  ...........d....
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC]   16: 41 E6 A6 D8 7D F3 9D B8 BC 15 1B 1F 2A DF D5 4D  A...}.......*..M
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC]   32: F8 25 28 8F 00 00 00 1C 00 00 00 01 01 10 60 02  .%(...........`.
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC]   48: D3 B1 42 B4 07 1F 1B 52 E4 11 66 F6 01 5D A2 B5  ..B....R..f..]..
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC]   64: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC]   parsing rule 0 U_INT_8
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC]    => 8
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC]   parsing rule 1 RESERVED_BYTE
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC]    => 0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC]   parsing rule 2 PAYLOAD_LENGTH
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC]    => 12
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC]   parsing rule 3 U_INT_8
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC]    => 1
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC]   parsing rule 4 U_INT_8
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC]    => 0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC]   parsing rule 5 U_INT_16
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC]    => 0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC]   parsing rule 6 CHUNK_DATA
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC]    => 4 bytes @ 0x7f4fa0000a90
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC]    0: C0 A8 00 64                                      ...d
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC] parsing ID_V1 payload finished
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC] parsing HASH_V1 payload, 68 bytes left
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC] parsing payload from => 68 bytes @ 0x7f4fa0000cec
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC]    0: 0B 00 00 18 41 E6 A6 D8 7D F3 9D B8 BC 15 1B 1F  ....A...}.......
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC]   16: 2A DF D5 4D F8 25 28 8F 00 00 00 1C 00 00 00 01  *..M.%(.........
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC]   32: 01 10 60 02 D3 B1 42 B4 07 1F 1B 52 E4 11 66 F6  ..`...B....R..f.
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC]   48: 01 5D A2 B5 00 00 00 00 00 00 00 00 00 00 00 00  .]..............
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC]   64: 00 00 00 00                                      ....
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC]   parsing rule 0 U_INT_8
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC]    => 11
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC]   parsing rule 1 RESERVED_BYTE
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC]    => 0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC]   parsing rule 2 PAYLOAD_LENGTH
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC]    => 24
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC]   parsing rule 3 CHUNK_DATA
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC]    => 20 bytes @ 0x7f4fa0000c70
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC]    0: 41 E6 A6 D8 7D F3 9D B8 BC 15 1B 1F 2A DF D5 4D  A...}.......*..M
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC]   16: F8 25 28 8F                                      .%(.
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC] parsing HASH_V1 payload finished
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC] parsing NOTIFY_V1 payload, 44 bytes left
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC] parsing payload from => 44 bytes @ 0x7f4fa0000d04
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC]    0: 00 00 00 1C 00 00 00 01 01 10 60 02 D3 B1 42 B4  ..........`...B.
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC]   16: 07 1F 1B 52 E4 11 66 F6 01 5D A2 B5 00 00 00 00  ...R..f..]......
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC]   32: 00 00 00 00 00 00 00 00 00 00 00 00              ............
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC]   parsing rule 0 U_INT_8
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC]    => 0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC]   parsing rule 1 RESERVED_BIT
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC]    => 0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC]   parsing rule 2 RESERVED_BIT
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC]    => 0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC]   parsing rule 3 RESERVED_BIT
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC]    => 0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC]   parsing rule 4 RESERVED_BIT
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC]    => 0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC]   parsing rule 5 RESERVED_BIT
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC]    => 0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC]   parsing rule 6 RESERVED_BIT
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC]    => 0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC]   parsing rule 7 RESERVED_BIT
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC]    => 0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC]   parsing rule 8 RESERVED_BIT
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC]    => 0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC]   parsing rule 9 PAYLOAD_LENGTH
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC]    => 28
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC]   parsing rule 10 U_INT_32
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC]    => 1
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC]   parsing rule 11 U_INT_8
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC]    => 1
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC]   parsing rule 12 SPI_SIZE
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC]    => 16
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC]   parsing rule 13 U_INT_16
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC]    => 24578
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC]   parsing rule 14 SPI
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC]    => 16 bytes @ 0x7f4fa0000cb0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC]    0: D3 B1 42 B4 07 1F 1B 52 E4 11 66 F6 01 5D A2 B5  ..B....R..f..]..
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC]   parsing rule 15 CHUNK_DATA
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC]    => 0 bytes @ (nil)
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC] parsing NOTIFY_V1 payload finished
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC] parsed content of encrypted payload
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC] insert decrypted payload of type ID_V1 at end of list
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC] insert decrypted payload of type HASH_V1 at end of list
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC] insert decrypted payload of type NOTIFY_V1 at end of list
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC] verifying message structure
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC] found payload of type NOTIFY_V1
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC] found payload of type ID_V1
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC] found payload of type HASH_V1
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC] parsed ID_PROT request 0 [ ID HASH N(INITIAL_CONTACT) ]
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC] parsed ID_PROT request 0 [ ID HASH N(INITIAL_CONTACT) ]
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[IKE] next IV for MID 0 => 16 bytes @ 0x7f4fa0000e40
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[IKE]    0: 03 4D 3C B8 E2 AF 3A 30 BC 03 A8 45 12 1A 29 A9  .M<...:0...E..).
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[CFG] looking for pre-shared key peer configs matching 192.168.0.101...192.168.0.100[192.168.0.100]
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[CFG] looking for pre-shared key peer configs matching 192.168.0.101...192.168.0.100[192.168.0.100]
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[CFG] selected peer config "rw-carol"
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[CFG] selected peer config "rw-carol"
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[IKE] HASH_I data => 332 bytes @ 0x7f4fa0000e60
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[IKE]    0: 06 C6 E1 8C F8 C8 32 33 33 72 4F 12 8E 71 10 AE  ......233rO..q..
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[IKE]   16: 0C 75 A1 B7 4F CA C3 00 3A A0 B9 31 9C 05 0A EA  .u..O...:..1....
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[IKE]   32: E2 1C 70 4A 84 D0 78 8E F7 40 32 CF 65 99 49 CE  ..pJ..x..@2.e.I.
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[IKE]   48: 82 64 0B 92 17 B9 43 37 14 DE 78 66 08 E4 5D DA  .d....C7..xf..].
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[IKE]   64: EA 90 5B 62 8B 13 EF 1F D1 DB 26 4B D0 FC 92 F0  ..[b......&K....
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[IKE]   80: B6 D0 B6 F6 58 15 5E 67 00 A5 A4 0D 18 10 6D 4F  ....X.^g......mO
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[IKE]   96: 48 7F F6 BA CE 53 E7 A3 77 84 09 95 F5 BE 9A F3  H....S..w.......
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[IKE]  112: F8 EF 40 7D DC F8 8E 99 77 A6 05 65 FA 3B F1 A3  ..@}....w..e.;..
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[IKE]  128: 5F 50 30 D4 82 79 4A 02 83 C9 6A B2 0D A6 CF 7F  _P0..yJ...j.....
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[IKE]  144: 38 40 E0 B4 4A 3A 10 B7 8B EB 69 8F E7 F0 B6 38  8@..J:....i....8
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[IKE]  160: 15 00 FB 16 2D F7 0A C4 F9 F4 C4 73 AF 4A 67 FE  ....-......s.Jg.
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[IKE]  176: EA 5C 95 B2 9D BE F7 65 A5 D1 66 97 AF 8B BD 60  .\.....e..f....`
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[IKE]  192: 88 54 93 46 0B 16 02 2A 9D 22 B3 BE 97 54 40 27  .T.F...*."...T@'
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[IKE]  208: CE 16 13 7C FD 86 D2 C5 9D 1E 3C 7D 57 F2 BE 91  ...|......<}W...
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[IKE]  224: 27 DD F8 3F C7 EE 55 3C 9C 27 32 6A 83 B2 C2 1E  '..?..U<.'2j....
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[IKE]  240: E7 62 F9 4A D5 22 AA 64 03 A7 99 93 35 FF 33 16  .b.J.".d....5.3.
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[IKE]  256: D3 B1 42 B4 07 1F 1B 52 E4 11 66 F6 01 5D A2 B5  ..B....R..f..]..
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[IKE]  272: 00 00 00 01 00 00 00 01 00 00 00 2C 00 01 00 01  ...........,....
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[IKE]  288: 00 00 00 24 01 01 00 00 80 01 00 07 80 0E 00 80  ...$............
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[IKE]  304: 80 02 00 02 80 04 00 02 80 03 00 01 80 0B 00 01  ................
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[IKE]  320: 80 0C 0E 10 01 00 00 00 C0 A8 00 64              ...........d
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[IKE] HASH_I => 20 bytes @ 0x7f4fa0000fc0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[IKE]    0: 41 E6 A6 D8 7D F3 9D B8 BC 15 1B 1F 2A DF D5 4D  A...}.......*..M
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[IKE]   16: F8 25 28 8F                                      .%(.
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC] added payload of type ID_V1 to message
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[IKE] HASH_R data => 332 bytes @ 0x7f4fa0001670
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[IKE]    0: 5F 50 30 D4 82 79 4A 02 83 C9 6A B2 0D A6 CF 7F  _P0..yJ...j.....
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[IKE]   16: 38 40 E0 B4 4A 3A 10 B7 8B EB 69 8F E7 F0 B6 38  8@..J:....i....8
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[IKE]   32: 15 00 FB 16 2D F7 0A C4 F9 F4 C4 73 AF 4A 67 FE  ....-......s.Jg.
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[IKE]   48: EA 5C 95 B2 9D BE F7 65 A5 D1 66 97 AF 8B BD 60  .\.....e..f....`
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[IKE]   64: 88 54 93 46 0B 16 02 2A 9D 22 B3 BE 97 54 40 27  .T.F...*."...T@'
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[IKE]   80: CE 16 13 7C FD 86 D2 C5 9D 1E 3C 7D 57 F2 BE 91  ...|......<}W...
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[IKE]   96: 27 DD F8 3F C7 EE 55 3C 9C 27 32 6A 83 B2 C2 1E  '..?..U<.'2j....
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[IKE]  112: E7 62 F9 4A D5 22 AA 64 03 A7 99 93 35 FF 33 16  .b.J.".d....5.3.
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[IKE]  128: 06 C6 E1 8C F8 C8 32 33 33 72 4F 12 8E 71 10 AE  ......233rO..q..
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[IKE]  144: 0C 75 A1 B7 4F CA C3 00 3A A0 B9 31 9C 05 0A EA  .u..O...:..1....
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[IKE]  160: E2 1C 70 4A 84 D0 78 8E F7 40 32 CF 65 99 49 CE  ..pJ..x..@2.e.I.
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[IKE]  176: 82 64 0B 92 17 B9 43 37 14 DE 78 66 08 E4 5D DA  .d....C7..xf..].
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[IKE]  192: EA 90 5B 62 8B 13 EF 1F D1 DB 26 4B D0 FC 92 F0  ..[b......&K....
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[IKE]  208: B6 D0 B6 F6 58 15 5E 67 00 A5 A4 0D 18 10 6D 4F  ....X.^g......mO
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[IKE]  224: 48 7F F6 BA CE 53 E7 A3 77 84 09 95 F5 BE 9A F3  H....S..w.......
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[IKE]  240: F8 EF 40 7D DC F8 8E 99 77 A6 05 65 FA 3B F1 A3  ..@}....w..e.;..
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[IKE]  256: E4 11 66 F6 01 5D A2 B5 D3 B1 42 B4 07 1F 1B 52  ..f..]....B....R
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[IKE]  272: 00 00 00 01 00 00 00 01 00 00 00 2C 00 01 00 01  ...........,....
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[IKE]  288: 00 00 00 24 01 01 00 00 80 01 00 07 80 0E 00 80  ...$............
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[IKE]  304: 80 02 00 02 80 04 00 02 80 03 00 01 80 0B 00 01  ................
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[IKE]  320: 80 0C 0E 10 01 00 00 00 C0 A8 00 65              ...........e
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[IKE] HASH_R => 20 bytes @ 0x7f4fa00017d0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[IKE]    0: F0 F7 71 DF FB D3 4D 56 55 76 9F 45 5E 58 8D A2  ..q...MVUv.E^X..
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[IKE]   16: DD EE 32 E6                                      ..2.
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC] added payload of type HASH_V1 to message
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[IKE] IKE_SA rw-carol[1] established between 192.168.0.101[192.168.0.101]...192.168.0.100[192.168.0.100]
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[IKE] IKE_SA rw-carol[1] established between 192.168.0.101[192.168.0.101]...192.168.0.100[192.168.0.100]
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[IKE] IKE_SA rw-carol[1] state change: CONNECTING => ESTABLISHED
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[IKE] scheduling reauthentication in 3337s
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[IKE] scheduling reauthentication in 3337s
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[IKE] maximum IKE_SA lifetime 3517s
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[IKE] maximum IKE_SA lifetime 3517s
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC] order payloads in message
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC] added payload of type ID_V1 to message
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC] added payload of type HASH_V1 to message
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC] generating ID_PROT response 0 [ ID HASH ]
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC] generating ID_PROT response 0 [ ID HASH ]
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC] insert payload ID_V1 into encrypted payload
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC] insert payload HASH_V1 into encrypted payload
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC] generating payload of type HEADER
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC]   generating rule 0 IKE_SPI
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC]    => 8 bytes @ 0x7f4fa0002148
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC]    0: D3 B1 42 B4 07 1F 1B 52                          ..B....R
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC]   generating rule 1 IKE_SPI
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC]    => 8 bytes @ 0x7f4fa0002150
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC]    0: E4 11 66 F6 01 5D A2 B5                          ..f..]..
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC]   generating rule 2 U_INT_8
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC]    => 5
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC]   generating rule 3 U_INT_4
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC]    => 31
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC]   generating rule 4 U_INT_4
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC]    => 16
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC]   generating rule 5 U_INT_8
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC]    => 2
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC]   generating rule 6 RESERVED_BIT
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC]    => 0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC]   generating rule 7 RESERVED_BIT
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC]    => 0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC]   generating rule 8 FLAG
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC]    => 0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC]   generating rule 9 FLAG
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC]    => 0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC]   generating rule 10 FLAG
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC]    => 0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC]   generating rule 11 FLAG
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC]    => 0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC]   generating rule 12 FLAG
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC]    => 0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC]   generating rule 13 FLAG
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC]    => 1
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC]   generating rule 14 U_INT_32
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC]    => 4 bytes @ 0x7f4fd599f894
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC]    0: 00 00 00 00                                      ....
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC]   generating rule 15 HEADER_LENGTH
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC]    => 4 bytes @ 0x7f4fd599f894
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC]    0: 00 00 00 1C                                      ....
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC] generating HEADER payload finished
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC] generated data for this payload => 28 bytes @ 0x7f4fa0001d80
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC]    0: D3 B1 42 B4 07 1F 1B 52 E4 11 66 F6 01 5D A2 B5  ..B....R..f..]..
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC]   16: 05 10 02 01 00 00 00 00 00 00 00 1C              ............
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC] generated data of this generator => 28 bytes @ 0x7f4fa0001d80
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC]    0: D3 B1 42 B4 07 1F 1B 52 E4 11 66 F6 01 5D A2 B5  ..B....R..f..]..
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC]   16: 05 10 02 01 00 00 00 00 00 00 00 1C              ............
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC] generating payload of type ID_V1
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC]   generating rule 0 U_INT_8
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC]    => 8
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC]   generating rule 1 RESERVED_BYTE
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC]    => 0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC]   generating rule 2 PAYLOAD_LENGTH
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC]    => 2 bytes @ 0x7f4fd599fa04
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC]    0: 00 0C                                            ..
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC]   generating rule 3 U_INT_8
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC]    => 1
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC]   generating rule 4 U_INT_8
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC]    => 0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC]   generating rule 5 U_INT_16
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC]    => 2 bytes @ 0x7f4fd599fa04
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC]    0: 00 00                                            ..
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC]   generating rule 6 CHUNK_DATA
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC]    => 4 bytes @ 0x7f4fa0001210
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC]    0: C0 A8 00 65                                      ...e
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC] generating ID_V1 payload finished
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC] generated data for this payload => 12 bytes @ 0x7f4fa0001f80
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC]    0: 08 00 00 0C 01 00 00 00 C0 A8 00 65              ...........e
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC] generating payload of type HASH_V1
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC]   generating rule 0 U_INT_8
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC]    => 0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC]   generating rule 1 RESERVED_BYTE
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC]    => 0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC]   generating rule 2 PAYLOAD_LENGTH
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC]    => 2 bytes @ 0x7f4fd599fa04
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC]    0: 00 18                                            ..
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC]   generating rule 3 CHUNK_DATA
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC]    => 20 bytes @ 0x7f4fa0000a20
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC]    0: F0 F7 71 DF FB D3 4D 56 55 76 9F 45 5E 58 8D A2  ..q...MVUv.E^X..
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC]   16: DD EE 32 E6                                      ..2.
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC] generating HASH_V1 payload finished
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC] generated data for this payload => 24 bytes @ 0x7f4fa0001f8c
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC]    0: 00 00 00 18 F0 F7 71 DF FB D3 4D 56 55 76 9F 45  ......q...MVUv.E
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC]   16: 5E 58 8D A2 DD EE 32 E6                          ^X....2.
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC] generated data of this generator => 36 bytes @ 0x7f4fa0001f80
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC]    0: 08 00 00 0C 01 00 00 00 C0 A8 00 65 00 00 00 18  ...........e....
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC]   16: F0 F7 71 DF FB D3 4D 56 55 76 9F 45 5E 58 8D A2  ..q...MVUv.E^X..
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC]   32: DD EE 32 E6                                      ..2.
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC] generated content in encrypted payload
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC] encrypting payloads:
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC] IV => 16 bytes @ 0x7f4fa0000e40
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC]    0: 03 4D 3C B8 E2 AF 3A 30 BC 03 A8 45 12 1A 29 A9  .M<...:0...E..).
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC] plain => 36 bytes @ 0x7f4fa0001a60
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC]    0: 08 00 00 0C 01 00 00 00 C0 A8 00 65 00 00 00 18  ...........e....
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC]   16: F0 F7 71 DF FB D3 4D 56 55 76 9F 45 5E 58 8D A2  ..q...MVUv.E^X..
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC]   32: DD EE 32 E6                                      ..2.
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC] padding => 12 bytes @ 0x7f4fa0001a84
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC]    0: 00 00 00 00 00 00 00 00 00 00 00 00              ............
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC] encrypted => 48 bytes @ 0x7f4fa0001a60
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC]    0: D0 D9 E3 BC 5E 08 2E 4A AC 4C A0 3D 26 4A 5E 18  ....^..J.L.=&J^.
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC]   16: 7B F8 D1 4C 7E B8 F8 36 B7 38 58 A4 16 C3 B6 7F  {..L~..6.8X.....
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC]   32: 92 27 94 A0 83 D6 F0 AB 7A A3 3C 4D 8A 25 A6 45  .'......z.<M.%.E
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC] generating payload of type ENCRYPTED_V1
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC]   generating rule 0 ENCRYPTED_DATA
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC]    => 48 bytes @ 0x7f4fa0001a60
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC]    0: D0 D9 E3 BC 5E 08 2E 4A AC 4C A0 3D 26 4A 5E 18  ....^..J.L.=&J^.
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC]   16: 7B F8 D1 4C 7E B8 F8 36 B7 38 58 A4 16 C3 B6 7F  {..L~..6.8X.....
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC]   32: 92 27 94 A0 83 D6 F0 AB 7A A3 3C 4D 8A 25 A6 45  .'......z.<M.%.E
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC] generating ENCRYPTED_V1 payload finished
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC] generated data for this payload => 48 bytes @ 0x7f4fa0001d9c
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC]    0: D0 D9 E3 BC 5E 08 2E 4A AC 4C A0 3D 26 4A 5E 18  ....^..J.L.=&J^.
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC]   16: 7B F8 D1 4C 7E B8 F8 36 B7 38 58 A4 16 C3 B6 7F  {..L~..6.8X.....
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC]   32: 92 27 94 A0 83 D6 F0 AB 7A A3 3C 4D 8A 25 A6 45  .'......z.<M.%.E
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC] generated data of this generator => 76 bytes @ 0x7f4fa0001d80
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC]    0: D3 B1 42 B4 07 1F 1B 52 E4 11 66 F6 01 5D A2 B5  ..B....R..f..]..
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC]   16: 05 10 02 01 00 00 00 00 00 00 00 1C D0 D9 E3 BC  ................
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC]   32: 5E 08 2E 4A AC 4C A0 3D 26 4A 5E 18 7B F8 D1 4C  ^..J.L.=&J^.{..L
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC]   48: 7E B8 F8 36 B7 38 58 A4 16 C3 B6 7F 92 27 94 A0  ~..6.8X......'..
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[ENC]   64: 83 D6 F0 AB 7A A3 3C 4D 8A 25 A6 45              ....z.<M.%.E
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[IKE] next IV for MID 0 => 16 bytes @ 0x7f4fa0000960
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[IKE]    0: 92 27 94 A0 83 D6 F0 AB 7A A3 3C 4D 8A 25 A6 45  .'......z.<M.%.E
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[NET] sending packet: from 192.168.0.101[500] to 192.168.0.100[500] (76 bytes)
+Dec 08 11:52:33 osboxes charon-custom[5812]: 09[NET] sending packet: from 192.168.0.101[500] to 192.168.0.100[500] (76 bytes)
+Dec 08 11:52:33 osboxes charon-custom[5812]: 01[ENC] parsing header of message
+Dec 08 11:52:33 osboxes charon-custom[5812]: 01[ENC] parsing HEADER payload, 204 bytes left
+Dec 08 11:52:33 osboxes charon-custom[5812]: 01[ENC] parsing payload from => 204 bytes @ 0x7f4fb40011c0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 01[ENC]    0: D3 B1 42 B4 07 1F 1B 52 E4 11 66 F6 01 5D A2 B5  ..B....R..f..]..
+Dec 08 11:52:33 osboxes charon-custom[5812]: 01[ENC]   16: 08 10 20 01 91 61 FE 7F 00 00 00 CC 6D C3 0B 1C  .. ..a......m...
+Dec 08 11:52:33 osboxes charon-custom[5812]: 01[ENC]   32: 11 7E 12 70 8C 7B F9 32 89 2A F3 75 A7 FB F6 0C  .~.p.{.2.*.u....
+Dec 08 11:52:33 osboxes charon-custom[5812]: 01[ENC]   48: A5 89 3E 0A B9 56 C7 48 F5 27 73 A6 66 54 FD ED  ..>..V.H.'s.fT..
+Dec 08 11:52:33 osboxes charon-custom[5812]: 01[ENC]   64: 0A 05 B6 3A C2 B4 26 82 A2 67 5C 02 07 73 E7 D3  ...:..&..g\..s..
+Dec 08 11:52:33 osboxes charon-custom[5812]: 01[ENC]   80: 82 EA DD 1C ED 2B FD 27 18 A9 F5 C9 00 C5 21 20  .....+.'......!
+Dec 08 11:52:33 osboxes charon-custom[5812]: 01[ENC]   96: 09 E2 FA CE EF F9 64 68 FC C9 B0 FC D9 02 23 33  ......dh......#3
+Dec 08 11:52:33 osboxes charon-custom[5812]: 01[ENC]  112: 3D 2D 31 96 6C F9 6C B4 B3 38 4E 0B DD 8E DB 6A  =-1.l.l..8N....j
+Dec 08 11:52:33 osboxes charon-custom[5812]: 01[ENC]  128: 21 02 F3 C4 54 43 D5 E0 3C D0 60 01 80 FD EC C4  !...TC..<.`.....
+Dec 08 11:52:33 osboxes charon-custom[5812]: 01[ENC]  144: 51 C9 0C 29 AB CE 62 AB 05 F2 7C FC FC 66 3C 9B  Q..)..b...|..f<.
+Dec 08 11:52:33 osboxes charon-custom[5812]: 01[ENC]  160: AD 6A 91 8F 03 B3 79 74 E7 66 93 14 3E 58 21 09  .j....yt.f..>X!.
+Dec 08 11:52:33 osboxes charon-custom[5812]: 01[ENC]  176: B6 06 BF 98 78 7B A3 EF F7 12 05 56 D9 5B E2 EB  ....x{.....V.[..
+Dec 08 11:52:33 osboxes charon-custom[5812]: 01[ENC]  192: 1B 97 0B 29 3F 50 1F 39 8D 93 39 D4              ...)?P.9..9.
+Dec 08 11:52:33 osboxes charon-custom[5812]: 01[ENC]   parsing rule 0 IKE_SPI
+Dec 08 11:52:33 osboxes charon-custom[5812]: 01[ENC]    => 8 bytes @ 0x7f4fb4000b48
+Dec 08 11:52:33 osboxes charon-custom[5812]: 01[ENC]    0: D3 B1 42 B4 07 1F 1B 52                          ..B....R
+Dec 08 11:52:33 osboxes charon-custom[5812]: 01[ENC]   parsing rule 1 IKE_SPI
+Dec 08 11:52:33 osboxes charon-custom[5812]: 01[ENC]    => 8 bytes @ 0x7f4fb4000b50
+Dec 08 11:52:33 osboxes charon-custom[5812]: 01[ENC]    0: E4 11 66 F6 01 5D A2 B5                          ..f..]..
+Dec 08 11:52:33 osboxes charon-custom[5812]: 01[ENC]   parsing rule 2 U_INT_8
+Dec 08 11:52:33 osboxes charon-custom[5812]: 01[ENC]    => 8
+Dec 08 11:52:33 osboxes charon-custom[5812]: 01[ENC]   parsing rule 3 U_INT_4
+Dec 08 11:52:33 osboxes charon-custom[5812]: 01[ENC]    => 1
+Dec 08 11:52:33 osboxes charon-custom[5812]: 01[ENC]   parsing rule 4 U_INT_4
+Dec 08 11:52:33 osboxes charon-custom[5812]: 01[ENC]    => 0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 01[ENC]   parsing rule 5 U_INT_8
+Dec 08 11:52:33 osboxes charon-custom[5812]: 01[ENC]    => 32
+Dec 08 11:52:33 osboxes charon-custom[5812]: 01[ENC]   parsing rule 6 RESERVED_BIT
+Dec 08 11:52:33 osboxes charon-custom[5812]: 01[ENC]    => 0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 01[ENC]   parsing rule 7 RESERVED_BIT
+Dec 08 11:52:33 osboxes charon-custom[5812]: 01[ENC]    => 0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 01[ENC]   parsing rule 8 FLAG
+Dec 08 11:52:33 osboxes charon-custom[5812]: 01[ENC]    => 0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 01[ENC]   parsing rule 9 FLAG
+Dec 08 11:52:33 osboxes charon-custom[5812]: 01[ENC]    => 0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 01[ENC]   parsing rule 10 FLAG
+Dec 08 11:52:33 osboxes charon-custom[5812]: 01[ENC]    => 0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 01[ENC]   parsing rule 11 FLAG
+Dec 08 11:52:33 osboxes charon-custom[5812]: 01[ENC]    => 0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 01[ENC]   parsing rule 12 FLAG
+Dec 08 11:52:33 osboxes charon-custom[5812]: 01[ENC]    => 0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 01[ENC]   parsing rule 13 FLAG
+Dec 08 11:52:33 osboxes charon-custom[5812]: 01[ENC]    => 1
+Dec 08 11:52:33 osboxes charon-custom[5812]: 01[ENC]   parsing rule 14 U_INT_32
+Dec 08 11:52:33 osboxes charon-custom[5812]: 01[ENC]    => 2439118463
+Dec 08 11:52:33 osboxes charon-custom[5812]: 01[ENC]   parsing rule 15 HEADER_LENGTH
+Dec 08 11:52:33 osboxes charon-custom[5812]: 01[ENC]    => 204
+Dec 08 11:52:33 osboxes charon-custom[5812]: 01[ENC] parsing HEADER payload finished
+Dec 08 11:52:33 osboxes charon-custom[5812]: 01[ENC] parsed a QUICK_MODE message header
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[NET] received packet: from 192.168.0.100[500] to 192.168.0.101[500] (204 bytes)
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[NET] received packet: from 192.168.0.100[500] to 192.168.0.101[500] (204 bytes)
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC] parsing body of message, first payload is HASH_V1
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC] parsing ENCRYPTED_V1 payload, 176 bytes left
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC] parsing payload from => 176 bytes @ 0x7f4fb40011dc
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]    0: 6D C3 0B 1C 11 7E 12 70 8C 7B F9 32 89 2A F3 75  m....~.p.{.2.*.u
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]   16: A7 FB F6 0C A5 89 3E 0A B9 56 C7 48 F5 27 73 A6  ......>..V.H.'s.
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]   32: 66 54 FD ED 0A 05 B6 3A C2 B4 26 82 A2 67 5C 02  fT.....:..&..g\.
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]   48: 07 73 E7 D3 82 EA DD 1C ED 2B FD 27 18 A9 F5 C9  .s.......+.'....
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]   64: 00 C5 21 20 09 E2 FA CE EF F9 64 68 FC C9 B0 FC  ..! ......dh....
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]   80: D9 02 23 33 3D 2D 31 96 6C F9 6C B4 B3 38 4E 0B  ..#3=-1.l.l..8N.
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]   96: DD 8E DB 6A 21 02 F3 C4 54 43 D5 E0 3C D0 60 01  ...j!...TC..<.`.
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]  112: 80 FD EC C4 51 C9 0C 29 AB CE 62 AB 05 F2 7C FC  ....Q..)..b...|.
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]  128: FC 66 3C 9B AD 6A 91 8F 03 B3 79 74 E7 66 93 14  .f<..j....yt.f..
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]  144: 3E 58 21 09 B6 06 BF 98 78 7B A3 EF F7 12 05 56  >X!.....x{.....V
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]  160: D9 5B E2 EB 1B 97 0B 29 3F 50 1F 39 8D 93 39 D4  .[.....)?P.9..9.
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]   parsing rule 0 ENCRYPTED_DATA
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]    => 176 bytes @ 0x7f4f98000a90
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]    0: 6D C3 0B 1C 11 7E 12 70 8C 7B F9 32 89 2A F3 75  m....~.p.{.2.*.u
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]   16: A7 FB F6 0C A5 89 3E 0A B9 56 C7 48 F5 27 73 A6  ......>..V.H.'s.
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]   32: 66 54 FD ED 0A 05 B6 3A C2 B4 26 82 A2 67 5C 02  fT.....:..&..g\.
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]   48: 07 73 E7 D3 82 EA DD 1C ED 2B FD 27 18 A9 F5 C9  .s.......+.'....
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]   64: 00 C5 21 20 09 E2 FA CE EF F9 64 68 FC C9 B0 FC  ..! ......dh....
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]   80: D9 02 23 33 3D 2D 31 96 6C F9 6C B4 B3 38 4E 0B  ..#3=-1.l.l..8N.
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]   96: DD 8E DB 6A 21 02 F3 C4 54 43 D5 E0 3C D0 60 01  ...j!...TC..<.`.
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]  112: 80 FD EC C4 51 C9 0C 29 AB CE 62 AB 05 F2 7C FC  ....Q..)..b...|.
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]  128: FC 66 3C 9B AD 6A 91 8F 03 B3 79 74 E7 66 93 14  .f<..j....yt.f..
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]  144: 3E 58 21 09 B6 06 BF 98 78 7B A3 EF F7 12 05 56  >X!.....x{.....V
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]  160: D9 5B E2 EB 1B 97 0B 29 3F 50 1F 39 8D 93 39 D4  .[.....)?P.9..9.
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC] parsing ENCRYPTED_V1 payload finished
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC] process payload of type ENCRYPTED_V1
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC] found an encrypted payload
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[IKE] next IV for MID 2439118463 => 16 bytes @ 0x7f4f98000b50
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[IKE]    0: 38 34 47 85 45 06 80 FA AB 63 1C 8F 75 23 B8 6D  84G.E....c..u#.m
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC] decrypting payloads:
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC] encrypted => 176 bytes @ 0x7f4f98000a90
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]    0: 6D C3 0B 1C 11 7E 12 70 8C 7B F9 32 89 2A F3 75  m....~.p.{.2.*.u
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]   16: A7 FB F6 0C A5 89 3E 0A B9 56 C7 48 F5 27 73 A6  ......>..V.H.'s.
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]   32: 66 54 FD ED 0A 05 B6 3A C2 B4 26 82 A2 67 5C 02  fT.....:..&..g\.
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]   48: 07 73 E7 D3 82 EA DD 1C ED 2B FD 27 18 A9 F5 C9  .s.......+.'....
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]   64: 00 C5 21 20 09 E2 FA CE EF F9 64 68 FC C9 B0 FC  ..! ......dh....
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]   80: D9 02 23 33 3D 2D 31 96 6C F9 6C B4 B3 38 4E 0B  ..#3=-1.l.l..8N.
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]   96: DD 8E DB 6A 21 02 F3 C4 54 43 D5 E0 3C D0 60 01  ...j!...TC..<.`.
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]  112: 80 FD EC C4 51 C9 0C 29 AB CE 62 AB 05 F2 7C FC  ....Q..)..b...|.
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]  128: FC 66 3C 9B AD 6A 91 8F 03 B3 79 74 E7 66 93 14  .f<..j....yt.f..
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]  144: 3E 58 21 09 B6 06 BF 98 78 7B A3 EF F7 12 05 56  >X!.....x{.....V
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]  160: D9 5B E2 EB 1B 97 0B 29 3F 50 1F 39 8D 93 39 D4  .[.....)?P.9..9.
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC] plain => 176 bytes @ 0x7f4f98000a90
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]    0: 01 00 00 18 FA 46 4E 95 46 3C C1 4E F3 83 DA C8  .....FN.F<.N....
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]   16: 72 37 93 92 3B DC 25 B6 0A 00 00 50 00 00 00 01  r7..;.%....P....
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]   32: 00 00 00 01 00 00 00 44 00 03 04 02 C0 6B FB F8  .......D.....k..
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]   48: 03 00 00 1C 01 0C 00 00 80 06 00 80 80 05 00 05  ................
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]   64: 80 04 00 01 80 01 00 01 80 02 04 B0 00 00 00 1C  ................
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]   80: 02 0C 00 00 80 06 00 80 80 05 00 05 80 04 00 01  ................
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]   96: 80 01 00 01 80 02 04 B0 05 00 00 24 D8 9C 80 33  ...........$...3
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]  112: 63 0F F1 04 05 81 FE 29 4D 57 B3 8D 06 ED 85 82  c......)MW......
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]  128: 41 D2 67 2D 2A 2A D2 BC 5A F2 30 29 05 00 00 0C  A.g-**..Z.0)....
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]  144: 01 00 00 00 C0 A8 00 64 00 00 00 10 04 00 00 00  .......d........
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]  160: 0A 01 00 00 FF FF 00 00 00 00 00 00 00 00 00 00  ................
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC] parsing HASH_V1 payload, 176 bytes left
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC] parsing payload from => 176 bytes @ 0x7f4f98000a90
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]    0: 01 00 00 18 FA 46 4E 95 46 3C C1 4E F3 83 DA C8  .....FN.F<.N....
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]   16: 72 37 93 92 3B DC 25 B6 0A 00 00 50 00 00 00 01  r7..;.%....P....
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]   32: 00 00 00 01 00 00 00 44 00 03 04 02 C0 6B FB F8  .......D.....k..
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]   48: 03 00 00 1C 01 0C 00 00 80 06 00 80 80 05 00 05  ................
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]   64: 80 04 00 01 80 01 00 01 80 02 04 B0 00 00 00 1C  ................
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]   80: 02 0C 00 00 80 06 00 80 80 05 00 05 80 04 00 01  ................
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]   96: 80 01 00 01 80 02 04 B0 05 00 00 24 D8 9C 80 33  ...........$...3
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]  112: 63 0F F1 04 05 81 FE 29 4D 57 B3 8D 06 ED 85 82  c......)MW......
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]  128: 41 D2 67 2D 2A 2A D2 BC 5A F2 30 29 05 00 00 0C  A.g-**..Z.0)....
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]  144: 01 00 00 00 C0 A8 00 64 00 00 00 10 04 00 00 00  .......d........
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]  160: 0A 01 00 00 FF FF 00 00 00 00 00 00 00 00 00 00  ................
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]   parsing rule 0 U_INT_8
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]    => 1
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]   parsing rule 1 RESERVED_BYTE
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]    => 0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]   parsing rule 2 PAYLOAD_LENGTH
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]    => 24
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]   parsing rule 3 CHUNK_DATA
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]    => 20 bytes @ 0x7f4f98000c50
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]    0: FA 46 4E 95 46 3C C1 4E F3 83 DA C8 72 37 93 92  .FN.F<.N....r7..
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]   16: 3B DC 25 B6                                      ;.%.
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC] parsing HASH_V1 payload finished
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC] parsing SECURITY_ASSOCIATION_V1 payload, 152 bytes left
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC] parsing payload from => 152 bytes @ 0x7f4f98000aa8
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]    0: 0A 00 00 50 00 00 00 01 00 00 00 01 00 00 00 44  ...P...........D
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]   16: 00 03 04 02 C0 6B FB F8 03 00 00 1C 01 0C 00 00  .....k..........
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]   32: 80 06 00 80 80 05 00 05 80 04 00 01 80 01 00 01  ................
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]   48: 80 02 04 B0 00 00 00 1C 02 0C 00 00 80 06 00 80  ................
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]   64: 80 05 00 05 80 04 00 01 80 01 00 01 80 02 04 B0  ................
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]   80: 05 00 00 24 D8 9C 80 33 63 0F F1 04 05 81 FE 29  ...$...3c......)
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]   96: 4D 57 B3 8D 06 ED 85 82 41 D2 67 2D 2A 2A D2 BC  MW......A.g-**..
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]  112: 5A F2 30 29 05 00 00 0C 01 00 00 00 C0 A8 00 64  Z.0)...........d
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]  128: 00 00 00 10 04 00 00 00 0A 01 00 00 FF FF 00 00  ................
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]  144: 00 00 00 00 00 00 00 00                          ........
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]   parsing rule 0 U_INT_8
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]    => 10
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]   parsing rule 1 RESERVED_BIT
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]    => 0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]   parsing rule 2 RESERVED_BIT
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]    => 0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]   parsing rule 3 RESERVED_BIT
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]    => 0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]   parsing rule 4 RESERVED_BIT
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]    => 0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]   parsing rule 5 RESERVED_BIT
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]    => 0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]   parsing rule 6 RESERVED_BIT
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]    => 0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]   parsing rule 7 RESERVED_BIT
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]    => 0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]   parsing rule 8 RESERVED_BIT
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]    => 0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]   parsing rule 9 PAYLOAD_LENGTH
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]    => 80
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]   parsing rule 10 U_INT_32
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]    => 1
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]   parsing rule 11 U_INT_32
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]    => 1
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]   parsing rule 12 (1259)
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]   68 bytes left, parsing recursively PROPOSAL_SUBSTRUCTURE_V1
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC] parsing PROPOSAL_SUBSTRUCTURE_V1 payload, 140 bytes left
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC] parsing payload from => 140 bytes @ 0x7f4f98000ab4
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]    0: 00 00 00 44 00 03 04 02 C0 6B FB F8 03 00 00 1C  ...D.....k......
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]   16: 01 0C 00 00 80 06 00 80 80 05 00 05 80 04 00 01  ................
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]   32: 80 01 00 01 80 02 04 B0 00 00 00 1C 02 0C 00 00  ................
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]   48: 80 06 00 80 80 05 00 05 80 04 00 01 80 01 00 01  ................
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]   64: 80 02 04 B0 05 00 00 24 D8 9C 80 33 63 0F F1 04  .......$...3c...
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]   80: 05 81 FE 29 4D 57 B3 8D 06 ED 85 82 41 D2 67 2D  ...)MW......A.g-
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]   96: 2A 2A D2 BC 5A F2 30 29 05 00 00 0C 01 00 00 00  **..Z.0)........
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]  112: C0 A8 00 64 00 00 00 10 04 00 00 00 0A 01 00 00  ...d............
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]  128: FF FF 00 00 00 00 00 00 00 00 00 00              ............
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]   parsing rule 0 U_INT_8
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]    => 0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]   parsing rule 1 RESERVED_BYTE
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]    => 0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]   parsing rule 2 PAYLOAD_LENGTH
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]    => 68
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]   parsing rule 3 U_INT_8
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]    => 0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]   parsing rule 4 U_INT_8
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]    => 3
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]   parsing rule 5 SPI_SIZE
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]    => 4
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]   parsing rule 6 U_INT_8
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]    => 2
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]   parsing rule 7 SPI
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]    => 4 bytes @ 0x7f4f98000e10
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]    0: C0 6B FB F8                                      .k..
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]   parsing rule 8 (1261)
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]   56 bytes left, parsing recursively TRANSFORM_SUBSTRUCTURE_V1
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC] parsing TRANSFORM_SUBSTRUCTURE_V1 payload, 128 bytes left
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC] parsing payload from => 128 bytes @ 0x7f4f98000ac0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]    0: 03 00 00 1C 01 0C 00 00 80 06 00 80 80 05 00 05  ................
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]   16: 80 04 00 01 80 01 00 01 80 02 04 B0 00 00 00 1C  ................
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]   32: 02 0C 00 00 80 06 00 80 80 05 00 05 80 04 00 01  ................
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]   48: 80 01 00 01 80 02 04 B0 05 00 00 24 D8 9C 80 33  ...........$...3
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]   64: 63 0F F1 04 05 81 FE 29 4D 57 B3 8D 06 ED 85 82  c......)MW......
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]   80: 41 D2 67 2D 2A 2A D2 BC 5A F2 30 29 05 00 00 0C  A.g-**..Z.0)....
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]   96: 01 00 00 00 C0 A8 00 64 00 00 00 10 04 00 00 00  .......d........
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]  112: 0A 01 00 00 FF FF 00 00 00 00 00 00 00 00 00 00  ................
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]   parsing rule 0 U_INT_8
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]    => 3
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]   parsing rule 1 RESERVED_BYTE
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]    => 0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]   parsing rule 2 PAYLOAD_LENGTH
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]    => 28
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]   parsing rule 3 U_INT_8
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]    => 1
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]   parsing rule 4 U_INT_8
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]    => 12
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]   parsing rule 5 RESERVED_BYTE
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]    => 0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]   parsing rule 6 RESERVED_BYTE
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]    => 0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]   parsing rule 7 (1263)
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]   20 bytes left, parsing recursively TRANSFORM_ATTRIBUTE_V1
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC] parsing TRANSFORM_ATTRIBUTE_V1 payload, 120 bytes left
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC] parsing payload from => 120 bytes @ 0x7f4f98000ac8
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]    0: 80 06 00 80 80 05 00 05 80 04 00 01 80 01 00 01  ................
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]   16: 80 02 04 B0 00 00 00 1C 02 0C 00 00 80 06 00 80  ................
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]   32: 80 05 00 05 80 04 00 01 80 01 00 01 80 02 04 B0  ................
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]   48: 05 00 00 24 D8 9C 80 33 63 0F F1 04 05 81 FE 29  ...$...3c......)
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]   64: 4D 57 B3 8D 06 ED 85 82 41 D2 67 2D 2A 2A D2 BC  MW......A.g-**..
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]   80: 5A F2 30 29 05 00 00 0C 01 00 00 00 C0 A8 00 64  Z.0)...........d
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]   96: 00 00 00 10 04 00 00 00 0A 01 00 00 FF FF 00 00  ................
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]  112: 00 00 00 00 00 00 00 00                          ........
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]   parsing rule 0 ATTRIBUTE_FORMAT
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]    => 1
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]   parsing rule 1 ATTRIBUTE_TYPE
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]    => 6
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]   parsing rule 2 ATTRIBUTE_LENGTH_OR_VALUE
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]    => 128
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]   parsing rule 3 ATTRIBUTE_VALUE
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC] parsing TRANSFORM_ATTRIBUTE_V1 payload finished
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]   16 bytes left, parsing recursively TRANSFORM_ATTRIBUTE_V1
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC] parsing TRANSFORM_ATTRIBUTE_V1 payload, 116 bytes left
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC] parsing payload from => 116 bytes @ 0x7f4f98000acc
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]    0: 80 05 00 05 80 04 00 01 80 01 00 01 80 02 04 B0  ................
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]   16: 00 00 00 1C 02 0C 00 00 80 06 00 80 80 05 00 05  ................
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]   32: 80 04 00 01 80 01 00 01 80 02 04 B0 05 00 00 24  ...............$
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]   48: D8 9C 80 33 63 0F F1 04 05 81 FE 29 4D 57 B3 8D  ...3c......)MW..
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]   64: 06 ED 85 82 41 D2 67 2D 2A 2A D2 BC 5A F2 30 29  ....A.g-**..Z.0)
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]   80: 05 00 00 0C 01 00 00 00 C0 A8 00 64 00 00 00 10  ...........d....
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]   96: 04 00 00 00 0A 01 00 00 FF FF 00 00 00 00 00 00  ................
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]  112: 00 00 00 00                                      ....
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]   parsing rule 0 ATTRIBUTE_FORMAT
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]    => 1
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]   parsing rule 1 ATTRIBUTE_TYPE
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]    => 5
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]   parsing rule 2 ATTRIBUTE_LENGTH_OR_VALUE
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]    => 5
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]   parsing rule 3 ATTRIBUTE_VALUE
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC] parsing TRANSFORM_ATTRIBUTE_V1 payload finished
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]   12 bytes left, parsing recursively TRANSFORM_ATTRIBUTE_V1
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC] parsing TRANSFORM_ATTRIBUTE_V1 payload, 112 bytes left
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC] parsing payload from => 112 bytes @ 0x7f4f98000ad0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]    0: 80 04 00 01 80 01 00 01 80 02 04 B0 00 00 00 1C  ................
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]   16: 02 0C 00 00 80 06 00 80 80 05 00 05 80 04 00 01  ................
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]   32: 80 01 00 01 80 02 04 B0 05 00 00 24 D8 9C 80 33  ...........$...3
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]   48: 63 0F F1 04 05 81 FE 29 4D 57 B3 8D 06 ED 85 82  c......)MW......
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]   64: 41 D2 67 2D 2A 2A D2 BC 5A F2 30 29 05 00 00 0C  A.g-**..Z.0)....
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]   80: 01 00 00 00 C0 A8 00 64 00 00 00 10 04 00 00 00  .......d........
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]   96: 0A 01 00 00 FF FF 00 00 00 00 00 00 00 00 00 00  ................
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]   parsing rule 0 ATTRIBUTE_FORMAT
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]    => 1
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]   parsing rule 1 ATTRIBUTE_TYPE
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]    => 4
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]   parsing rule 2 ATTRIBUTE_LENGTH_OR_VALUE
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]    => 1
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]   parsing rule 3 ATTRIBUTE_VALUE
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC] parsing TRANSFORM_ATTRIBUTE_V1 payload finished
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]   8 bytes left, parsing recursively TRANSFORM_ATTRIBUTE_V1
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC] parsing TRANSFORM_ATTRIBUTE_V1 payload, 108 bytes left
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC] parsing payload from => 108 bytes @ 0x7f4f98000ad4
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]    0: 80 01 00 01 80 02 04 B0 00 00 00 1C 02 0C 00 00  ................
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]   16: 80 06 00 80 80 05 00 05 80 04 00 01 80 01 00 01  ................
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]   32: 80 02 04 B0 05 00 00 24 D8 9C 80 33 63 0F F1 04  .......$...3c...
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]   48: 05 81 FE 29 4D 57 B3 8D 06 ED 85 82 41 D2 67 2D  ...)MW......A.g-
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]   64: 2A 2A D2 BC 5A F2 30 29 05 00 00 0C 01 00 00 00  **..Z.0)........
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]   80: C0 A8 00 64 00 00 00 10 04 00 00 00 0A 01 00 00  ...d............
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]   96: FF FF 00 00 00 00 00 00 00 00 00 00              ............
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]   parsing rule 0 ATTRIBUTE_FORMAT
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]    => 1
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]   parsing rule 1 ATTRIBUTE_TYPE
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]    => 1
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]   parsing rule 2 ATTRIBUTE_LENGTH_OR_VALUE
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]    => 1
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]   parsing rule 3 ATTRIBUTE_VALUE
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC] parsing TRANSFORM_ATTRIBUTE_V1 payload finished
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]   4 bytes left, parsing recursively TRANSFORM_ATTRIBUTE_V1
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC] parsing TRANSFORM_ATTRIBUTE_V1 payload, 104 bytes left
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC] parsing payload from => 104 bytes @ 0x7f4f98000ad8
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]    0: 80 02 04 B0 00 00 00 1C 02 0C 00 00 80 06 00 80  ................
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]   16: 80 05 00 05 80 04 00 01 80 01 00 01 80 02 04 B0  ................
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]   32: 05 00 00 24 D8 9C 80 33 63 0F F1 04 05 81 FE 29  ...$...3c......)
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]   48: 4D 57 B3 8D 06 ED 85 82 41 D2 67 2D 2A 2A D2 BC  MW......A.g-**..
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]   64: 5A F2 30 29 05 00 00 0C 01 00 00 00 C0 A8 00 64  Z.0)...........d
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]   80: 00 00 00 10 04 00 00 00 0A 01 00 00 FF FF 00 00  ................
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]   96: 00 00 00 00 00 00 00 00                          ........
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]   parsing rule 0 ATTRIBUTE_FORMAT
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]    => 1
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]   parsing rule 1 ATTRIBUTE_TYPE
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]    => 2
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]   parsing rule 2 ATTRIBUTE_LENGTH_OR_VALUE
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]    => 1200
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]   parsing rule 3 ATTRIBUTE_VALUE
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC] parsing TRANSFORM_ATTRIBUTE_V1 payload finished
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC] parsing TRANSFORM_SUBSTRUCTURE_V1 payload finished
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]   28 bytes left, parsing recursively TRANSFORM_SUBSTRUCTURE_V1
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC] parsing TRANSFORM_SUBSTRUCTURE_V1 payload, 100 bytes left
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC] parsing payload from => 100 bytes @ 0x7f4f98000adc
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]    0: 00 00 00 1C 02 0C 00 00 80 06 00 80 80 05 00 05  ................
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]   16: 80 04 00 01 80 01 00 01 80 02 04 B0 05 00 00 24  ...............$
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]   32: D8 9C 80 33 63 0F F1 04 05 81 FE 29 4D 57 B3 8D  ...3c......)MW..
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]   48: 06 ED 85 82 41 D2 67 2D 2A 2A D2 BC 5A F2 30 29  ....A.g-**..Z.0)
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]   64: 05 00 00 0C 01 00 00 00 C0 A8 00 64 00 00 00 10  ...........d....
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]   80: 04 00 00 00 0A 01 00 00 FF FF 00 00 00 00 00 00  ................
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]   96: 00 00 00 00                                      ....
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]   parsing rule 0 U_INT_8
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]    => 0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]   parsing rule 1 RESERVED_BYTE
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]    => 0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]   parsing rule 2 PAYLOAD_LENGTH
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]    => 28
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]   parsing rule 3 U_INT_8
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]    => 2
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]   parsing rule 4 U_INT_8
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]    => 12
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]   parsing rule 5 RESERVED_BYTE
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]    => 0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]   parsing rule 6 RESERVED_BYTE
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]    => 0
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]   parsing rule 7 (1263)
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]   20 bytes left, parsing recursively TRANSFORM_ATTRIBUTE_V1
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC] parsing TRANSFORM_ATTRIBUTE_V1 payload, 92 bytes left
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC] parsing payload from => 92 bytes @ 0x7f4f98000ae4
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]    0: 80 06 00 80 80 05 00 05 80 04 00 01 80 01 00 01  ................
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]   16: 80 02 04 B0 05 00 00 24 D8 9C 80 33 63 0F F1 04  .......$...3c...
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]   32: 05 81 FE 29 4D 57 B3 8D 06 ED 85 82 41 D2 67 2D  ...)MW......A.g-
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]   48: 2A 2A D2 BC 5A F2 30 29 05 00 00 0C 01 00 00 00  **..Z.0)........
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]   64: C0 A8 00 64 00 00 00 10 04 00 00 00 0A 01 00 00  ...d............
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]   80: FF FF 00 00 00 00 00 00 00 00 00 00              ............
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]   parsing rule 0 ATTRIBUTE_FORMAT
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]    => 1
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]   parsing rule 1 ATTRIBUTE_TYPE
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]    => 6
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]   parsing rule 2 ATTRIBUTE_LENGTH_OR_VALUE
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]    => 128
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]   parsing rule 3 ATTRIBUTE_VALUE
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC] parsing TRANSFORM_ATTRIBUTE_V1 payload finished
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]   16 bytes left, parsing recursively TRANSFORM_ATTRIBUTE_V1
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC] parsing TRANSFORM_ATTRIBUTE_V1 payload, 88 bytes left
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC] parsing payload from => 88 bytes @ 0x7f4f98000ae8
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]    0: 80 05 00 05 80 04 00 01 80 01 00 01 80 02 04 B0  ................
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]   16: 05 00 00 24 D8 9C 80 33 63 0F F1 04 05 81 FE 29  ...$...3c......)
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]   32: 4D 57 B3 8D 06 ED 85 82 41 D2 67 2D 2A 2A D2 BC  MW......A.g-**..
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]   48: 5A F2 30 29 05 00 00 0C 01 00 00 00 C0 A8 00 64  Z.0)...........d
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]   64: 00 00 00 10 04 00 00 00 0A 01 00 00 FF FF 00 00  ................
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]   80: 00 00 00 00 00 00 00 00                          ........
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]   parsing rule 0 ATTRIBUTE_FORMAT
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]    => 1
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]   parsing rule 1 ATTRIBUTE_TYPE
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]    => 5
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]   parsing rule 2 ATTRIBUTE_LENGTH_OR_VALUE
+Dec 08 11:52:33 osboxes charon-custom[5812]: 11[ENC]    => 5
+Dec 08 11:52:33 osboxes vpn[5887]: + 192.168.0.100 192.168.0.100 -- 192.168.0.101 == 10.1.0.0/16
+Dec 08 11:52:37 osboxes kernel: device enp0s3 left promiscuous mode
+Dec 08 11:53:35 osboxes org.gnome.Shell.desktop[1361]: Window manager warning: Invalid WM_TRANSIENT_FOR window 0x1400007 specified for 0x1400045 (Unsaved pa).

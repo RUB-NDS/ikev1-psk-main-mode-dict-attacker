@@ -1,0 +1,2003 @@
+parsing header of message
+parsing HEADER payload, 180 bytes left
+parsing payload from => 180 bytes @ 0x7f4fb4000bc0
+ D3 B1 42 B4 07 1F 1B 52 00 00 00 00 00 00 00 00  ..B....R........
+ 01 10 02 00 00 00 00 00 00 00 00 B4 0D 00 00 38  ...............8
+ 00 00 00 01 00 00 00 01 00 00 00 2C 00 01 00 01  ...........,....
+ 00 00 00 24 01 01 00 00 80 01 00 07 80 0E 00 80  ...$............
+ 80 02 00 02 80 04 00 02 80 03 00 01 80 0B 00 01  ................
+ 80 0C 0E 10 0D 00 00 0C 09 00 26 89 DF D6 B7 12  ..........&.....
+ 0D 00 00 14 AF CA D7 13 68 A1 F1 C9 6B 86 96 FC  ........h...k...
+ 77 57 01 00 0D 00 00 18 40 48 B7 D5 6E BC E8 85  wW......@H..n...
+ 25 E7 DE 7F 00 D6 C2 D3 80 00 00 00 0D 00 00 14  %...............
+ 4A 13 1C 81 07 03 58 45 5C 57 28 F2 0E 95 45 2F  J.....XE\W(...E/
+ 00 00 00 14 90 CB 80 91 3E BB 69 6E 08 63 81 B5  ........>.in.c..
+ EC 42 7B 1F                                      .B{.
+  parsing rule 0 IKE_SPI
+   => 8 bytes @ 0x7f4fb4001058
+ D3 B1 42 B4 07 1F 1B 52                          ..B....R
+  parsing rule 1 IKE_SPI
+   => 8 bytes @ 0x7f4fb4001060
+ 00 00 00 00 00 00 00 00                          ........
+  parsing rule 2 U_INT_8
+   => 1
+  parsing rule 3 U_INT_4
+   => 1
+  parsing rule 4 U_INT_4
+   => 0
+  parsing rule 5 U_INT_8
+   => 2
+  parsing rule 6 RESERVED_BIT
+   => 0
+  parsing rule 7 RESERVED_BIT
+   => 0
+  parsing rule 8 FLAG
+   => 0
+  parsing rule 9 FLAG
+   => 0
+  parsing rule 10 FLAG
+   => 0
+  parsing rule 11 FLAG
+   => 0
+  parsing rule 12 FLAG
+   => 0
+  parsing rule 13 FLAG
+   => 0
+  parsing rule 14 U_INT_32
+   => 0
+  parsing rule 15 HEADER_LENGTH
+   => 180
+parsing HEADER payload finished
+parsed a ID_PROT message header
+ from 192.168.0.100[500] to 192.168.0.101[500] (180 bytes)
+ from 192.168.0.100[500] to 192.168.0.101[500] (180 bytes)
+parsing body of message, first payload is SECURITY_ASSOCIATION_V1
+starting parsing a SECURITY_ASSOCIATION_V1 payload
+parsing SECURITY_ASSOCIATION_V1 payload, 152 bytes left
+parsing payload from => 152 bytes @ 0x7f4fb4000bdc
+ 0D 00 00 38 00 00 00 01 00 00 00 01 00 00 00 2C  ...8...........,
+ 00 01 00 01 00 00 00 24 01 01 00 00 80 01 00 07  .......$........
+ 80 0E 00 80 80 02 00 02 80 04 00 02 80 03 00 01  ................
+ 80 0B 00 01 80 0C 0E 10 0D 00 00 0C 09 00 26 89  ..............&.
+ DF D6 B7 12 0D 00 00 14 AF CA D7 13 68 A1 F1 C9  ............h...
+ 6B 86 96 FC 77 57 01 00 0D 00 00 18 40 48 B7 D5  k...wW......@H..
+ 6E BC E8 85 25 E7 DE 7F 00 D6 C2 D3 80 00 00 00  n...%...........
+ 0D 00 00 14 4A 13 1C 81 07 03 58 45 5C 57 28 F2  ....J.....XE\W(.
+ 0E 95 45 2F 00 00 00 14 90 CB 80 91 3E BB 69 6E  ..E/........>.in
+ 08 63 81 B5 EC 42 7B 1F                          .c...B{.
+  parsing rule 0 U_INT_8
+   => 13
+  parsing rule 1 RESERVED_BIT
+   => 0
+  parsing rule 2 RESERVED_BIT
+   => 0
+  parsing rule 3 RESERVED_BIT
+   => 0
+  parsing rule 4 RESERVED_BIT
+   => 0
+  parsing rule 5 RESERVED_BIT
+   => 0
+  parsing rule 6 RESERVED_BIT
+   => 0
+  parsing rule 7 RESERVED_BIT
+   => 0
+  parsing rule 8 RESERVED_BIT
+   => 0
+  parsing rule 9 PAYLOAD_LENGTH
+   => 56
+  parsing rule 10 U_INT_32
+   => 1
+  parsing rule 11 U_INT_32
+   => 1
+  parsing rule 12 (1259)
+  44 bytes left, parsing recursively PROPOSAL_SUBSTRUCTURE_V1
+parsing PROPOSAL_SUBSTRUCTURE_V1 payload, 140 bytes left
+parsing payload from => 140 bytes @ 0x7f4fb4000be8
+ 00 00 00 2C 00 01 00 01 00 00 00 24 01 01 00 00  ...,.......$....
+ 80 01 00 07 80 0E 00 80 80 02 00 02 80 04 00 02  ................
+ 80 03 00 01 80 0B 00 01 80 0C 0E 10 0D 00 00 0C  ................
+ 09 00 26 89 DF D6 B7 12 0D 00 00 14 AF CA D7 13  ..&.............
+ 68 A1 F1 C9 6B 86 96 FC 77 57 01 00 0D 00 00 18  h...k...wW......
+ 40 48 B7 D5 6E BC E8 85 25 E7 DE 7F 00 D6 C2 D3  @H..n...%.......
+ 80 00 00 00 0D 00 00 14 4A 13 1C 81 07 03 58 45  ........J.....XE
+ 5C 57 28 F2 0E 95 45 2F 00 00 00 14 90 CB 80 91  \W(...E/........
+ 3E BB 69 6E 08 63 81 B5 EC 42 7B 1F              >.in.c...B{.
+  parsing rule 0 U_INT_8
+   => 0
+  parsing rule 1 RESERVED_BYTE
+   => 0
+  parsing rule 2 PAYLOAD_LENGTH
+   => 44
+  parsing rule 3 U_INT_8
+   => 0
+  parsing rule 4 U_INT_8
+   => 1
+  parsing rule 5 SPI_SIZE
+   => 0
+  parsing rule 6 U_INT_8
+   => 1
+  parsing rule 7 SPI
+   => 0 bytes @ (nil)
+  parsing rule 8 (1261)
+  36 bytes left, parsing recursively TRANSFORM_SUBSTRUCTURE_V1
+parsing TRANSFORM_SUBSTRUCTURE_V1 payload, 132 bytes left
+parsing payload from => 132 bytes @ 0x7f4fb4000bf0
+ 00 00 00 24 01 01 00 00 80 01 00 07 80 0E 00 80  ...$............
+ 80 02 00 02 80 04 00 02 80 03 00 01 80 0B 00 01  ................
+ 80 0C 0E 10 0D 00 00 0C 09 00 26 89 DF D6 B7 12  ..........&.....
+ 0D 00 00 14 AF CA D7 13 68 A1 F1 C9 6B 86 96 FC  ........h...k...
+ 77 57 01 00 0D 00 00 18 40 48 B7 D5 6E BC E8 85  wW......@H..n...
+ 25 E7 DE 7F 00 D6 C2 D3 80 00 00 00 0D 00 00 14  %...............
+ 4A 13 1C 81 07 03 58 45 5C 57 28 F2 0E 95 45 2F  J.....XE\W(...E/
+ 00 00 00 14 90 CB 80 91 3E BB 69 6E 08 63 81 B5  ........>.in.c..
+ EC 42 7B 1F                                      .B{.
+  parsing rule 0 U_INT_8
+   => 0
+  parsing rule 1 RESERVED_BYTE
+   => 0
+  parsing rule 2 PAYLOAD_LENGTH
+   => 36
+  parsing rule 3 U_INT_8
+   => 1
+  parsing rule 4 U_INT_8
+   => 1
+  parsing rule 5 RESERVED_BYTE
+   => 0
+  parsing rule 6 RESERVED_BYTE
+   => 0
+  parsing rule 7 (1263)
+  28 bytes left, parsing recursively TRANSFORM_ATTRIBUTE_V1
+parsing TRANSFORM_ATTRIBUTE_V1 payload, 124 bytes left
+parsing payload from => 124 bytes @ 0x7f4fb4000bf8
+ 80 01 00 07 80 0E 00 80 80 02 00 02 80 04 00 02  ................
+ 80 03 00 01 80 0B 00 01 80 0C 0E 10 0D 00 00 0C  ................
+ 09 00 26 89 DF D6 B7 12 0D 00 00 14 AF CA D7 13  ..&.............
+ 68 A1 F1 C9 6B 86 96 FC 77 57 01 00 0D 00 00 18  h...k...wW......
+ 40 48 B7 D5 6E BC E8 85 25 E7 DE 7F 00 D6 C2 D3  @H..n...%.......
+ 80 00 00 00 0D 00 00 14 4A 13 1C 81 07 03 58 45  ........J.....XE
+ 5C 57 28 F2 0E 95 45 2F 00 00 00 14 90 CB 80 91  \W(...E/........
+ 3E BB 69 6E 08 63 81 B5 EC 42 7B 1F              >.in.c...B{.
+  parsing rule 0 ATTRIBUTE_FORMAT
+   => 1
+  parsing rule 1 ATTRIBUTE_TYPE
+   => 1
+  parsing rule 2 ATTRIBUTE_LENGTH_OR_VALUE
+   => 7
+  parsing rule 3 ATTRIBUTE_VALUE
+parsing TRANSFORM_ATTRIBUTE_V1 payload finished
+  24 bytes left, parsing recursively TRANSFORM_ATTRIBUTE_V1
+parsing TRANSFORM_ATTRIBUTE_V1 payload, 120 bytes left
+parsing payload from => 120 bytes @ 0x7f4fb4000bfc
+ 80 0E 00 80 80 02 00 02 80 04 00 02 80 03 00 01  ................
+ 80 0B 00 01 80 0C 0E 10 0D 00 00 0C 09 00 26 89  ..............&.
+ DF D6 B7 12 0D 00 00 14 AF CA D7 13 68 A1 F1 C9  ............h...
+ 6B 86 96 FC 77 57 01 00 0D 00 00 18 40 48 B7 D5  k...wW......@H..
+ 6E BC E8 85 25 E7 DE 7F 00 D6 C2 D3 80 00 00 00  n...%...........
+ 0D 00 00 14 4A 13 1C 81 07 03 58 45 5C 57 28 F2  ....J.....XE\W(.
+ 0E 95 45 2F 00 00 00 14 90 CB 80 91 3E BB 69 6E  ..E/........>.in
+ 08 63 81 B5 EC 42 7B 1F                          .c...B{.
+  parsing rule 0 ATTRIBUTE_FORMAT
+   => 1
+  parsing rule 1 ATTRIBUTE_TYPE
+   => 14
+  parsing rule 2 ATTRIBUTE_LENGTH_OR_VALUE
+   => 128
+  parsing rule 3 ATTRIBUTE_VALUE
+parsing TRANSFORM_ATTRIBUTE_V1 payload finished
+  20 bytes left, parsing recursively TRANSFORM_ATTRIBUTE_V1
+parsing TRANSFORM_ATTRIBUTE_V1 payload, 116 bytes left
+parsing payload from => 116 bytes @ 0x7f4fb4000c00
+ 80 02 00 02 80 04 00 02 80 03 00 01 80 0B 00 01  ................
+ 80 0C 0E 10 0D 00 00 0C 09 00 26 89 DF D6 B7 12  ..........&.....
+ 0D 00 00 14 AF CA D7 13 68 A1 F1 C9 6B 86 96 FC  ........h...k...
+ 77 57 01 00 0D 00 00 18 40 48 B7 D5 6E BC E8 85  wW......@H..n...
+ 25 E7 DE 7F 00 D6 C2 D3 80 00 00 00 0D 00 00 14  %...............
+ 4A 13 1C 81 07 03 58 45 5C 57 28 F2 0E 95 45 2F  J.....XE\W(...E/
+ 00 00 00 14 90 CB 80 91 3E BB 69 6E 08 63 81 B5  ........>.in.c..
+ EC 42 7B 1F                                      .B{.
+  parsing rule 0 ATTRIBUTE_FORMAT
+   => 1
+  parsing rule 1 ATTRIBUTE_TYPE
+   => 2
+  parsing rule 2 ATTRIBUTE_LENGTH_OR_VALUE
+   => 2
+  parsing rule 3 ATTRIBUTE_VALUE
+parsing TRANSFORM_ATTRIBUTE_V1 payload finished
+  16 bytes left, parsing recursively TRANSFORM_ATTRIBUTE_V1
+parsing TRANSFORM_ATTRIBUTE_V1 payload, 112 bytes left
+parsing payload from => 112 bytes @ 0x7f4fb4000c04
+ 80 04 00 02 80 03 00 01 80 0B 00 01 80 0C 0E 10  ................
+ 0D 00 00 0C 09 00 26 89 DF D6 B7 12 0D 00 00 14  ......&.........
+ AF CA D7 13 68 A1 F1 C9 6B 86 96 FC 77 57 01 00  ....h...k...wW..
+ 0D 00 00 18 40 48 B7 D5 6E BC E8 85 25 E7 DE 7F  ....@H..n...%...
+ 00 D6 C2 D3 80 00 00 00 0D 00 00 14 4A 13 1C 81  ............J...
+ 07 03 58 45 5C 57 28 F2 0E 95 45 2F 00 00 00 14  ..XE\W(...E/....
+ 90 CB 80 91 3E BB 69 6E 08 63 81 B5 EC 42 7B 1F  ....>.in.c...B{.
+  parsing rule 0 ATTRIBUTE_FORMAT
+   => 1
+  parsing rule 1 ATTRIBUTE_TYPE
+   => 4
+  parsing rule 2 ATTRIBUTE_LENGTH_OR_VALUE
+   => 2
+  parsing rule 3 ATTRIBUTE_VALUE
+parsing TRANSFORM_ATTRIBUTE_V1 payload finished
+  12 bytes left, parsing recursively TRANSFORM_ATTRIBUTE_V1
+parsing TRANSFORM_ATTRIBUTE_V1 payload, 108 bytes left
+parsing payload from => 108 bytes @ 0x7f4fb4000c08
+ 80 03 00 01 80 0B 00 01 80 0C 0E 10 0D 00 00 0C  ................
+ 09 00 26 89 DF D6 B7 12 0D 00 00 14 AF CA D7 13  ..&.............
+ 68 A1 F1 C9 6B 86 96 FC 77 57 01 00 0D 00 00 18  h...k...wW......
+ 40 48 B7 D5 6E BC E8 85 25 E7 DE 7F 00 D6 C2 D3  @H..n...%.......
+ 80 00 00 00 0D 00 00 14 4A 13 1C 81 07 03 58 45  ........J.....XE
+ 5C 57 28 F2 0E 95 45 2F 00 00 00 14 90 CB 80 91  \W(...E/........
+ 3E BB 69 6E 08 63 81 B5 EC 42 7B 1F              >.in.c...B{.
+  parsing rule 0 ATTRIBUTE_FORMAT
+   => 1
+  parsing rule 1 ATTRIBUTE_TYPE
+   => 3
+  parsing rule 2 ATTRIBUTE_LENGTH_OR_VALUE
+   => 1
+  parsing rule 3 ATTRIBUTE_VALUE
+parsing TRANSFORM_ATTRIBUTE_V1 payload finished
+  8 bytes left, parsing recursively TRANSFORM_ATTRIBUTE_V1
+parsing TRANSFORM_ATTRIBUTE_V1 payload, 104 bytes left
+parsing payload from => 104 bytes @ 0x7f4fb4000c0c
+ 80 0B 00 01 80 0C 0E 10 0D 00 00 0C 09 00 26 89  ..............&.
+ DF D6 B7 12 0D 00 00 14 AF CA D7 13 68 A1 F1 C9  ............h...
+ 6B 86 96 FC 77 57 01 00 0D 00 00 18 40 48 B7 D5  k...wW......@H..
+ 6E BC E8 85 25 E7 DE 7F 00 D6 C2 D3 80 00 00 00  n...%...........
+ 0D 00 00 14 4A 13 1C 81 07 03 58 45 5C 57 28 F2  ....J.....XE\W(.
+ 0E 95 45 2F 00 00 00 14 90 CB 80 91 3E BB 69 6E  ..E/........>.in
+ 08 63 81 B5 EC 42 7B 1F                          .c...B{.
+  parsing rule 0 ATTRIBUTE_FORMAT
+   => 1
+  parsing rule 1 ATTRIBUTE_TYPE
+   => 11
+  parsing rule 2 ATTRIBUTE_LENGTH_OR_VALUE
+   => 1
+  parsing rule 3 ATTRIBUTE_VALUE
+parsing TRANSFORM_ATTRIBUTE_V1 payload finished
+  4 bytes left, parsing recursively TRANSFORM_ATTRIBUTE_V1
+parsing TRANSFORM_ATTRIBUTE_V1 payload, 100 bytes left
+parsing payload from => 100 bytes @ 0x7f4fb4000c10
+ 80 0C 0E 10 0D 00 00 0C 09 00 26 89 DF D6 B7 12  ..........&.....
+ 0D 00 00 14 AF CA D7 13 68 A1 F1 C9 6B 86 96 FC  ........h...k...
+ 77 57 01 00 0D 00 00 18 40 48 B7 D5 6E BC E8 85  wW......@H..n...
+ 25 E7 DE 7F 00 D6 C2 D3 80 00 00 00 0D 00 00 14  %...............
+ 4A 13 1C 81 07 03 58 45 5C 57 28 F2 0E 95 45 2F  J.....XE\W(...E/
+ 00 00 00 14 90 CB 80 91 3E BB 69 6E 08 63 81 B5  ........>.in.c..
+ EC 42 7B 1F                                      .B{.
+  parsing rule 0 ATTRIBUTE_FORMAT
+   => 1
+  parsing rule 1 ATTRIBUTE_TYPE
+   => 12
+  parsing rule 2 ATTRIBUTE_LENGTH_OR_VALUE
+   => 3600
+  parsing rule 3 ATTRIBUTE_VALUE
+parsing TRANSFORM_ATTRIBUTE_V1 payload finished
+parsing TRANSFORM_SUBSTRUCTURE_V1 payload finished
+parsing PROPOSAL_SUBSTRUCTURE_V1 payload finished
+parsing SECURITY_ASSOCIATION_V1 payload finished
+verifying payload of type SECURITY_ASSOCIATION_V1
+SECURITY_ASSOCIATION_V1 payload verified, adding to payload list
+starting parsing a VENDOR_ID_V1 payload
+parsing VENDOR_ID_V1 payload, 96 bytes left
+parsing payload from => 96 bytes @ 0x7f4fb4000c14
+ 0D 00 00 0C 09 00 26 89 DF D6 B7 12 0D 00 00 14  ......&.........
+ AF CA D7 13 68 A1 F1 C9 6B 86 96 FC 77 57 01 00  ....h...k...wW..
+ 0D 00 00 18 40 48 B7 D5 6E BC E8 85 25 E7 DE 7F  ....@H..n...%...
+ 00 D6 C2 D3 80 00 00 00 0D 00 00 14 4A 13 1C 81  ............J...
+ 07 03 58 45 5C 57 28 F2 0E 95 45 2F 00 00 00 14  ..XE\W(...E/....
+ 90 CB 80 91 3E BB 69 6E 08 63 81 B5 EC 42 7B 1F  ....>.in.c...B{.
+  parsing rule 0 U_INT_8
+   => 13
+  parsing rule 1 FLAG
+   => 0
+  parsing rule 2 RESERVED_BIT
+   => 0
+  parsing rule 3 RESERVED_BIT
+   => 0
+  parsing rule 4 RESERVED_BIT
+   => 0
+  parsing rule 5 RESERVED_BIT
+   => 0
+  parsing rule 6 RESERVED_BIT
+   => 0
+  parsing rule 7 RESERVED_BIT
+   => 0
+  parsing rule 8 RESERVED_BIT
+   => 0
+  parsing rule 9 PAYLOAD_LENGTH
+   => 12
+  parsing rule 10 CHUNK_DATA
+   => 8 bytes @ 0x7f4fa80024f0
+ 09 00 26 89 DF D6 B7 12                          ..&.....
+parsing VENDOR_ID_V1 payload finished
+verifying payload of type VENDOR_ID_V1
+VENDOR_ID_V1 payload verified, adding to payload list
+starting parsing a VENDOR_ID_V1 payload
+parsing VENDOR_ID_V1 payload, 84 bytes left
+parsing payload from => 84 bytes @ 0x7f4fb4000c20
+ 0D 00 00 14 AF CA D7 13 68 A1 F1 C9 6B 86 96 FC  ........h...k...
+ 77 57 01 00 0D 00 00 18 40 48 B7 D5 6E BC E8 85  wW......@H..n...
+ 25 E7 DE 7F 00 D6 C2 D3 80 00 00 00 0D 00 00 14  %...............
+ 4A 13 1C 81 07 03 58 45 5C 57 28 F2 0E 95 45 2F  J.....XE\W(...E/
+ 00 00 00 14 90 CB 80 91 3E BB 69 6E 08 63 81 B5  ........>.in.c..
+ EC 42 7B 1F                                      .B{.
+  parsing rule 0 U_INT_8
+   => 13
+  parsing rule 1 FLAG
+   => 0
+  parsing rule 2 RESERVED_BIT
+   => 0
+  parsing rule 3 RESERVED_BIT
+   => 0
+  parsing rule 4 RESERVED_BIT
+   => 0
+  parsing rule 5 RESERVED_BIT
+   => 0
+  parsing rule 6 RESERVED_BIT
+   => 0
+  parsing rule 7 RESERVED_BIT
+   => 0
+  parsing rule 8 RESERVED_BIT
+   => 0
+  parsing rule 9 PAYLOAD_LENGTH
+   => 20
+  parsing rule 10 CHUNK_DATA
+   => 16 bytes @ 0x7f4fa80025b0
+ AF CA D7 13 68 A1 F1 C9 6B 86 96 FC 77 57 01 00  ....h...k...wW..
+parsing VENDOR_ID_V1 payload finished
+verifying payload of type VENDOR_ID_V1
+VENDOR_ID_V1 payload verified, adding to payload list
+starting parsing a VENDOR_ID_V1 payload
+parsing VENDOR_ID_V1 payload, 64 bytes left
+parsing payload from => 64 bytes @ 0x7f4fb4000c34
+ 0D 00 00 18 40 48 B7 D5 6E BC E8 85 25 E7 DE 7F  ....@H..n...%...
+ 00 D6 C2 D3 80 00 00 00 0D 00 00 14 4A 13 1C 81  ............J...
+ 07 03 58 45 5C 57 28 F2 0E 95 45 2F 00 00 00 14  ..XE\W(...E/....
+ 90 CB 80 91 3E BB 69 6E 08 63 81 B5 EC 42 7B 1F  ....>.in.c...B{.
+  parsing rule 0 U_INT_8
+   => 13
+  parsing rule 1 FLAG
+   => 0
+  parsing rule 2 RESERVED_BIT
+   => 0
+  parsing rule 3 RESERVED_BIT
+   => 0
+  parsing rule 4 RESERVED_BIT
+   => 0
+  parsing rule 5 RESERVED_BIT
+   => 0
+  parsing rule 6 RESERVED_BIT
+   => 0
+  parsing rule 7 RESERVED_BIT
+   => 0
+  parsing rule 8 RESERVED_BIT
+   => 0
+  parsing rule 9 PAYLOAD_LENGTH
+   => 24
+  parsing rule 10 CHUNK_DATA
+   => 20 bytes @ 0x7f4fa8002670
+ 40 48 B7 D5 6E BC E8 85 25 E7 DE 7F 00 D6 C2 D3  @H..n...%.......
+ 80 00 00 00                                      ....
+parsing VENDOR_ID_V1 payload finished
+verifying payload of type VENDOR_ID_V1
+VENDOR_ID_V1 payload verified, adding to payload list
+starting parsing a VENDOR_ID_V1 payload
+parsing VENDOR_ID_V1 payload, 40 bytes left
+parsing payload from => 40 bytes @ 0x7f4fb4000c4c
+ 0D 00 00 14 4A 13 1C 81 07 03 58 45 5C 57 28 F2  ....J.....XE\W(.
+ 0E 95 45 2F 00 00 00 14 90 CB 80 91 3E BB 69 6E  ..E/........>.in
+ 08 63 81 B5 EC 42 7B 1F                          .c...B{.
+  parsing rule 0 U_INT_8
+   => 13
+  parsing rule 1 FLAG
+   => 0
+  parsing rule 2 RESERVED_BIT
+   => 0
+  parsing rule 3 RESERVED_BIT
+   => 0
+  parsing rule 4 RESERVED_BIT
+   => 0
+  parsing rule 5 RESERVED_BIT
+   => 0
+  parsing rule 6 RESERVED_BIT
+   => 0
+  parsing rule 7 RESERVED_BIT
+   => 0
+  parsing rule 8 RESERVED_BIT
+   => 0
+  parsing rule 9 PAYLOAD_LENGTH
+   => 20
+  parsing rule 10 CHUNK_DATA
+   => 16 bytes @ 0x7f4fa8002730
+ 4A 13 1C 81 07 03 58 45 5C 57 28 F2 0E 95 45 2F  J.....XE\W(...E/
+parsing VENDOR_ID_V1 payload finished
+verifying payload of type VENDOR_ID_V1
+VENDOR_ID_V1 payload verified, adding to payload list
+starting parsing a VENDOR_ID_V1 payload
+parsing VENDOR_ID_V1 payload, 20 bytes left
+parsing payload from => 20 bytes @ 0x7f4fb4000c60
+ 00 00 00 14 90 CB 80 91 3E BB 69 6E 08 63 81 B5  ........>.in.c..
+ EC 42 7B 1F                                      .B{.
+  parsing rule 0 U_INT_8
+   => 0
+  parsing rule 1 FLAG
+   => 0
+  parsing rule 2 RESERVED_BIT
+   => 0
+  parsing rule 3 RESERVED_BIT
+   => 0
+  parsing rule 4 RESERVED_BIT
+   => 0
+  parsing rule 5 RESERVED_BIT
+   => 0
+  parsing rule 6 RESERVED_BIT
+   => 0
+  parsing rule 7 RESERVED_BIT
+   => 0
+  parsing rule 8 RESERVED_BIT
+   => 0
+  parsing rule 9 PAYLOAD_LENGTH
+   => 20
+  parsing rule 10 CHUNK_DATA
+   => 16 bytes @ 0x7f4fa80027f0
+ 90 CB 80 91 3E BB 69 6E 08 63 81 B5 EC 42 7B 1F  ....>.in.c...B{.
+parsing VENDOR_ID_V1 payload finished
+verifying payload of type VENDOR_ID_V1
+VENDOR_ID_V1 payload verified, adding to payload list
+process payload of type SECURITY_ASSOCIATION_V1
+process payload of type VENDOR_ID_V1
+process payload of type VENDOR_ID_V1
+process payload of type VENDOR_ID_V1
+process payload of type VENDOR_ID_V1
+process payload of type VENDOR_ID_V1
+verifying message structure
+found payload of type SECURITY_ASSOCIATION_V1
+found payload of type VENDOR_ID_V1
+found payload of type VENDOR_ID_V1
+found payload of type VENDOR_ID_V1
+found payload of type VENDOR_ID_V1
+found payload of type VENDOR_ID_V1
+parsed ID_PROT request 0 [ SA V V V V V ]
+parsed ID_PROT request 0 [ SA V V V V V ]
+received XAuth vendor ID
+received XAuth vendor ID
+received DPD vendor ID
+received DPD vendor ID
+received FRAGMENTATION vendor ID
+received FRAGMENTATION vendor ID
+received NAT-T (RFC 3947) vendor ID
+received NAT-T (RFC 3947) vendor ID
+received draft-ietf-ipsec-nat-t-ike-02\n vendor ID
+received draft-ietf-ipsec-nat-t-ike-02\n vendor ID
+192.168.0.100 is initiating a Main Mode IKE_SA
+192.168.0.100 is initiating a Main Mode IKE_SA
+ CREATED => CONNECTING
+sending XAuth vendor ID
+added payload of type VENDOR_ID_V1 to message
+sending DPD vendor ID
+added payload of type VENDOR_ID_V1 to message
+sending FRAGMENTATION vendor ID
+added payload of type VENDOR_ID_V1 to message
+sending NAT-T (RFC 3947) vendor ID
+added payload of type VENDOR_ID_V1 to message
+added payload of type SECURITY_ASSOCIATION_V1 to message
+order payloads in message
+added payload of type SECURITY_ASSOCIATION_V1 to message
+added payload of type VENDOR_ID_V1 to message
+added payload of type VENDOR_ID_V1 to message
+added payload of type VENDOR_ID_V1 to message
+added payload of type VENDOR_ID_V1 to message
+generating ID_PROT response 0 [ SA V V V V ]
+generating ID_PROT response 0 [ SA V V V V ]
+not encrypting payloads
+generating payload of type HEADER
+  generating rule 0 IKE_SPI
+   => 8 bytes @ 0x7f4fa80046c8
+ D3 B1 42 B4 07 1F 1B 52                          ..B....R
+  generating rule 1 IKE_SPI
+   => 8 bytes @ 0x7f4fa80046d0
+ E4 11 66 F6 01 5D A2 B5                          ..f..]..
+  generating rule 2 U_INT_8
+   => 1
+  generating rule 3 U_INT_4
+   => 21
+  generating rule 4 U_INT_4
+   => 16
+  generating rule 5 U_INT_8
+   => 2
+  generating rule 6 RESERVED_BIT
+   => 0
+  generating rule 7 RESERVED_BIT
+   => 0
+  generating rule 8 FLAG
+   => 0
+  generating rule 9 FLAG
+   => 0
+  generating rule 10 FLAG
+   => 0
+  generating rule 11 FLAG
+   => 0
+  generating rule 12 FLAG
+   => 0
+  generating rule 13 FLAG
+   => 0
+  generating rule 14 U_INT_32
+   => 4 bytes @ 0x7f4fd99a7894
+ 00 00 00 00                                      ....
+  generating rule 15 HEADER_LENGTH
+   => 4 bytes @ 0x7f4fd99a7894
+ 00 00 00 1C                                      ....
+generating HEADER payload finished
+generated data for this payload => 28 bytes @ 0x7f4fa8004320
+ D3 B1 42 B4 07 1F 1B 52 E4 11 66 F6 01 5D A2 B5  ..B....R..f..]..
+ 01 10 02 00 00 00 00 00 00 00 00 1C              ............
+generating payload of type SECURITY_ASSOCIATION_V1
+  generating rule 0 U_INT_8
+   => 13
+  generating rule 1 RESERVED_BIT
+   => 0
+  generating rule 2 RESERVED_BIT
+   => 0
+  generating rule 3 RESERVED_BIT
+   => 0
+  generating rule 4 RESERVED_BIT
+   => 0
+  generating rule 5 RESERVED_BIT
+   => 0
+  generating rule 6 RESERVED_BIT
+   => 0
+  generating rule 7 RESERVED_BIT
+   => 0
+  generating rule 8 RESERVED_BIT
+   => 0
+  generating rule 9 PAYLOAD_LENGTH
+   => 2 bytes @ 0x7f4fd99a7894
+ 00 38                                            .8
+  generating rule 10 U_INT_32
+   => 4 bytes @ 0x7f4fd99a7894
+ 00 00 00 01                                      ....
+  generating rule 11 U_INT_32
+   => 4 bytes @ 0x7f4fd99a7894
+ 00 00 00 01                                      ....
+  generating rule 12 (1259)
+generating payload of type PROPOSAL_SUBSTRUCTURE_V1
+  generating rule 0 U_INT_8
+   => 0
+  generating rule 1 RESERVED_BYTE
+   => 0
+  generating rule 2 PAYLOAD_LENGTH
+   => 2 bytes @ 0x7f4fd99a7824
+ 00 2C                                            .,
+  generating rule 3 U_INT_8
+   => 0
+  generating rule 4 U_INT_8
+   => 1
+  generating rule 5 SPI_SIZE
+   => 0
+  generating rule 6 U_INT_8
+   => 1
+  generating rule 7 SPI
+   => 0 bytes @ (nil)
+  generating rule 8 (1261)
+generating payload of type TRANSFORM_SUBSTRUCTURE_V1
+  generating rule 0 U_INT_8
+   => 0
+  generating rule 1 RESERVED_BYTE
+   => 0
+  generating rule 2 PAYLOAD_LENGTH
+   => 2 bytes @ 0x7f4fd99a77b4
+ 00 24                                            .$
+  generating rule 3 U_INT_8
+   => 1
+  generating rule 4 U_INT_8
+   => 1
+  generating rule 5 RESERVED_BYTE
+   => 0
+  generating rule 6 RESERVED_BYTE
+   => 0
+  generating rule 7 (1263)
+generating payload of type TRANSFORM_ATTRIBUTE_V1
+  generating rule 0 ATTRIBUTE_FORMAT
+   => 128
+  generating rule 1 ATTRIBUTE_TYPE
+   => 384
+  generating rule 2 ATTRIBUTE_LENGTH_OR_VALUE
+   => 2 bytes @ 0x7f4fd99a7744
+ 00 07                                            ..
+  generating rule 3 ATTRIBUTE_VALUE
+generating TRANSFORM_ATTRIBUTE_V1 payload finished
+generated data for this payload => 4 bytes @ 0x7f4fa8004358
+ 80 01 00 07                                      ....
+generating payload of type TRANSFORM_ATTRIBUTE_V1
+  generating rule 0 ATTRIBUTE_FORMAT
+   => 128
+  generating rule 1 ATTRIBUTE_TYPE
+   => 3712
+  generating rule 2 ATTRIBUTE_LENGTH_OR_VALUE
+   => 2 bytes @ 0x7f4fd99a7744
+ 00 80                                            ..
+  generating rule 3 ATTRIBUTE_VALUE
+generating TRANSFORM_ATTRIBUTE_V1 payload finished
+generated data for this payload => 4 bytes @ 0x7f4fa800435c
+ 80 0E 00 80                                      ....
+generating payload of type TRANSFORM_ATTRIBUTE_V1
+  generating rule 0 ATTRIBUTE_FORMAT
+   => 128
+  generating rule 1 ATTRIBUTE_TYPE
+   => 640
+  generating rule 2 ATTRIBUTE_LENGTH_OR_VALUE
+   => 2 bytes @ 0x7f4fd99a7744
+ 00 02                                            ..
+  generating rule 3 ATTRIBUTE_VALUE
+generating TRANSFORM_ATTRIBUTE_V1 payload finished
+generated data for this payload => 4 bytes @ 0x7f4fa8004360
+ 80 02 00 02                                      ....
+generating payload of type TRANSFORM_ATTRIBUTE_V1
+  generating rule 0 ATTRIBUTE_FORMAT
+   => 128
+  generating rule 1 ATTRIBUTE_TYPE
+   => 1152
+  generating rule 2 ATTRIBUTE_LENGTH_OR_VALUE
+   => 2 bytes @ 0x7f4fd99a7744
+ 00 02                                            ..
+  generating rule 3 ATTRIBUTE_VALUE
+generating TRANSFORM_ATTRIBUTE_V1 payload finished
+generated data for this payload => 4 bytes @ 0x7f4fa8004364
+ 80 04 00 02                                      ....
+generating payload of type TRANSFORM_ATTRIBUTE_V1
+  generating rule 0 ATTRIBUTE_FORMAT
+   => 128
+  generating rule 1 ATTRIBUTE_TYPE
+   => 896
+  generating rule 2 ATTRIBUTE_LENGTH_OR_VALUE
+   => 2 bytes @ 0x7f4fd99a7744
+ 00 01                                            ..
+  generating rule 3 ATTRIBUTE_VALUE
+generating TRANSFORM_ATTRIBUTE_V1 payload finished
+generated data for this payload => 4 bytes @ 0x7f4fa8004368
+ 80 03 00 01                                      ....
+generating payload of type TRANSFORM_ATTRIBUTE_V1
+  generating rule 0 ATTRIBUTE_FORMAT
+   => 128
+  generating rule 1 ATTRIBUTE_TYPE
+   => 2944
+  generating rule 2 ATTRIBUTE_LENGTH_OR_VALUE
+   => 2 bytes @ 0x7f4fd99a7744
+ 00 01                                            ..
+  generating rule 3 ATTRIBUTE_VALUE
+generating TRANSFORM_ATTRIBUTE_V1 payload finished
+generated data for this payload => 4 bytes @ 0x7f4fa800436c
+ 80 0B 00 01                                      ....
+generating payload of type TRANSFORM_ATTRIBUTE_V1
+  generating rule 0 ATTRIBUTE_FORMAT
+   => 128
+  generating rule 1 ATTRIBUTE_TYPE
+   => 3200
+  generating rule 2 ATTRIBUTE_LENGTH_OR_VALUE
+   => 2 bytes @ 0x7f4fd99a7744
+ 0E 10                                            ..
+  generating rule 3 ATTRIBUTE_VALUE
+generating TRANSFORM_ATTRIBUTE_V1 payload finished
+generated data for this payload => 4 bytes @ 0x7f4fa8004370
+ 80 0C 0E 10                                      ....
+generating TRANSFORM_SUBSTRUCTURE_V1 payload finished
+generated data for this payload => 36 bytes @ 0x7f4fa8004350
+ 00 00 00 24 01 01 00 00 80 01 00 07 80 0E 00 80  ...$............
+ 80 02 00 02 80 04 00 02 80 03 00 01 80 0B 00 01  ................
+ 80 0C 0E 10                                      ....
+generating PROPOSAL_SUBSTRUCTURE_V1 payload finished
+generated data for this payload => 44 bytes @ 0x7f4fa8004348
+ 00 00 00 2C 00 01 00 01 00 00 00 24 01 01 00 00  ...,.......$....
+ 80 01 00 07 80 0E 00 80 80 02 00 02 80 04 00 02  ................
+ 80 03 00 01 80 0B 00 01 80 0C 0E 10              ............
+generating SECURITY_ASSOCIATION_V1 payload finished
+generated data for this payload => 56 bytes @ 0x7f4fa800433c
+ 0D 00 00 38 00 00 00 01 00 00 00 01 00 00 00 2C  ...8...........,
+ 00 01 00 01 00 00 00 24 01 01 00 00 80 01 00 07  .......$........
+ 80 0E 00 80 80 02 00 02 80 04 00 02 80 03 00 01  ................
+ 80 0B 00 01 80 0C 0E 10                          ........
+generating payload of type VENDOR_ID_V1
+  generating rule 0 U_INT_8
+   => 13
+  generating rule 1 FLAG
+   => 0
+  generating rule 2 RESERVED_BIT
+   => 0
+  generating rule 3 RESERVED_BIT
+   => 0
+  generating rule 4 RESERVED_BIT
+   => 0
+  generating rule 5 RESERVED_BIT
+   => 0
+  generating rule 6 RESERVED_BIT
+   => 0
+  generating rule 7 RESERVED_BIT
+   => 0
+  generating rule 8 RESERVED_BIT
+   => 0
+  generating rule 9 PAYLOAD_LENGTH
+   => 2 bytes @ 0x7f4fd99a7894
+ 00 0C                                            ..
+  generating rule 10 CHUNK_DATA
+   => 8 bytes @ 0x7f4fa8003010
+ 09 00 26 89 DF D6 B7 12                          ..&.....
+generating VENDOR_ID_V1 payload finished
+generated data for this payload => 12 bytes @ 0x7f4fa8004374
+ 0D 00 00 0C 09 00 26 89 DF D6 B7 12              ......&.....
+generating payload of type VENDOR_ID_V1
+  generating rule 0 U_INT_8
+   => 13
+  generating rule 1 FLAG
+   => 0
+  generating rule 2 RESERVED_BIT
+   => 0
+  generating rule 3 RESERVED_BIT
+   => 0
+  generating rule 4 RESERVED_BIT
+   => 0
+  generating rule 5 RESERVED_BIT
+   => 0
+  generating rule 6 RESERVED_BIT
+   => 0
+  generating rule 7 RESERVED_BIT
+   => 0
+  generating rule 8 RESERVED_BIT
+   => 0
+  generating rule 9 PAYLOAD_LENGTH
+   => 2 bytes @ 0x7f4fd99a7894
+ 00 14                                            ..
+  generating rule 10 CHUNK_DATA
+   => 16 bytes @ 0x7f4fa8002fb0
+ AF CA D7 13 68 A1 F1 C9 6B 86 96 FC 77 57 01 00  ....h...k...wW..
+generating VENDOR_ID_V1 payload finished
+generated data for this payload => 20 bytes @ 0x7f4fa8004380
+ 0D 00 00 14 AF CA D7 13 68 A1 F1 C9 6B 86 96 FC  ........h...k...
+ 77 57 01 00                                      wW..
+generating payload of type VENDOR_ID_V1
+  generating rule 0 U_INT_8
+   => 13
+  generating rule 1 FLAG
+   => 0
+  generating rule 2 RESERVED_BIT
+   => 0
+  generating rule 3 RESERVED_BIT
+   => 0
+  generating rule 4 RESERVED_BIT
+   => 0
+  generating rule 5 RESERVED_BIT
+   => 0
+  generating rule 6 RESERVED_BIT
+   => 0
+  generating rule 7 RESERVED_BIT
+   => 0
+  generating rule 8 RESERVED_BIT
+   => 0
+  generating rule 9 PAYLOAD_LENGTH
+   => 2 bytes @ 0x7f4fd99a7894
+ 00 18                                            ..
+  generating rule 10 CHUNK_DATA
+   => 20 bytes @ 0x7f4fa80010f0
+ 40 48 B7 D5 6E BC E8 85 25 E7 DE 7F 00 D6 C2 D3  @H..n...%.......
+ 80 00 00 00                                      ....
+generating VENDOR_ID_V1 payload finished
+generated data for this payload => 24 bytes @ 0x7f4fa8004394
+ 0D 00 00 18 40 48 B7 D5 6E BC E8 85 25 E7 DE 7F  ....@H..n...%...
+ 00 D6 C2 D3 80 00 00 00                          ........
+generating payload of type VENDOR_ID_V1
+  generating rule 0 U_INT_8
+   => 0
+  generating rule 1 FLAG
+   => 0
+  generating rule 2 RESERVED_BIT
+   => 0
+  generating rule 3 RESERVED_BIT
+   => 0
+  generating rule 4 RESERVED_BIT
+   => 0
+  generating rule 5 RESERVED_BIT
+   => 0
+  generating rule 6 RESERVED_BIT
+   => 0
+  generating rule 7 RESERVED_BIT
+   => 0
+  generating rule 8 RESERVED_BIT
+   => 0
+  generating rule 9 PAYLOAD_LENGTH
+   => 2 bytes @ 0x7f4fd99a7894
+ 00 14                                            ..
+  generating rule 10 CHUNK_DATA
+   => 16 bytes @ 0x7f4fa8002eb0
+ 4A 13 1C 81 07 03 58 45 5C 57 28 F2 0E 95 45 2F  J.....XE\W(...E/
+generating VENDOR_ID_V1 payload finished
+generated data for this payload => 20 bytes @ 0x7f4fa80043ac
+ 00 00 00 14 4A 13 1C 81 07 03 58 45 5C 57 28 F2  ....J.....XE\W(.
+ 0E 95 45 2F                                      ..E/
+generated data of this generator => 160 bytes @ 0x7f4fa8004320
+ D3 B1 42 B4 07 1F 1B 52 E4 11 66 F6 01 5D A2 B5  ..B....R..f..]..
+ 01 10 02 00 00 00 00 00 00 00 00 1C 0D 00 00 38  ...............8
+ 00 00 00 01 00 00 00 01 00 00 00 2C 00 01 00 01  ...........,....
+ 00 00 00 24 01 01 00 00 80 01 00 07 80 0E 00 80  ...$............
+ 80 02 00 02 80 04 00 02 80 03 00 01 80 0B 00 01  ................
+ 80 0C 0E 10 0D 00 00 0C 09 00 26 89 DF D6 B7 12  ..........&.....
+ 0D 00 00 14 AF CA D7 13 68 A1 F1 C9 6B 86 96 FC  ........h...k...
+ 77 57 01 00 0D 00 00 18 40 48 B7 D5 6E BC E8 85  wW......@H..n...
+ 25 E7 DE 7F 00 D6 C2 D3 80 00 00 00 00 00 00 14  %...............
+ 4A 13 1C 81 07 03 58 45 5C 57 28 F2 0E 95 45 2F  J.....XE\W(...E/
+generated data of this generator => 160 bytes @ 0x7f4fa8004320
+ D3 B1 42 B4 07 1F 1B 52 E4 11 66 F6 01 5D A2 B5  ..B....R..f..]..
+ 01 10 02 00 00 00 00 00 00 00 00 1C 0D 00 00 38  ...............8
+ 00 00 00 01 00 00 00 01 00 00 00 2C 00 01 00 01  ...........,....
+ 00 00 00 24 01 01 00 00 80 01 00 07 80 0E 00 80  ...$............
+ 80 02 00 02 80 04 00 02 80 03 00 01 80 0B 00 01  ................
+ 80 0C 0E 10 0D 00 00 0C 09 00 26 89 DF D6 B7 12  ..........&.....
+ 0D 00 00 14 AF CA D7 13 68 A1 F1 C9 6B 86 96 FC  ........h...k...
+ 77 57 01 00 0D 00 00 18 40 48 B7 D5 6E BC E8 85  wW......@H..n...
+ 25 E7 DE 7F 00 D6 C2 D3 80 00 00 00 00 00 00 14  %...............
+ 4A 13 1C 81 07 03 58 45 5C 57 28 F2 0E 95 45 2F  J.....XE\W(...E/
+ from 192.168.0.101[500] to 192.168.0.100[500] (160 bytes)
+ from 192.168.0.101[500] to 192.168.0.100[500] (160 bytes)
+parsing header of message
+parsing HEADER payload, 244 bytes left
+parsing payload from => 244 bytes @ 0x7f4fb40012e0
+ D3 B1 42 B4 07 1F 1B 52 E4 11 66 F6 01 5D A2 B5  ..B....R..f..]..
+ 04 10 02 00 00 00 00 00 00 00 00 F4 0A 00 00 84  ................
+ 06 C6 E1 8C F8 C8 32 33 33 72 4F 12 8E 71 10 AE  ......233rO..q..
+ 0C 75 A1 B7 4F CA C3 00 3A A0 B9 31 9C 05 0A EA  .u..O...:..1....
+ E2 1C 70 4A 84 D0 78 8E F7 40 32 CF 65 99 49 CE  ..pJ..x..@2.e.I.
+ 82 64 0B 92 17 B9 43 37 14 DE 78 66 08 E4 5D DA  .d....C7..xf..].
+ EA 90 5B 62 8B 13 EF 1F D1 DB 26 4B D0 FC 92 F0  ..[b......&K....
+ B6 D0 B6 F6 58 15 5E 67 00 A5 A4 0D 18 10 6D 4F  ....X.^g......mO
+ 48 7F F6 BA CE 53 E7 A3 77 84 09 95 F5 BE 9A F3  H....S..w.......
+ F8 EF 40 7D DC F8 8E 99 77 A6 05 65 FA 3B F1 A3  ..@}....w..e.;..
+ 14 00 00 24 D3 AC 98 67 8F 2A AB 28 44 32 C0 64  ...$...g.*.(D2.d
+ 7A D5 13 DE 8E 1D 12 98 E8 FF 5D E2 C1 ED F9 BD  z.........].....
+ 27 54 27 E0 14 00 00 18 C0 20 5A 57 03 F3 ED D3  'T'...... ZW....
+ 6D 6B AE D0 60 25 6C 02 8C F0 21 20 00 00 00 18  mk..`%l...! ....
+ BD A4 7B 55 49 E6 07 13 2C D6 76 F8 D1 06 E8 05  ..{UI...,.v.....
+ 8C 26 CF AF                                      .&..
+  parsing rule 0 IKE_SPI
+   => 8 bytes @ 0x7f4fb4000b18
+ D3 B1 42 B4 07 1F 1B 52                          ..B....R
+  parsing rule 1 IKE_SPI
+   => 8 bytes @ 0x7f4fb4000b20
+ E4 11 66 F6 01 5D A2 B5                          ..f..]..
+  parsing rule 2 U_INT_8
+   => 4
+  parsing rule 3 U_INT_4
+   => 1
+  parsing rule 4 U_INT_4
+   => 0
+  parsing rule 5 U_INT_8
+   => 2
+  parsing rule 6 RESERVED_BIT
+   => 0
+  parsing rule 7 RESERVED_BIT
+   => 0
+  parsing rule 8 FLAG
+   => 0
+  parsing rule 9 FLAG
+   => 0
+  parsing rule 10 FLAG
+   => 0
+  parsing rule 11 FLAG
+   => 0
+  parsing rule 12 FLAG
+   => 0
+  parsing rule 13 FLAG
+   => 0
+  parsing rule 14 U_INT_32
+   => 0
+  parsing rule 15 HEADER_LENGTH
+   => 244
+parsing HEADER payload finished
+parsed a ID_PROT message header
+ from 192.168.0.100[500] to 192.168.0.101[500] (244 bytes)
+ from 192.168.0.100[500] to 192.168.0.101[500] (244 bytes)
+parsing body of message, first payload is KEY_EXCHANGE_V1
+starting parsing a KEY_EXCHANGE_V1 payload
+parsing KEY_EXCHANGE_V1 payload, 216 bytes left
+parsing payload from => 216 bytes @ 0x7f4fb40012fc
+ 0A 00 00 84 06 C6 E1 8C F8 C8 32 33 33 72 4F 12  ..........233rO.
+ 8E 71 10 AE 0C 75 A1 B7 4F CA C3 00 3A A0 B9 31  .q...u..O...:..1
+ 9C 05 0A EA E2 1C 70 4A 84 D0 78 8E F7 40 32 CF  ......pJ..x..@2.
+ 65 99 49 CE 82 64 0B 92 17 B9 43 37 14 DE 78 66  e.I..d....C7..xf
+ 08 E4 5D DA EA 90 5B 62 8B 13 EF 1F D1 DB 26 4B  ..]...[b......&K
+ D0 FC 92 F0 B6 D0 B6 F6 58 15 5E 67 00 A5 A4 0D  ........X.^g....
+ 18 10 6D 4F 48 7F F6 BA CE 53 E7 A3 77 84 09 95  ..mOH....S..w...
+ F5 BE 9A F3 F8 EF 40 7D DC F8 8E 99 77 A6 05 65  ......@}....w..e
+ FA 3B F1 A3 14 00 00 24 D3 AC 98 67 8F 2A AB 28  .;.....$...g.*.(
+ 44 32 C0 64 7A D5 13 DE 8E 1D 12 98 E8 FF 5D E2  D2.dz.........].
+ C1 ED F9 BD 27 54 27 E0 14 00 00 18 C0 20 5A 57  ....'T'...... ZW
+ 03 F3 ED D3 6D 6B AE D0 60 25 6C 02 8C F0 21 20  ....mk..`%l...!
+ 00 00 00 18 BD A4 7B 55 49 E6 07 13 2C D6 76 F8  ......{UI...,.v.
+ D1 06 E8 05 8C 26 CF AF                          .....&..
+  parsing rule 0 U_INT_8
+   => 10
+  parsing rule 1 RESERVED_BYTE
+   => 0
+  parsing rule 2 PAYLOAD_LENGTH
+   => 132
+  parsing rule 3 CHUNK_DATA
+   => 128 bytes @ 0x7f4f9c000990
+ 06 C6 E1 8C F8 C8 32 33 33 72 4F 12 8E 71 10 AE  ......233rO..q..
+ 0C 75 A1 B7 4F CA C3 00 3A A0 B9 31 9C 05 0A EA  .u..O...:..1....
+ E2 1C 70 4A 84 D0 78 8E F7 40 32 CF 65 99 49 CE  ..pJ..x..@2.e.I.
+ 82 64 0B 92 17 B9 43 37 14 DE 78 66 08 E4 5D DA  .d....C7..xf..].
+ EA 90 5B 62 8B 13 EF 1F D1 DB 26 4B D0 FC 92 F0  ..[b......&K....
+ B6 D0 B6 F6 58 15 5E 67 00 A5 A4 0D 18 10 6D 4F  ....X.^g......mO
+ 48 7F F6 BA CE 53 E7 A3 77 84 09 95 F5 BE 9A F3  H....S..w.......
+ F8 EF 40 7D DC F8 8E 99 77 A6 05 65 FA 3B F1 A3  ..@}....w..e.;..
+parsing KEY_EXCHANGE_V1 payload finished
+verifying payload of type KEY_EXCHANGE_V1
+KEY_EXCHANGE_V1 payload verified, adding to payload list
+starting parsing a NONCE_V1 payload
+parsing NONCE_V1 payload, 84 bytes left
+parsing payload from => 84 bytes @ 0x7f4fb4001380
+ 14 00 00 24 D3 AC 98 67 8F 2A AB 28 44 32 C0 64  ...$...g.*.(D2.d
+ 7A D5 13 DE 8E 1D 12 98 E8 FF 5D E2 C1 ED F9 BD  z.........].....
+ 27 54 27 E0 14 00 00 18 C0 20 5A 57 03 F3 ED D3  'T'...... ZW....
+ 6D 6B AE D0 60 25 6C 02 8C F0 21 20 00 00 00 18  mk..`%l...! ....
+ BD A4 7B 55 49 E6 07 13 2C D6 76 F8 D1 06 E8 05  ..{UI...,.v.....
+ 8C 26 CF AF                                      .&..
+  parsing rule 0 U_INT_8
+   => 20
+  parsing rule 1 FLAG
+   => 0
+  parsing rule 2 RESERVED_BIT
+   => 0
+  parsing rule 3 RESERVED_BIT
+   => 0
+  parsing rule 4 RESERVED_BIT
+   => 0
+  parsing rule 5 RESERVED_BIT
+   => 0
+  parsing rule 6 RESERVED_BIT
+   => 0
+  parsing rule 7 RESERVED_BIT
+   => 0
+  parsing rule 8 RESERVED_BIT
+   => 0
+  parsing rule 9 PAYLOAD_LENGTH
+   => 36
+  parsing rule 10 CHUNK_DATA
+   => 32 bytes @ 0x7f4f9c000ad0
+ D3 AC 98 67 8F 2A AB 28 44 32 C0 64 7A D5 13 DE  ...g.*.(D2.dz...
+ 8E 1D 12 98 E8 FF 5D E2 C1 ED F9 BD 27 54 27 E0  ......].....'T'.
+parsing NONCE_V1 payload finished
+verifying payload of type NONCE_V1
+NONCE_V1 payload verified, adding to payload list
+starting parsing a NAT_D_V1 payload
+parsing NAT_D_V1 payload, 48 bytes left
+parsing payload from => 48 bytes @ 0x7f4fb40013a4
+ 14 00 00 18 C0 20 5A 57 03 F3 ED D3 6D 6B AE D0  ..... ZW....mk..
+ 60 25 6C 02 8C F0 21 20 00 00 00 18 BD A4 7B 55  `%l...! ......{U
+ 49 E6 07 13 2C D6 76 F8 D1 06 E8 05 8C 26 CF AF  I...,.v......&..
+  parsing rule 0 U_INT_8
+   => 20
+  parsing rule 1 RESERVED_BYTE
+   => 0
+  parsing rule 2 PAYLOAD_LENGTH
+   => 24
+  parsing rule 3 CHUNK_DATA
+   => 20 bytes @ 0x7f4f9c000ba0
+ C0 20 5A 57 03 F3 ED D3 6D 6B AE D0 60 25 6C 02  . ZW....mk..`%l.
+ 8C F0 21 20                                      ..!
+parsing NAT_D_V1 payload finished
+verifying payload of type NAT_D_V1
+NAT_D_V1 payload verified, adding to payload list
+starting parsing a NAT_D_V1 payload
+parsing NAT_D_V1 payload, 24 bytes left
+parsing payload from => 24 bytes @ 0x7f4fb40013bc
+ 00 00 00 18 BD A4 7B 55 49 E6 07 13 2C D6 76 F8  ......{UI...,.v.
+ D1 06 E8 05 8C 26 CF AF                          .....&..
+  parsing rule 0 U_INT_8
+   => 0
+  parsing rule 1 RESERVED_BYTE
+   => 0
+  parsing rule 2 PAYLOAD_LENGTH
+   => 24
+  parsing rule 3 CHUNK_DATA
+   => 20 bytes @ 0x7f4f9c000c60
+ BD A4 7B 55 49 E6 07 13 2C D6 76 F8 D1 06 E8 05  ..{UI...,.v.....
+ 8C 26 CF AF                                      .&..
+parsing NAT_D_V1 payload finished
+verifying payload of type NAT_D_V1
+NAT_D_V1 payload verified, adding to payload list
+process payload of type KEY_EXCHANGE_V1
+process payload of type NONCE_V1
+process payload of type NAT_D_V1
+process payload of type NAT_D_V1
+verifying message structure
+found payload of type KEY_EXCHANGE_V1
+found payload of type NONCE_V1
+found payload of type NAT_D_V1
+found payload of type NAT_D_V1
+parsed ID_PROT request 0 [ KE No NAT-D NAT-D ]
+parsed ID_PROT request 0 [ KE No NAT-D NAT-D ]
+natd_chunk => 22 bytes @ 0x7f4fd69a1b90
+ D3 B1 42 B4 07 1F 1B 52 E4 11 66 F6 01 5D A2 B5  ..B....R..f..]..
+ C0 A8 00 65 01 F4                                ...e..
+natd_hash => 20 bytes @ 0x7f4f9c001b10
+ C0 20 5A 57 03 F3 ED D3 6D 6B AE D0 60 25 6C 02  . ZW....mk..`%l.
+ 8C F0 21 20                                      ..!
+natd_chunk => 22 bytes @ 0x7f4fd69a1b90
+ D3 B1 42 B4 07 1F 1B 52 E4 11 66 F6 01 5D A2 B5  ..B....R..f..]..
+ C0 A8 00 64 01 F4                                ...d..
+natd_hash => 20 bytes @ 0x7f4f9c000ff0
+ BD A4 7B 55 49 E6 07 13 2C D6 76 F8 D1 06 E8 05  ..{UI...,.v.....
+ 8C 26 CF AF                                      .&..
+precalculated src_hash => 20 bytes @ 0x7f4f9c000ff0
+ BD A4 7B 55 49 E6 07 13 2C D6 76 F8 D1 06 E8 05  ..{UI...,.v.....
+ 8C 26 CF AF                                      .&..
+precalculated dst_hash => 20 bytes @ 0x7f4f9c001b10
+ C0 20 5A 57 03 F3 ED D3 6D 6B AE D0 60 25 6C 02  . ZW....mk..`%l.
+ 8C F0 21 20                                      ..!
+received dst_hash => 20 bytes @ 0x7f4f9c000ba0
+ C0 20 5A 57 03 F3 ED D3 6D 6B AE D0 60 25 6C 02  . ZW....mk..`%l.
+ 8C F0 21 20                                      ..!
+received src_hash => 20 bytes @ 0x7f4f9c000c60
+ BD A4 7B 55 49 E6 07 13 2C D6 76 F8 D1 06 E8 05  ..{UI...,.v.....
+ 8C 26 CF AF                                      .&..
+added payload of type KEY_EXCHANGE_V1 to message
+added payload of type NONCE_V1 to message
+shared Diffie Hellman secret => 128 bytes @ 0x7f4f9c002df0
+ EF C1 05 22 BF FE 40 10 AC 90 1E 4B 2F 7D EA 15  ..."..@....K/}..
+ 5B 43 8A ED C4 0A 39 FD 4D 5F B8 26 19 DD 13 DA  [C....9.M_.&....
+ 54 93 DB 1D EE 00 F7 49 EC 03 2A 0B 7F 5B DA CD  T......I..*..[..
+ 9F 6D F3 06 0F 60 F8 41 99 AD 17 A9 81 8F 8C B9  .m...`.A........
+ 70 F7 25 51 DC EF A7 55 C2 5C 62 23 BD 07 67 8A  p.%Q...U.\b#..g.
+ E4 9A 82 41 44 BD 3E 1A 21 06 BB D0 39 85 0D 00  ...AD.>.!...9...
+ 0C 0A 5E CF CF 22 06 5D E2 BE 7D 9A 36 CB 89 C9  ..^..".]..}.6...
+ 4E 99 A0 48 6B B4 9A A1 06 92 38 1A 4E 63 4C 96  N..Hk.....8.NcL.
+SKEYID => 20 bytes @ 0x7f4f9c002ef0
+ 6C 3F C0 70 EC 7E 3A E4 3A 8A 58 A8 D8 FF C6 2C  l?.p.~:.:.X....,
+ 9C D8 11 8B                                      ....
+SKEYID_d => 20 bytes @ 0x7f4f9c002fb0
+ 96 39 9B 08 C4 4E D4 69 17 0B 28 1A 62 D7 9F 27  .9...N.i..(.b..'
+ 6A B1 FB 72                                      j..r
+SKEYID_a => 20 bytes @ 0x7f4f9c003080
+ E3 F7 D3 85 25 78 80 A4 22 75 3C C3 67 1B 0E 30  ....%x.."u<.g..0
+ 96 1B 13 13                                      ....
+SKEYID_e => 20 bytes @ 0x7f4f9c0019c0
+ BB EF E4 90 10 39 51 82 F9 2E 24 B7 C8 E5 BD 1E  .....9Q...$.....
+ 14 1F 91 39                                      ...9
+encryption key Ka => 16 bytes @ 0x7f4f9c0019c0
+ BB EF E4 90 10 39 51 82 F9 2E 24 B7 C8 E5 BD 1E  .....9Q...$.....
+initial IV => 16 bytes @ 0x7f4f9c001e40
+ 33 BB 83 0B A1 0F E6 8E 5B B5 EE 40 42 00 B5 A5  3.......[..@B...
+natd_chunk => 22 bytes @ 0x7f4fd69a1ba0
+ D3 B1 42 B4 07 1F 1B 52 E4 11 66 F6 01 5D A2 B5  ..B....R..f..]..
+ C0 A8 00 64 01 F4                                ...d..
+natd_hash => 20 bytes @ 0x7f4f9c001ee0
+ BD A4 7B 55 49 E6 07 13 2C D6 76 F8 D1 06 E8 05  ..{UI...,.v.....
+ 8C 26 CF AF                                      .&..
+added payload of type NAT_D_V1 to message
+natd_chunk => 22 bytes @ 0x7f4fd69a1ba0
+ D3 B1 42 B4 07 1F 1B 52 E4 11 66 F6 01 5D A2 B5  ..B....R..f..]..
+ C0 A8 00 65 01 F4                                ...e..
+natd_hash => 20 bytes @ 0x7f4f9c002ef0
+ C0 20 5A 57 03 F3 ED D3 6D 6B AE D0 60 25 6C 02  . ZW....mk..`%l.
+ 8C F0 21 20                                      ..!
+added payload of type NAT_D_V1 to message
+order payloads in message
+added payload of type KEY_EXCHANGE_V1 to message
+added payload of type NONCE_V1 to message
+added payload of type NAT_D_V1 to message
+added payload of type NAT_D_V1 to message
+generating ID_PROT response 0 [ KE No NAT-D NAT-D ]
+generating ID_PROT response 0 [ KE No NAT-D NAT-D ]
+not encrypting payloads
+generating payload of type HEADER
+  generating rule 0 IKE_SPI
+   => 8 bytes @ 0x7f4f9c0037a8
+ D3 B1 42 B4 07 1F 1B 52                          ..B....R
+  generating rule 1 IKE_SPI
+   => 8 bytes @ 0x7f4f9c0037b0
+ E4 11 66 F6 01 5D A2 B5                          ..f..]..
+  generating rule 2 U_INT_8
+   => 4
+  generating rule 3 U_INT_4
+   => 16
+  generating rule 4 U_INT_4
+   => 16
+  generating rule 5 U_INT_8
+   => 2
+  generating rule 6 RESERVED_BIT
+   => 0
+  generating rule 7 RESERVED_BIT
+   => 0
+  generating rule 8 FLAG
+   => 0
+  generating rule 9 FLAG
+   => 0
+  generating rule 10 FLAG
+   => 0
+  generating rule 11 FLAG
+   => 0
+  generating rule 12 FLAG
+   => 0
+  generating rule 13 FLAG
+   => 0
+  generating rule 14 U_INT_32
+   => 4 bytes @ 0x7f4fd69a1894
+ 00 00 00 00                                      ....
+  generating rule 15 HEADER_LENGTH
+   => 4 bytes @ 0x7f4fd69a1894
+ 00 00 00 1C                                      ....
+generating HEADER payload finished
+generated data for this payload => 28 bytes @ 0x7f4f9c0038e0
+ D3 B1 42 B4 07 1F 1B 52 E4 11 66 F6 01 5D A2 B5  ..B....R..f..]..
+ 04 10 02 00 00 00 00 00 00 00 00 1C              ............
+generating payload of type KEY_EXCHANGE_V1
+  generating rule 0 U_INT_8
+   => 10
+  generating rule 1 RESERVED_BYTE
+   => 0
+  generating rule 2 PAYLOAD_LENGTH
+   => 2 bytes @ 0x7f4fd69a1894
+ 00 84                                            ..
+  generating rule 3 CHUNK_DATA
+   => 128 bytes @ 0x7f4f9c0012b0
+ 5F 50 30 D4 82 79 4A 02 83 C9 6A B2 0D A6 CF 7F  _P0..yJ...j.....
+ 38 40 E0 B4 4A 3A 10 B7 8B EB 69 8F E7 F0 B6 38  8@..J:....i....8
+ 15 00 FB 16 2D F7 0A C4 F9 F4 C4 73 AF 4A 67 FE  ....-......s.Jg.
+ EA 5C 95 B2 9D BE F7 65 A5 D1 66 97 AF 8B BD 60  .\.....e..f....`
+ 88 54 93 46 0B 16 02 2A 9D 22 B3 BE 97 54 40 27  .T.F...*."...T@'
+ CE 16 13 7C FD 86 D2 C5 9D 1E 3C 7D 57 F2 BE 91  ...|......<}W...
+ 27 DD F8 3F C7 EE 55 3C 9C 27 32 6A 83 B2 C2 1E  '..?..U<.'2j....
+ E7 62 F9 4A D5 22 AA 64 03 A7 99 93 35 FF 33 16  .b.J.".d....5.3.
+generating KEY_EXCHANGE_V1 payload finished
+generated data for this payload => 132 bytes @ 0x7f4f9c0038fc
+ 0A 00 00 84 5F 50 30 D4 82 79 4A 02 83 C9 6A B2  ...._P0..yJ...j.
+ 0D A6 CF 7F 38 40 E0 B4 4A 3A 10 B7 8B EB 69 8F  ....8@..J:....i.
+ E7 F0 B6 38 15 00 FB 16 2D F7 0A C4 F9 F4 C4 73  ...8....-......s
+ AF 4A 67 FE EA 5C 95 B2 9D BE F7 65 A5 D1 66 97  .Jg..\.....e..f.
+ AF 8B BD 60 88 54 93 46 0B 16 02 2A 9D 22 B3 BE  ...`.T.F...*."..
+ 97 54 40 27 CE 16 13 7C FD 86 D2 C5 9D 1E 3C 7D  .T@'...|......<}
+ 57 F2 BE 91 27 DD F8 3F C7 EE 55 3C 9C 27 32 6A  W...'..?..U<.'2j
+ 83 B2 C2 1E E7 62 F9 4A D5 22 AA 64 03 A7 99 93  .....b.J.".d....
+ 35 FF 33 16                                      5.3.
+generating payload of type NONCE_V1
+  generating rule 0 U_INT_8
+   => 20
+  generating rule 1 FLAG
+   => 0
+  generating rule 2 RESERVED_BIT
+   => 0
+  generating rule 3 RESERVED_BIT
+   => 0
+  generating rule 4 RESERVED_BIT
+   => 0
+  generating rule 5 RESERVED_BIT
+   => 0
+  generating rule 6 RESERVED_BIT
+   => 0
+  generating rule 7 RESERVED_BIT
+   => 0
+  generating rule 8 RESERVED_BIT
+   => 0
+  generating rule 9 PAYLOAD_LENGTH
+   => 2 bytes @ 0x7f4fd69a1894
+ 00 24                                            .$
+  generating rule 10 CHUNK_DATA
+   => 32 bytes @ 0x7f4f9c001990
+ 3A 0C 29 09 6C F7 D4 4F 43 65 B3 F7 D3 9A C6 31  :.).l..OCe.....1
+ F3 84 7A 76 DA 76 46 D2 32 10 CD F4 66 68 2C B2  ..zv.vF.2...fh,.
+generating NONCE_V1 payload finished
+generated data for this payload => 36 bytes @ 0x7f4f9c003980
+ 14 00 00 24 3A 0C 29 09 6C F7 D4 4F 43 65 B3 F7  ...$:.).l..OCe..
+ D3 9A C6 31 F3 84 7A 76 DA 76 46 D2 32 10 CD F4  ...1..zv.vF.2...
+ 66 68 2C B2                                      fh,.
+generating payload of type NAT_D_V1
+  generating rule 0 U_INT_8
+   => 20
+  generating rule 1 RESERVED_BYTE
+   => 0
+  generating rule 2 PAYLOAD_LENGTH
+   => 2 bytes @ 0x7f4fd69a1894
+ 00 18                                            ..
+  generating rule 3 CHUNK_DATA
+   => 20 bytes @ 0x7f4f9c002210
+ BD A4 7B 55 49 E6 07 13 2C D6 76 F8 D1 06 E8 05  ..{UI...,.v.....
+ 8C 26 CF AF                                      .&..
+generating NAT_D_V1 payload finished
+generated data for this payload => 24 bytes @ 0x7f4f9c0039a4
+ 14 00 00 18 BD A4 7B 55 49 E6 07 13 2C D6 76 F8  ......{UI...,.v.
+ D1 06 E8 05 8C 26 CF AF                          .....&..
+generating payload of type NAT_D_V1
+  generating rule 0 U_INT_8
+   => 0
+  generating rule 1 RESERVED_BYTE
+   => 0
+  generating rule 2 PAYLOAD_LENGTH
+   => 2 bytes @ 0x7f4fd69a1894
+ 00 18                                            ..
+  generating rule 3 CHUNK_DATA
+   => 20 bytes @ 0x7f4f9c0035a0
+ C0 20 5A 57 03 F3 ED D3 6D 6B AE D0 60 25 6C 02  . ZW....mk..`%l.
+ 8C F0 21 20                                      ..!
+generating NAT_D_V1 payload finished
+generated data for this payload => 24 bytes @ 0x7f4f9c0039bc
+ 00 00 00 18 C0 20 5A 57 03 F3 ED D3 6D 6B AE D0  ..... ZW....mk..
+ 60 25 6C 02 8C F0 21 20                          `%l...!
+generated data of this generator => 244 bytes @ 0x7f4f9c0038e0
+ D3 B1 42 B4 07 1F 1B 52 E4 11 66 F6 01 5D A2 B5  ..B....R..f..]..
+ 04 10 02 00 00 00 00 00 00 00 00 1C 0A 00 00 84  ................
+ 5F 50 30 D4 82 79 4A 02 83 C9 6A B2 0D A6 CF 7F  _P0..yJ...j.....
+ 38 40 E0 B4 4A 3A 10 B7 8B EB 69 8F E7 F0 B6 38  8@..J:....i....8
+ 15 00 FB 16 2D F7 0A C4 F9 F4 C4 73 AF 4A 67 FE  ....-......s.Jg.
+ EA 5C 95 B2 9D BE F7 65 A5 D1 66 97 AF 8B BD 60  .\.....e..f....`
+ 88 54 93 46 0B 16 02 2A 9D 22 B3 BE 97 54 40 27  .T.F...*."...T@'
+ CE 16 13 7C FD 86 D2 C5 9D 1E 3C 7D 57 F2 BE 91  ...|......<}W...
+ 27 DD F8 3F C7 EE 55 3C 9C 27 32 6A 83 B2 C2 1E  '..?..U<.'2j....
+ E7 62 F9 4A D5 22 AA 64 03 A7 99 93 35 FF 33 16  .b.J.".d....5.3.
+ 14 00 00 24 3A 0C 29 09 6C F7 D4 4F 43 65 B3 F7  ...$:.).l..OCe..
+ D3 9A C6 31 F3 84 7A 76 DA 76 46 D2 32 10 CD F4  ...1..zv.vF.2...
+ 66 68 2C B2 14 00 00 18 BD A4 7B 55 49 E6 07 13  fh,.......{UI...
+ 2C D6 76 F8 D1 06 E8 05 8C 26 CF AF 00 00 00 18  ,.v......&......
+ C0 20 5A 57 03 F3 ED D3 6D 6B AE D0 60 25 6C 02  . ZW....mk..`%l.
+ 8C F0 21 20                                      ..!
+generated data of this generator => 244 bytes @ 0x7f4f9c0038e0
+ D3 B1 42 B4 07 1F 1B 52 E4 11 66 F6 01 5D A2 B5  ..B....R..f..]..
+ 04 10 02 00 00 00 00 00 00 00 00 1C 0A 00 00 84  ................
+ 5F 50 30 D4 82 79 4A 02 83 C9 6A B2 0D A6 CF 7F  _P0..yJ...j.....
+ 38 40 E0 B4 4A 3A 10 B7 8B EB 69 8F E7 F0 B6 38  8@..J:....i....8
+ 15 00 FB 16 2D F7 0A C4 F9 F4 C4 73 AF 4A 67 FE  ....-......s.Jg.
+ EA 5C 95 B2 9D BE F7 65 A5 D1 66 97 AF 8B BD 60  .\.....e..f....`
+ 88 54 93 46 0B 16 02 2A 9D 22 B3 BE 97 54 40 27  .T.F...*."...T@'
+ CE 16 13 7C FD 86 D2 C5 9D 1E 3C 7D 57 F2 BE 91  ...|......<}W...
+ 27 DD F8 3F C7 EE 55 3C 9C 27 32 6A 83 B2 C2 1E  '..?..U<.'2j....
+ E7 62 F9 4A D5 22 AA 64 03 A7 99 93 35 FF 33 16  .b.J.".d....5.3.
+ 14 00 00 24 3A 0C 29 09 6C F7 D4 4F 43 65 B3 F7  ...$:.).l..OCe..
+ D3 9A C6 31 F3 84 7A 76 DA 76 46 D2 32 10 CD F4  ...1..zv.vF.2...
+ 66 68 2C B2 14 00 00 18 BD A4 7B 55 49 E6 07 13  fh,.......{UI...
+ 2C D6 76 F8 D1 06 E8 05 8C 26 CF AF 00 00 00 18  ,.v......&......
+ C0 20 5A 57 03 F3 ED D3 6D 6B AE D0 60 25 6C 02  . ZW....mk..`%l.
+ 8C F0 21 20                                      ..!
+ from 192.168.0.101[500] to 192.168.0.100[500] (244 bytes)
+ from 192.168.0.101[500] to 192.168.0.100[500] (244 bytes)
+parsing header of message
+parsing HEADER payload, 108 bytes left
+parsing payload from => 108 bytes @ 0x7f4fb4001040
+ D3 B1 42 B4 07 1F 1B 52 E4 11 66 F6 01 5D A2 B5  ..B....R..f..]..
+ 05 10 02 01 00 00 00 00 00 00 00 6C A8 F9 7B 8A  ...........l..{.
+ C1 A4 8B CE 1C 5E 77 82 90 6F 26 A2 ED A0 B5 4A  .....^w..o&....J
+ 34 FA A0 14 87 69 A0 0C D2 B9 0F F8 08 21 CA B1  4....i.......!..
+ A7 AB 7C 3E B3 36 95 33 CB E7 0E F2 68 31 48 1D  ..|>.6.3....h1H.
+ 8C 79 C3 02 4D 44 0D 75 55 4E 54 64 03 4D 3C B8  .y..MD.uUNTd.M<.
+ E2 AF 3A 30 BC 03 A8 45 12 1A 29 A9              ..:0...E..).
+  parsing rule 0 IKE_SPI
+   => 8 bytes @ 0x7f4fb4000a08
+ D3 B1 42 B4 07 1F 1B 52                          ..B....R
+  parsing rule 1 IKE_SPI
+   => 8 bytes @ 0x7f4fb4000a10
+ E4 11 66 F6 01 5D A2 B5                          ..f..]..
+  parsing rule 2 U_INT_8
+   => 5
+  parsing rule 3 U_INT_4
+   => 1
+  parsing rule 4 U_INT_4
+   => 0
+  parsing rule 5 U_INT_8
+   => 2
+  parsing rule 6 RESERVED_BIT
+   => 0
+  parsing rule 7 RESERVED_BIT
+   => 0
+  parsing rule 8 FLAG
+   => 0
+  parsing rule 9 FLAG
+   => 0
+  parsing rule 10 FLAG
+   => 0
+  parsing rule 11 FLAG
+   => 0
+  parsing rule 12 FLAG
+   => 0
+  parsing rule 13 FLAG
+   => 1
+  parsing rule 14 U_INT_32
+   => 0
+  parsing rule 15 HEADER_LENGTH
+   => 108
+parsing HEADER payload finished
+parsed a ID_PROT message header
+ from 192.168.0.100[500] to 192.168.0.101[500] (108 bytes)
+ from 192.168.0.100[500] to 192.168.0.101[500] (108 bytes)
+parsing body of message, first payload is ID_V1
+parsing ENCRYPTED_V1 payload, 80 bytes left
+parsing payload from => 80 bytes @ 0x7f4fb400105c
+ A8 F9 7B 8A C1 A4 8B CE 1C 5E 77 82 90 6F 26 A2  ..{......^w..o&.
+ ED A0 B5 4A 34 FA A0 14 87 69 A0 0C D2 B9 0F F8  ...J4....i......
+ 08 21 CA B1 A7 AB 7C 3E B3 36 95 33 CB E7 0E F2  .!....|>.6.3....
+ 68 31 48 1D 8C 79 C3 02 4D 44 0D 75 55 4E 54 64  h1H..y..MD.uUNTd
+ 03 4D 3C B8 E2 AF 3A 30 BC 03 A8 45 12 1A 29 A9  .M<...:0...E..).
+  parsing rule 0 ENCRYPTED_DATA
+   => 80 bytes @ 0x7f4fa0000ce0
+ A8 F9 7B 8A C1 A4 8B CE 1C 5E 77 82 90 6F 26 A2  ..{......^w..o&.
+ ED A0 B5 4A 34 FA A0 14 87 69 A0 0C D2 B9 0F F8  ...J4....i......
+ 08 21 CA B1 A7 AB 7C 3E B3 36 95 33 CB E7 0E F2  .!....|>.6.3....
+ 68 31 48 1D 8C 79 C3 02 4D 44 0D 75 55 4E 54 64  h1H..y..MD.uUNTd
+ 03 4D 3C B8 E2 AF 3A 30 BC 03 A8 45 12 1A 29 A9  .M<...:0...E..).
+parsing ENCRYPTED_V1 payload finished
+process payload of type ENCRYPTED_V1
+found an encrypted payload
+
+encrypted => 80 bytes @ 0x7f4fa0000ce0
+ A8 F9 7B 8A C1 A4 8B CE 1C 5E 77 82 90 6F 26 A2  ..{......^w..o&.
+ ED A0 B5 4A 34 FA A0 14 87 69 A0 0C D2 B9 0F F8  ...J4....i......
+ 08 21 CA B1 A7 AB 7C 3E B3 36 95 33 CB E7 0E F2  .!....|>.6.3....
+ 68 31 48 1D 8C 79 C3 02 4D 44 0D 75 55 4E 54 64  h1H..y..MD.uUNTd
+ 03 4D 3C B8 E2 AF 3A 30 BC 03 A8 45 12 1A 29 A9  .M<...:0...E..).
+plain => 80 bytes @ 0x7f4fa0000ce0
+ 08 00 00 0C 01 00 00 00 C0 A8 00 64 0B 00 00 18  ...........d....
+ 41 E6 A6 D8 7D F3 9D B8 BC 15 1B 1F 2A DF D5 4D  A...}.......*..M
+ F8 25 28 8F 00 00 00 1C 00 00 00 01 01 10 60 02  .%(...........`.
+ D3 B1 42 B4 07 1F 1B 52 E4 11 66 F6 01 5D A2 B5  ..B....R..f..]..
+ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+parsing ID_V1 payload, 80 bytes left
+parsing payload from => 80 bytes @ 0x7f4fa0000ce0
+ 08 00 00 0C 01 00 00 00 C0 A8 00 64 0B 00 00 18  ...........d....
+ 41 E6 A6 D8 7D F3 9D B8 BC 15 1B 1F 2A DF D5 4D  A...}.......*..M
+ F8 25 28 8F 00 00 00 1C 00 00 00 01 01 10 60 02  .%(...........`.
+ D3 B1 42 B4 07 1F 1B 52 E4 11 66 F6 01 5D A2 B5  ..B....R..f..]..
+ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  parsing rule 0 U_INT_8
+   => 8
+  parsing rule 1 RESERVED_BYTE
+   => 0
+  parsing rule 2 PAYLOAD_LENGTH
+   => 12
+  parsing rule 3 U_INT_8
+   => 1
+  parsing rule 4 U_INT_8
+   => 0
+  parsing rule 5 U_INT_16
+   => 0
+  parsing rule 6 CHUNK_DATA
+   => 4 bytes @ 0x7f4fa0000a90
+ C0 A8 00 64                                      ...d
+parsing ID_V1 payload finished
+parsing HASH_V1 payload, 68 bytes left
+parsing payload from => 68 bytes @ 0x7f4fa0000cec
+ 0B 00 00 18 41 E6 A6 D8 7D F3 9D B8 BC 15 1B 1F  ....A...}.......
+ 2A DF D5 4D F8 25 28 8F 00 00 00 1C 00 00 00 01  *..M.%(.........
+ 01 10 60 02 D3 B1 42 B4 07 1F 1B 52 E4 11 66 F6  ..`...B....R..f.
+ 01 5D A2 B5 00 00 00 00 00 00 00 00 00 00 00 00  .]..............
+ 00 00 00 00                                      ....
+  parsing rule 0 U_INT_8
+   => 11
+  parsing rule 1 RESERVED_BYTE
+   => 0
+  parsing rule 2 PAYLOAD_LENGTH
+   => 24
+  parsing rule 3 CHUNK_DATA
+   => 20 bytes @ 0x7f4fa0000c70
+ 41 E6 A6 D8 7D F3 9D B8 BC 15 1B 1F 2A DF D5 4D  A...}.......*..M
+ F8 25 28 8F                                      .%(.
+parsing HASH_V1 payload finished
+parsing NOTIFY_V1 payload, 44 bytes left
+parsing payload from => 44 bytes @ 0x7f4fa0000d04
+ 00 00 00 1C 00 00 00 01 01 10 60 02 D3 B1 42 B4  ..........`...B.
+ 07 1F 1B 52 E4 11 66 F6 01 5D A2 B5 00 00 00 00  ...R..f..]......
+ 00 00 00 00 00 00 00 00 00 00 00 00              ............
+  parsing rule 0 U_INT_8
+   => 0
+  parsing rule 1 RESERVED_BIT
+   => 0
+  parsing rule 2 RESERVED_BIT
+   => 0
+  parsing rule 3 RESERVED_BIT
+   => 0
+  parsing rule 4 RESERVED_BIT
+   => 0
+  parsing rule 5 RESERVED_BIT
+   => 0
+  parsing rule 6 RESERVED_BIT
+   => 0
+  parsing rule 7 RESERVED_BIT
+   => 0
+  parsing rule 8 RESERVED_BIT
+   => 0
+  parsing rule 9 PAYLOAD_LENGTH
+   => 28
+  parsing rule 10 U_INT_32
+   => 1
+  parsing rule 11 U_INT_8
+   => 1
+  parsing rule 12 SPI_SIZE
+   => 16
+  parsing rule 13 U_INT_16
+   => 24578
+  parsing rule 14 SPI
+   => 16 bytes @ 0x7f4fa0000cb0
+ D3 B1 42 B4 07 1F 1B 52 E4 11 66 F6 01 5D A2 B5  ..B....R..f..]..
+  parsing rule 15 CHUNK_DATA
+   => 0 bytes @ (nil)
+parsing NOTIFY_V1 payload finished
+parsed content of encrypted payload
+insert decrypted payload of type ID_V1 at end of list
+insert decrypted payload of type HASH_V1 at end of list
+insert decrypted payload of type NOTIFY_V1 at end of list
+verifying message structure
+found payload of type NOTIFY_V1
+found payload of type ID_V1
+found payload of type HASH_V1
+parsed ID_PROT request 0 [ ID HASH N(INITIAL_CONTACT) ]
+parsed ID_PROT request 0 [ ID HASH N(INITIAL_CONTACT) ]
+next IV for MID 0 => 16 bytes @ 0x7f4fa0000e40
+ 03 4D 3C B8 E2 AF 3A 30 BC 03 A8 45 12 1A 29 A9  .M<...:0...E..).
+looking for pre-shared key peer configs matching 192.168.0.101...192.168.0.100[192.168.0.100]
+looking for pre-shared key peer configs matching 192.168.0.101...192.168.0.100[192.168.0.100]
+selected peer config "rw-carol"
+selected peer config "rw-carol"
+HASH_I data => 332 bytes @ 0x7f4fa0000e60
+ 06 C6 E1 8C F8 C8 32 33 33 72 4F 12 8E 71 10 AE  ......233rO..q..
+ 0C 75 A1 B7 4F CA C3 00 3A A0 B9 31 9C 05 0A EA  .u..O...:..1....
+ E2 1C 70 4A 84 D0 78 8E F7 40 32 CF 65 99 49 CE  ..pJ..x..@2.e.I.
+ 82 64 0B 92 17 B9 43 37 14 DE 78 66 08 E4 5D DA  .d....C7..xf..].
+ EA 90 5B 62 8B 13 EF 1F D1 DB 26 4B D0 FC 92 F0  ..[b......&K....
+ B6 D0 B6 F6 58 15 5E 67 00 A5 A4 0D 18 10 6D 4F  ....X.^g......mO
+ 48 7F F6 BA CE 53 E7 A3 77 84 09 95 F5 BE 9A F3  H....S..w.......
+ F8 EF 40 7D DC F8 8E 99 77 A6 05 65 FA 3B F1 A3  ..@}....w..e.;..
+ 5F 50 30 D4 82 79 4A 02 83 C9 6A B2 0D A6 CF 7F  _P0..yJ...j.....
+ 38 40 E0 B4 4A 3A 10 B7 8B EB 69 8F E7 F0 B6 38  8@..J:....i....8
+ 15 00 FB 16 2D F7 0A C4 F9 F4 C4 73 AF 4A 67 FE  ....-......s.Jg.
+ EA 5C 95 B2 9D BE F7 65 A5 D1 66 97 AF 8B BD 60  .\.....e..f....`
+ 88 54 93 46 0B 16 02 2A 9D 22 B3 BE 97 54 40 27  .T.F...*."...T@'
+ CE 16 13 7C FD 86 D2 C5 9D 1E 3C 7D 57 F2 BE 91  ...|......<}W...
+ 27 DD F8 3F C7 EE 55 3C 9C 27 32 6A 83 B2 C2 1E  '..?..U<.'2j....
+ E7 62 F9 4A D5 22 AA 64 03 A7 99 93 35 FF 33 16  .b.J.".d....5.3.
+ D3 B1 42 B4 07 1F 1B 52 E4 11 66 F6 01 5D A2 B5  ..B....R..f..]..
+ 00 00 00 01 00 00 00 01 00 00 00 2C 00 01 00 01  ...........,....
+ 00 00 00 24 01 01 00 00 80 01 00 07 80 0E 00 80  ...$............
+ 80 02 00 02 80 04 00 02 80 03 00 01 80 0B 00 01  ................
+ 80 0C 0E 10 01 00 00 00 C0 A8 00 64              ...........d
+HASH_I => 20 bytes @ 0x7f4fa0000fc0
+ 41 E6 A6 D8 7D F3 9D B8 BC 15 1B 1F 2A DF D5 4D  A...}.......*..M
+ F8 25 28 8F                                      .%(.
+added payload of type ID_V1 to message
+HASH_R data => 332 bytes @ 0x7f4fa0001670
+ 5F 50 30 D4 82 79 4A 02 83 C9 6A B2 0D A6 CF 7F  _P0..yJ...j.....
+ 38 40 E0 B4 4A 3A 10 B7 8B EB 69 8F E7 F0 B6 38  8@..J:....i....8
+ 15 00 FB 16 2D F7 0A C4 F9 F4 C4 73 AF 4A 67 FE  ....-......s.Jg.
+ EA 5C 95 B2 9D BE F7 65 A5 D1 66 97 AF 8B BD 60  .\.....e..f....`
+ 88 54 93 46 0B 16 02 2A 9D 22 B3 BE 97 54 40 27  .T.F...*."...T@'
+ CE 16 13 7C FD 86 D2 C5 9D 1E 3C 7D 57 F2 BE 91  ...|......<}W...
+ 27 DD F8 3F C7 EE 55 3C 9C 27 32 6A 83 B2 C2 1E  '..?..U<.'2j....
+ E7 62 F9 4A D5 22 AA 64 03 A7 99 93 35 FF 33 16  .b.J.".d....5.3.
+ 06 C6 E1 8C F8 C8 32 33 33 72 4F 12 8E 71 10 AE  ......233rO..q..
+ 0C 75 A1 B7 4F CA C3 00 3A A0 B9 31 9C 05 0A EA  .u..O...:..1....
+ E2 1C 70 4A 84 D0 78 8E F7 40 32 CF 65 99 49 CE  ..pJ..x..@2.e.I.
+ 82 64 0B 92 17 B9 43 37 14 DE 78 66 08 E4 5D DA  .d....C7..xf..].
+ EA 90 5B 62 8B 13 EF 1F D1 DB 26 4B D0 FC 92 F0  ..[b......&K....
+ B6 D0 B6 F6 58 15 5E 67 00 A5 A4 0D 18 10 6D 4F  ....X.^g......mO
+ 48 7F F6 BA CE 53 E7 A3 77 84 09 95 F5 BE 9A F3  H....S..w.......
+ F8 EF 40 7D DC F8 8E 99 77 A6 05 65 FA 3B F1 A3  ..@}....w..e.;..
+ E4 11 66 F6 01 5D A2 B5 D3 B1 42 B4 07 1F 1B 52  ..f..]....B....R
+ 00 00 00 01 00 00 00 01 00 00 00 2C 00 01 00 01  ...........,....
+ 00 00 00 24 01 01 00 00 80 01 00 07 80 0E 00 80  ...$............
+ 80 02 00 02 80 04 00 02 80 03 00 01 80 0B 00 01  ................
+ 80 0C 0E 10 01 00 00 00 C0 A8 00 65              ...........e
+HASH_R => 20 bytes @ 0x7f4fa00017d0
+ F0 F7 71 DF FB D3 4D 56 55 76 9F 45 5E 58 8D A2  ..q...MVUv.E^X..
+ DD EE 32 E6                                      ..2.
+added payload of type HASH_V1 to message
+IKE_SA rw-carol[1] established between 192.168.0.101[192.168.0.101]...192.168.0.100[192.168.0.100]
+IKE_SA rw-carol[1] established between 192.168.0.101[192.168.0.101]...192.168.0.100[192.168.0.100]
+ CONNECTING => ESTABLISHED
+scheduling reauthentication in 3337s
+scheduling reauthentication in 3337s
+maximum IKE_SA lifetime 3517s
+maximum IKE_SA lifetime 3517s
+order payloads in message
+added payload of type ID_V1 to message
+added payload of type HASH_V1 to message
+generating ID_PROT response 0 [ ID HASH ]
+generating ID_PROT response 0 [ ID HASH ]
+insert payload ID_V1 into encrypted payload
+insert payload HASH_V1 into encrypted payload
+generating payload of type HEADER
+  generating rule 0 IKE_SPI
+   => 8 bytes @ 0x7f4fa0002148
+ D3 B1 42 B4 07 1F 1B 52                          ..B....R
+  generating rule 1 IKE_SPI
+   => 8 bytes @ 0x7f4fa0002150
+ E4 11 66 F6 01 5D A2 B5                          ..f..]..
+  generating rule 2 U_INT_8
+   => 5
+  generating rule 3 U_INT_4
+   => 31
+  generating rule 4 U_INT_4
+   => 16
+  generating rule 5 U_INT_8
+   => 2
+  generating rule 6 RESERVED_BIT
+   => 0
+  generating rule 7 RESERVED_BIT
+   => 0
+  generating rule 8 FLAG
+   => 0
+  generating rule 9 FLAG
+   => 0
+  generating rule 10 FLAG
+   => 0
+  generating rule 11 FLAG
+   => 0
+  generating rule 12 FLAG
+   => 0
+  generating rule 13 FLAG
+   => 1
+  generating rule 14 U_INT_32
+   => 4 bytes @ 0x7f4fd599f894
+ 00 00 00 00                                      ....
+  generating rule 15 HEADER_LENGTH
+   => 4 bytes @ 0x7f4fd599f894
+ 00 00 00 1C                                      ....
+generating HEADER payload finished
+generated data for this payload => 28 bytes @ 0x7f4fa0001d80
+ D3 B1 42 B4 07 1F 1B 52 E4 11 66 F6 01 5D A2 B5  ..B....R..f..]..
+ 05 10 02 01 00 00 00 00 00 00 00 1C              ............
+generated data of this generator => 28 bytes @ 0x7f4fa0001d80
+ D3 B1 42 B4 07 1F 1B 52 E4 11 66 F6 01 5D A2 B5  ..B....R..f..]..
+ 05 10 02 01 00 00 00 00 00 00 00 1C              ............
+generating payload of type ID_V1
+  generating rule 0 U_INT_8
+   => 8
+  generating rule 1 RESERVED_BYTE
+   => 0
+  generating rule 2 PAYLOAD_LENGTH
+   => 2 bytes @ 0x7f4fd599fa04
+ 00 0C                                            ..
+  generating rule 3 U_INT_8
+   => 1
+  generating rule 4 U_INT_8
+   => 0
+  generating rule 5 U_INT_16
+   => 2 bytes @ 0x7f4fd599fa04
+ 00 00                                            ..
+  generating rule 6 CHUNK_DATA
+   => 4 bytes @ 0x7f4fa0001210
+ C0 A8 00 65                                      ...e
+generating ID_V1 payload finished
+generated data for this payload => 12 bytes @ 0x7f4fa0001f80
+ 08 00 00 0C 01 00 00 00 C0 A8 00 65              ...........e
+generating payload of type HASH_V1
+  generating rule 0 U_INT_8
+   => 0
+  generating rule 1 RESERVED_BYTE
+   => 0
+  generating rule 2 PAYLOAD_LENGTH
+   => 2 bytes @ 0x7f4fd599fa04
+ 00 18                                            ..
+  generating rule 3 CHUNK_DATA
+   => 20 bytes @ 0x7f4fa0000a20
+ F0 F7 71 DF FB D3 4D 56 55 76 9F 45 5E 58 8D A2  ..q...MVUv.E^X..
+ DD EE 32 E6                                      ..2.
+generating HASH_V1 payload finished
+generated data for this payload => 24 bytes @ 0x7f4fa0001f8c
+ 00 00 00 18 F0 F7 71 DF FB D3 4D 56 55 76 9F 45  ......q...MVUv.E
+ 5E 58 8D A2 DD EE 32 E6                          ^X....2.
+generated data of this generator => 36 bytes @ 0x7f4fa0001f80
+ 08 00 00 0C 01 00 00 00 C0 A8 00 65 00 00 00 18  ...........e....
+ F0 F7 71 DF FB D3 4D 56 55 76 9F 45 5E 58 8D A2  ..q...MVUv.E^X..
+ DD EE 32 E6                                      ..2.
+generated content in encrypted payload
+
+IV => 16 bytes @ 0x7f4fa0000e40
+ 03 4D 3C B8 E2 AF 3A 30 BC 03 A8 45 12 1A 29 A9  .M<...:0...E..).
+plain => 36 bytes @ 0x7f4fa0001a60
+ 08 00 00 0C 01 00 00 00 C0 A8 00 65 00 00 00 18  ...........e....
+ F0 F7 71 DF FB D3 4D 56 55 76 9F 45 5E 58 8D A2  ..q...MVUv.E^X..
+ DD EE 32 E6                                      ..2.
+padding => 12 bytes @ 0x7f4fa0001a84
+ 00 00 00 00 00 00 00 00 00 00 00 00              ............
+encrypted => 48 bytes @ 0x7f4fa0001a60
+ D0 D9 E3 BC 5E 08 2E 4A AC 4C A0 3D 26 4A 5E 18  ....^..J.L.=&J^.
+ 7B F8 D1 4C 7E B8 F8 36 B7 38 58 A4 16 C3 B6 7F  {..L~..6.8X.....
+ 92 27 94 A0 83 D6 F0 AB 7A A3 3C 4D 8A 25 A6 45  .'......z.<M.%.E
+generating payload of type ENCRYPTED_V1
+  generating rule 0 ENCRYPTED_DATA
+   => 48 bytes @ 0x7f4fa0001a60
+ D0 D9 E3 BC 5E 08 2E 4A AC 4C A0 3D 26 4A 5E 18  ....^..J.L.=&J^.
+ 7B F8 D1 4C 7E B8 F8 36 B7 38 58 A4 16 C3 B6 7F  {..L~..6.8X.....
+ 92 27 94 A0 83 D6 F0 AB 7A A3 3C 4D 8A 25 A6 45  .'......z.<M.%.E
+generating ENCRYPTED_V1 payload finished
+generated data for this payload => 48 bytes @ 0x7f4fa0001d9c
+ D0 D9 E3 BC 5E 08 2E 4A AC 4C A0 3D 26 4A 5E 18  ....^..J.L.=&J^.
+ 7B F8 D1 4C 7E B8 F8 36 B7 38 58 A4 16 C3 B6 7F  {..L~..6.8X.....
+ 92 27 94 A0 83 D6 F0 AB 7A A3 3C 4D 8A 25 A6 45  .'......z.<M.%.E
+generated data of this generator => 76 bytes @ 0x7f4fa0001d80
+ D3 B1 42 B4 07 1F 1B 52 E4 11 66 F6 01 5D A2 B5  ..B....R..f..]..
+ 05 10 02 01 00 00 00 00 00 00 00 1C D0 D9 E3 BC  ................
+ 5E 08 2E 4A AC 4C A0 3D 26 4A 5E 18 7B F8 D1 4C  ^..J.L.=&J^.{..L
+ 7E B8 F8 36 B7 38 58 A4 16 C3 B6 7F 92 27 94 A0  ~..6.8X......'..
+ 83 D6 F0 AB 7A A3 3C 4D 8A 25 A6 45              ....z.<M.%.E
+next IV for MID 0 => 16 bytes @ 0x7f4fa0000960
+ 92 27 94 A0 83 D6 F0 AB 7A A3 3C 4D 8A 25 A6 45  .'......z.<M.%.E
+ from 192.168.0.101[500] to 192.168.0.100[500] (76 bytes)
+ from 192.168.0.101[500] to 192.168.0.100[500] (76 bytes)
+parsing header of message
+parsing HEADER payload, 204 bytes left
+parsing payload from => 204 bytes @ 0x7f4fb40011c0
+ D3 B1 42 B4 07 1F 1B 52 E4 11 66 F6 01 5D A2 B5  ..B....R..f..]..
+ 08 10 20 01 91 61 FE 7F 00 00 00 CC 6D C3 0B 1C  .. ..a......m...
+ 11 7E 12 70 8C 7B F9 32 89 2A F3 75 A7 FB F6 0C  .~.p.{.2.*.u....
+ A5 89 3E 0A B9 56 C7 48 F5 27 73 A6 66 54 FD ED  ..>..V.H.'s.fT..
+ 0A 05 B6 3A C2 B4 26 82 A2 67 5C 02 07 73 E7 D3  ...:..&..g\..s..
+ 82 EA DD 1C ED 2B FD 27 18 A9 F5 C9 00 C5 21 20  .....+.'......!
+ 09 E2 FA CE EF F9 64 68 FC C9 B0 FC D9 02 23 33  ......dh......#3
+ 3D 2D 31 96 6C F9 6C B4 B3 38 4E 0B DD 8E DB 6A  =-1.l.l..8N....j
+ 21 02 F3 C4 54 43 D5 E0 3C D0 60 01 80 FD EC C4  !...TC..<.`.....
+ 51 C9 0C 29 AB CE 62 AB 05 F2 7C FC FC 66 3C 9B  Q..)..b...|..f<.
+ AD 6A 91 8F 03 B3 79 74 E7 66 93 14 3E 58 21 09  .j....yt.f..>X!.
+ B6 06 BF 98 78 7B A3 EF F7 12 05 56 D9 5B E2 EB  ....x{.....V.[..
+ 1B 97 0B 29 3F 50 1F 39 8D 93 39 D4              ...)?P.9..9.
+  parsing rule 0 IKE_SPI
+   => 8 bytes @ 0x7f4fb4000b48
+ D3 B1 42 B4 07 1F 1B 52                          ..B....R
+  parsing rule 1 IKE_SPI
+   => 8 bytes @ 0x7f4fb4000b50
+ E4 11 66 F6 01 5D A2 B5                          ..f..]..
+  parsing rule 2 U_INT_8
+   => 8
+  parsing rule 3 U_INT_4
+   => 1
+  parsing rule 4 U_INT_4
+   => 0
+  parsing rule 5 U_INT_8
+   => 32
+  parsing rule 6 RESERVED_BIT
+   => 0
+  parsing rule 7 RESERVED_BIT
+   => 0
+  parsing rule 8 FLAG
+   => 0
+  parsing rule 9 FLAG
+   => 0
+  parsing rule 10 FLAG
+   => 0
+  parsing rule 11 FLAG
+   => 0
+  parsing rule 12 FLAG
+   => 0
+  parsing rule 13 FLAG
+   => 1
+  parsing rule 14 U_INT_32
+   => 2439118463
+  parsing rule 15 HEADER_LENGTH
+   => 204
+parsing HEADER payload finished
+parsed a QUICK_MODE message header
+ from 192.168.0.100[500] to 192.168.0.101[500] (204 bytes)
+ from 192.168.0.100[500] to 192.168.0.101[500] (204 bytes)
+parsing body of message, first payload is HASH_V1
+parsing ENCRYPTED_V1 payload, 176 bytes left
+parsing payload from => 176 bytes @ 0x7f4fb40011dc
+ 6D C3 0B 1C 11 7E 12 70 8C 7B F9 32 89 2A F3 75  m....~.p.{.2.*.u
+ A7 FB F6 0C A5 89 3E 0A B9 56 C7 48 F5 27 73 A6  ......>..V.H.'s.
+ 66 54 FD ED 0A 05 B6 3A C2 B4 26 82 A2 67 5C 02  fT.....:..&..g\.
+ 07 73 E7 D3 82 EA DD 1C ED 2B FD 27 18 A9 F5 C9  .s.......+.'....
+ 00 C5 21 20 09 E2 FA CE EF F9 64 68 FC C9 B0 FC  ..! ......dh....
+ D9 02 23 33 3D 2D 31 96 6C F9 6C B4 B3 38 4E 0B  ..#3=-1.l.l..8N.
+ DD 8E DB 6A 21 02 F3 C4 54 43 D5 E0 3C D0 60 01  ...j!...TC..<.`.
+ 80 FD EC C4 51 C9 0C 29 AB CE 62 AB 05 F2 7C FC  ....Q..)..b...|.
+ FC 66 3C 9B AD 6A 91 8F 03 B3 79 74 E7 66 93 14  .f<..j....yt.f..
+ 3E 58 21 09 B6 06 BF 98 78 7B A3 EF F7 12 05 56  >X!.....x{.....V
+ D9 5B E2 EB 1B 97 0B 29 3F 50 1F 39 8D 93 39 D4  .[.....)?P.9..9.
+  parsing rule 0 ENCRYPTED_DATA
+   => 176 bytes @ 0x7f4f98000a90
+ 6D C3 0B 1C 11 7E 12 70 8C 7B F9 32 89 2A F3 75  m....~.p.{.2.*.u
+ A7 FB F6 0C A5 89 3E 0A B9 56 C7 48 F5 27 73 A6  ......>..V.H.'s.
+ 66 54 FD ED 0A 05 B6 3A C2 B4 26 82 A2 67 5C 02  fT.....:..&..g\.
+ 07 73 E7 D3 82 EA DD 1C ED 2B FD 27 18 A9 F5 C9  .s.......+.'....
+ 00 C5 21 20 09 E2 FA CE EF F9 64 68 FC C9 B0 FC  ..! ......dh....
+ D9 02 23 33 3D 2D 31 96 6C F9 6C B4 B3 38 4E 0B  ..#3=-1.l.l..8N.
+ DD 8E DB 6A 21 02 F3 C4 54 43 D5 E0 3C D0 60 01  ...j!...TC..<.`.
+ 80 FD EC C4 51 C9 0C 29 AB CE 62 AB 05 F2 7C FC  ....Q..)..b...|.
+ FC 66 3C 9B AD 6A 91 8F 03 B3 79 74 E7 66 93 14  .f<..j....yt.f..
+ 3E 58 21 09 B6 06 BF 98 78 7B A3 EF F7 12 05 56  >X!.....x{.....V
+ D9 5B E2 EB 1B 97 0B 29 3F 50 1F 39 8D 93 39 D4  .[.....)?P.9..9.
+parsing ENCRYPTED_V1 payload finished
+process payload of type ENCRYPTED_V1
+found an encrypted payload
+next IV for MID 2439118463 => 16 bytes @ 0x7f4f98000b50
+ 38 34 47 85 45 06 80 FA AB 63 1C 8F 75 23 B8 6D  84G.E....c..u#.m
+
+encrypted => 176 bytes @ 0x7f4f98000a90
+ 6D C3 0B 1C 11 7E 12 70 8C 7B F9 32 89 2A F3 75  m....~.p.{.2.*.u
+ A7 FB F6 0C A5 89 3E 0A B9 56 C7 48 F5 27 73 A6  ......>..V.H.'s.
+ 66 54 FD ED 0A 05 B6 3A C2 B4 26 82 A2 67 5C 02  fT.....:..&..g\.
+ 07 73 E7 D3 82 EA DD 1C ED 2B FD 27 18 A9 F5 C9  .s.......+.'....
+ 00 C5 21 20 09 E2 FA CE EF F9 64 68 FC C9 B0 FC  ..! ......dh....
+ D9 02 23 33 3D 2D 31 96 6C F9 6C B4 B3 38 4E 0B  ..#3=-1.l.l..8N.
+ DD 8E DB 6A 21 02 F3 C4 54 43 D5 E0 3C D0 60 01  ...j!...TC..<.`.
+ 80 FD EC C4 51 C9 0C 29 AB CE 62 AB 05 F2 7C FC  ....Q..)..b...|.
+ FC 66 3C 9B AD 6A 91 8F 03 B3 79 74 E7 66 93 14  .f<..j....yt.f..
+ 3E 58 21 09 B6 06 BF 98 78 7B A3 EF F7 12 05 56  >X!.....x{.....V
+ D9 5B E2 EB 1B 97 0B 29 3F 50 1F 39 8D 93 39 D4  .[.....)?P.9..9.
+plain => 176 bytes @ 0x7f4f98000a90
+ 01 00 00 18 FA 46 4E 95 46 3C C1 4E F3 83 DA C8  .....FN.F<.N....
+ 72 37 93 92 3B DC 25 B6 0A 00 00 50 00 00 00 01  r7..;.%....P....
+ 00 00 00 01 00 00 00 44 00 03 04 02 C0 6B FB F8  .......D.....k..
+ 03 00 00 1C 01 0C 00 00 80 06 00 80 80 05 00 05  ................
+ 80 04 00 01 80 01 00 01 80 02 04 B0 00 00 00 1C  ................
+ 02 0C 00 00 80 06 00 80 80 05 00 05 80 04 00 01  ................
+ 80 01 00 01 80 02 04 B0 05 00 00 24 D8 9C 80 33  ...........$...3
+ 63 0F F1 04 05 81 FE 29 4D 57 B3 8D 06 ED 85 82  c......)MW......
+ 41 D2 67 2D 2A 2A D2 BC 5A F2 30 29 05 00 00 0C  A.g-**..Z.0)....
+ 01 00 00 00 C0 A8 00 64 00 00 00 10 04 00 00 00  .......d........
+ 0A 01 00 00 FF FF 00 00 00 00 00 00 00 00 00 00  ................
+parsing HASH_V1 payload, 176 bytes left
+parsing payload from => 176 bytes @ 0x7f4f98000a90
+ 01 00 00 18 FA 46 4E 95 46 3C C1 4E F3 83 DA C8  .....FN.F<.N....
+ 72 37 93 92 3B DC 25 B6 0A 00 00 50 00 00 00 01  r7..;.%....P....
+ 00 00 00 01 00 00 00 44 00 03 04 02 C0 6B FB F8  .......D.....k..
+ 03 00 00 1C 01 0C 00 00 80 06 00 80 80 05 00 05  ................
+ 80 04 00 01 80 01 00 01 80 02 04 B0 00 00 00 1C  ................
+ 02 0C 00 00 80 06 00 80 80 05 00 05 80 04 00 01  ................
+ 80 01 00 01 80 02 04 B0 05 00 00 24 D8 9C 80 33  ...........$...3
+ 63 0F F1 04 05 81 FE 29 4D 57 B3 8D 06 ED 85 82  c......)MW......
+ 41 D2 67 2D 2A 2A D2 BC 5A F2 30 29 05 00 00 0C  A.g-**..Z.0)....
+ 01 00 00 00 C0 A8 00 64 00 00 00 10 04 00 00 00  .......d........
+ 0A 01 00 00 FF FF 00 00 00 00 00 00 00 00 00 00  ................
+  parsing rule 0 U_INT_8
+   => 1
+  parsing rule 1 RESERVED_BYTE
+   => 0
+  parsing rule 2 PAYLOAD_LENGTH
+   => 24
+  parsing rule 3 CHUNK_DATA
+   => 20 bytes @ 0x7f4f98000c50
+ FA 46 4E 95 46 3C C1 4E F3 83 DA C8 72 37 93 92  .FN.F<.N....r7..
+ 3B DC 25 B6                                      ;.%.
+parsing HASH_V1 payload finished
+parsing SECURITY_ASSOCIATION_V1 payload, 152 bytes left
+parsing payload from => 152 bytes @ 0x7f4f98000aa8
+ 0A 00 00 50 00 00 00 01 00 00 00 01 00 00 00 44  ...P...........D
+ 00 03 04 02 C0 6B FB F8 03 00 00 1C 01 0C 00 00  .....k..........
+ 80 06 00 80 80 05 00 05 80 04 00 01 80 01 00 01  ................
+ 80 02 04 B0 00 00 00 1C 02 0C 00 00 80 06 00 80  ................
+ 80 05 00 05 80 04 00 01 80 01 00 01 80 02 04 B0  ................
+ 05 00 00 24 D8 9C 80 33 63 0F F1 04 05 81 FE 29  ...$...3c......)
+ 4D 57 B3 8D 06 ED 85 82 41 D2 67 2D 2A 2A D2 BC  MW......A.g-**..
+ 5A F2 30 29 05 00 00 0C 01 00 00 00 C0 A8 00 64  Z.0)...........d
+ 00 00 00 10 04 00 00 00 0A 01 00 00 FF FF 00 00  ................
+ 00 00 00 00 00 00 00 00                          ........
+  parsing rule 0 U_INT_8
+   => 10
+  parsing rule 1 RESERVED_BIT
+   => 0
+  parsing rule 2 RESERVED_BIT
+   => 0
+  parsing rule 3 RESERVED_BIT
+   => 0
+  parsing rule 4 RESERVED_BIT
+   => 0
+  parsing rule 5 RESERVED_BIT
+   => 0
+  parsing rule 6 RESERVED_BIT
+   => 0
+  parsing rule 7 RESERVED_BIT
+   => 0
+  parsing rule 8 RESERVED_BIT
+   => 0
+  parsing rule 9 PAYLOAD_LENGTH
+   => 80
+  parsing rule 10 U_INT_32
+   => 1
+  parsing rule 11 U_INT_32
+   => 1
+  parsing rule 12 (1259)
+  68 bytes left, parsing recursively PROPOSAL_SUBSTRUCTURE_V1
+parsing PROPOSAL_SUBSTRUCTURE_V1 payload, 140 bytes left
+parsing payload from => 140 bytes @ 0x7f4f98000ab4
+ 00 00 00 44 00 03 04 02 C0 6B FB F8 03 00 00 1C  ...D.....k......
+ 01 0C 00 00 80 06 00 80 80 05 00 05 80 04 00 01  ................
+ 80 01 00 01 80 02 04 B0 00 00 00 1C 02 0C 00 00  ................
+ 80 06 00 80 80 05 00 05 80 04 00 01 80 01 00 01  ................
+ 80 02 04 B0 05 00 00 24 D8 9C 80 33 63 0F F1 04  .......$...3c...
+ 05 81 FE 29 4D 57 B3 8D 06 ED 85 82 41 D2 67 2D  ...)MW......A.g-
+ 2A 2A D2 BC 5A F2 30 29 05 00 00 0C 01 00 00 00  **..Z.0)........
+ C0 A8 00 64 00 00 00 10 04 00 00 00 0A 01 00 00  ...d............
+ FF FF 00 00 00 00 00 00 00 00 00 00              ............
+  parsing rule 0 U_INT_8
+   => 0
+  parsing rule 1 RESERVED_BYTE
+   => 0
+  parsing rule 2 PAYLOAD_LENGTH
+   => 68
+  parsing rule 3 U_INT_8
+   => 0
+  parsing rule 4 U_INT_8
+   => 3
+  parsing rule 5 SPI_SIZE
+   => 4
+  parsing rule 6 U_INT_8
+   => 2
+  parsing rule 7 SPI
+   => 4 bytes @ 0x7f4f98000e10
+ C0 6B FB F8                                      .k..
+  parsing rule 8 (1261)
+  56 bytes left, parsing recursively TRANSFORM_SUBSTRUCTURE_V1
+parsing TRANSFORM_SUBSTRUCTURE_V1 payload, 128 bytes left
+parsing payload from => 128 bytes @ 0x7f4f98000ac0
+ 03 00 00 1C 01 0C 00 00 80 06 00 80 80 05 00 05  ................
+ 80 04 00 01 80 01 00 01 80 02 04 B0 00 00 00 1C  ................
+ 02 0C 00 00 80 06 00 80 80 05 00 05 80 04 00 01  ................
+ 80 01 00 01 80 02 04 B0 05 00 00 24 D8 9C 80 33  ...........$...3
+ 63 0F F1 04 05 81 FE 29 4D 57 B3 8D 06 ED 85 82  c......)MW......
+ 41 D2 67 2D 2A 2A D2 BC 5A F2 30 29 05 00 00 0C  A.g-**..Z.0)....
+ 01 00 00 00 C0 A8 00 64 00 00 00 10 04 00 00 00  .......d........
+ 0A 01 00 00 FF FF 00 00 00 00 00 00 00 00 00 00  ................
+  parsing rule 0 U_INT_8
+   => 3
+  parsing rule 1 RESERVED_BYTE
+   => 0
+  parsing rule 2 PAYLOAD_LENGTH
+   => 28
+  parsing rule 3 U_INT_8
+   => 1
+  parsing rule 4 U_INT_8
+   => 12
+  parsing rule 5 RESERVED_BYTE
+   => 0
+  parsing rule 6 RESERVED_BYTE
+   => 0
+  parsing rule 7 (1263)
+  20 bytes left, parsing recursively TRANSFORM_ATTRIBUTE_V1
+parsing TRANSFORM_ATTRIBUTE_V1 payload, 120 bytes left
+parsing payload from => 120 bytes @ 0x7f4f98000ac8
+ 80 06 00 80 80 05 00 05 80 04 00 01 80 01 00 01  ................
+ 80 02 04 B0 00 00 00 1C 02 0C 00 00 80 06 00 80  ................
+ 80 05 00 05 80 04 00 01 80 01 00 01 80 02 04 B0  ................
+ 05 00 00 24 D8 9C 80 33 63 0F F1 04 05 81 FE 29  ...$...3c......)
+ 4D 57 B3 8D 06 ED 85 82 41 D2 67 2D 2A 2A D2 BC  MW......A.g-**..
+ 5A F2 30 29 05 00 00 0C 01 00 00 00 C0 A8 00 64  Z.0)...........d
+ 00 00 00 10 04 00 00 00 0A 01 00 00 FF FF 00 00  ................
+ 00 00 00 00 00 00 00 00                          ........
+  parsing rule 0 ATTRIBUTE_FORMAT
+   => 1
+  parsing rule 1 ATTRIBUTE_TYPE
+   => 6
+  parsing rule 2 ATTRIBUTE_LENGTH_OR_VALUE
+   => 128
+  parsing rule 3 ATTRIBUTE_VALUE
+parsing TRANSFORM_ATTRIBUTE_V1 payload finished
+  16 bytes left, parsing recursively TRANSFORM_ATTRIBUTE_V1
+parsing TRANSFORM_ATTRIBUTE_V1 payload, 116 bytes left
+parsing payload from => 116 bytes @ 0x7f4f98000acc
+ 80 05 00 05 80 04 00 01 80 01 00 01 80 02 04 B0  ................
+ 00 00 00 1C 02 0C 00 00 80 06 00 80 80 05 00 05  ................
+ 80 04 00 01 80 01 00 01 80 02 04 B0 05 00 00 24  ...............$
+ D8 9C 80 33 63 0F F1 04 05 81 FE 29 4D 57 B3 8D  ...3c......)MW..
+ 06 ED 85 82 41 D2 67 2D 2A 2A D2 BC 5A F2 30 29  ....A.g-**..Z.0)
+ 05 00 00 0C 01 00 00 00 C0 A8 00 64 00 00 00 10  ...........d....
+ 04 00 00 00 0A 01 00 00 FF FF 00 00 00 00 00 00  ................
+ 00 00 00 00                                      ....
+  parsing rule 0 ATTRIBUTE_FORMAT
+   => 1
+  parsing rule 1 ATTRIBUTE_TYPE
+   => 5
+  parsing rule 2 ATTRIBUTE_LENGTH_OR_VALUE
+   => 5
+  parsing rule 3 ATTRIBUTE_VALUE
+parsing TRANSFORM_ATTRIBUTE_V1 payload finished
+  12 bytes left, parsing recursively TRANSFORM_ATTRIBUTE_V1
+parsing TRANSFORM_ATTRIBUTE_V1 payload, 112 bytes left
+parsing payload from => 112 bytes @ 0x7f4f98000ad0
+ 80 04 00 01 80 01 00 01 80 02 04 B0 00 00 00 1C  ................
+ 02 0C 00 00 80 06 00 80 80 05 00 05 80 04 00 01  ................
+ 80 01 00 01 80 02 04 B0 05 00 00 24 D8 9C 80 33  ...........$...3
+ 63 0F F1 04 05 81 FE 29 4D 57 B3 8D 06 ED 85 82  c......)MW......
+ 41 D2 67 2D 2A 2A D2 BC 5A F2 30 29 05 00 00 0C  A.g-**..Z.0)....
+ 01 00 00 00 C0 A8 00 64 00 00 00 10 04 00 00 00  .......d........
+ 0A 01 00 00 FF FF 00 00 00 00 00 00 00 00 00 00  ................
+  parsing rule 0 ATTRIBUTE_FORMAT
+   => 1
+  parsing rule 1 ATTRIBUTE_TYPE
+   => 4
+  parsing rule 2 ATTRIBUTE_LENGTH_OR_VALUE
+   => 1
+  parsing rule 3 ATTRIBUTE_VALUE
+parsing TRANSFORM_ATTRIBUTE_V1 payload finished
+  8 bytes left, parsing recursively TRANSFORM_ATTRIBUTE_V1
+parsing TRANSFORM_ATTRIBUTE_V1 payload, 108 bytes left
+parsing payload from => 108 bytes @ 0x7f4f98000ad4
+ 80 01 00 01 80 02 04 B0 00 00 00 1C 02 0C 00 00  ................
+ 80 06 00 80 80 05 00 05 80 04 00 01 80 01 00 01  ................
+ 80 02 04 B0 05 00 00 24 D8 9C 80 33 63 0F F1 04  .......$...3c...
+ 05 81 FE 29 4D 57 B3 8D 06 ED 85 82 41 D2 67 2D  ...)MW......A.g-
+ 2A 2A D2 BC 5A F2 30 29 05 00 00 0C 01 00 00 00  **..Z.0)........
+ C0 A8 00 64 00 00 00 10 04 00 00 00 0A 01 00 00  ...d............
+ FF FF 00 00 00 00 00 00 00 00 00 00              ............
+  parsing rule 0 ATTRIBUTE_FORMAT
+   => 1
+  parsing rule 1 ATTRIBUTE_TYPE
+   => 1
+  parsing rule 2 ATTRIBUTE_LENGTH_OR_VALUE
+   => 1
+  parsing rule 3 ATTRIBUTE_VALUE
+parsing TRANSFORM_ATTRIBUTE_V1 payload finished
+  4 bytes left, parsing recursively TRANSFORM_ATTRIBUTE_V1
+parsing TRANSFORM_ATTRIBUTE_V1 payload, 104 bytes left
+parsing payload from => 104 bytes @ 0x7f4f98000ad8
+ 80 02 04 B0 00 00 00 1C 02 0C 00 00 80 06 00 80  ................
+ 80 05 00 05 80 04 00 01 80 01 00 01 80 02 04 B0  ................
+ 05 00 00 24 D8 9C 80 33 63 0F F1 04 05 81 FE 29  ...$...3c......)
+ 4D 57 B3 8D 06 ED 85 82 41 D2 67 2D 2A 2A D2 BC  MW......A.g-**..
+ 5A F2 30 29 05 00 00 0C 01 00 00 00 C0 A8 00 64  Z.0)...........d
+ 00 00 00 10 04 00 00 00 0A 01 00 00 FF FF 00 00  ................
+ 00 00 00 00 00 00 00 00                          ........
+  parsing rule 0 ATTRIBUTE_FORMAT
+   => 1
+  parsing rule 1 ATTRIBUTE_TYPE
+   => 2
+  parsing rule 2 ATTRIBUTE_LENGTH_OR_VALUE
+   => 1200
+  parsing rule 3 ATTRIBUTE_VALUE
+parsing TRANSFORM_ATTRIBUTE_V1 payload finished
+parsing TRANSFORM_SUBSTRUCTURE_V1 payload finished
+  28 bytes left, parsing recursively TRANSFORM_SUBSTRUCTURE_V1
+parsing TRANSFORM_SUBSTRUCTURE_V1 payload, 100 bytes left
+parsing payload from => 100 bytes @ 0x7f4f98000adc
+ 00 00 00 1C 02 0C 00 00 80 06 00 80 80 05 00 05  ................
+ 80 04 00 01 80 01 00 01 80 02 04 B0 05 00 00 24  ...............$
+ D8 9C 80 33 63 0F F1 04 05 81 FE 29 4D 57 B3 8D  ...3c......)MW..
+ 06 ED 85 82 41 D2 67 2D 2A 2A D2 BC 5A F2 30 29  ....A.g-**..Z.0)
+ 05 00 00 0C 01 00 00 00 C0 A8 00 64 00 00 00 10  ...........d....
+ 04 00 00 00 0A 01 00 00 FF FF 00 00 00 00 00 00  ................
+ 00 00 00 00                                      ....
+  parsing rule 0 U_INT_8
+   => 0
+  parsing rule 1 RESERVED_BYTE
+   => 0
+  parsing rule 2 PAYLOAD_LENGTH
+   => 28
+  parsing rule 3 U_INT_8
+   => 2
+  parsing rule 4 U_INT_8
+   => 12
+  parsing rule 5 RESERVED_BYTE
+   => 0
+  parsing rule 6 RESERVED_BYTE
+   => 0
+  parsing rule 7 (1263)
+  20 bytes left, parsing recursively TRANSFORM_ATTRIBUTE_V1
+parsing TRANSFORM_ATTRIBUTE_V1 payload, 92 bytes left
+parsing payload from => 92 bytes @ 0x7f4f98000ae4
+ 80 06 00 80 80 05 00 05 80 04 00 01 80 01 00 01  ................
+ 80 02 04 B0 05 00 00 24 D8 9C 80 33 63 0F F1 04  .......$...3c...
+ 05 81 FE 29 4D 57 B3 8D 06 ED 85 82 41 D2 67 2D  ...)MW......A.g-
+ 2A 2A D2 BC 5A F2 30 29 05 00 00 0C 01 00 00 00  **..Z.0)........
+ C0 A8 00 64 00 00 00 10 04 00 00 00 0A 01 00 00  ...d............
+ FF FF 00 00 00 00 00 00 00 00 00 00              ............
+  parsing rule 0 ATTRIBUTE_FORMAT
+   => 1
+  parsing rule 1 ATTRIBUTE_TYPE
+   => 6
+  parsing rule 2 ATTRIBUTE_LENGTH_OR_VALUE
+   => 128
+  parsing rule 3 ATTRIBUTE_VALUE
+parsing TRANSFORM_ATTRIBUTE_V1 payload finished
+  16 bytes left, parsing recursively TRANSFORM_ATTRIBUTE_V1
+parsing TRANSFORM_ATTRIBUTE_V1 payload, 88 bytes left
+parsing payload from => 88 bytes @ 0x7f4f98000ae8
+ 80 05 00 05 80 04 00 01 80 01 00 01 80 02 04 B0  ................
+ 05 00 00 24 D8 9C 80 33 63 0F F1 04 05 81 FE 29  ...$...3c......)
+ 4D 57 B3 8D 06 ED 85 82 41 D2 67 2D 2A 2A D2 BC  MW......A.g-**..
+ 5A F2 30 29 05 00 00 0C 01 00 00 00 C0 A8 00 64  Z.0)...........d
+ 00 00 00 10 04 00 00 00 0A 01 00 00 FF FF 00 00  ................
+ 00 00 00 00 00 00 00 00                          ........
+  parsing rule 0 ATTRIBUTE_FORMAT
+   => 1
+  parsing rule 1 ATTRIBUTE_TYPE
+   => 5
+  parsing rule 2 ATTRIBUTE_LENGTH_OR_VALUE
+   => 5
+192.168.0.100 192.168.0.100 -- 192.168.0.101 == 10.1.0.0/16
+enp0s3 left promiscuous mode
+ Invalid WM_TRANSIENT_FOR window 0x1400007 specified for 0x1400045 (Unsaved pa).
