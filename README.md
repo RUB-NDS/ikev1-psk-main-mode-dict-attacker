@@ -37,4 +37,4 @@ This repository contains a python 3 attacker against IKEv1 in main mode with pre
 ```
 ## FAQ
 - Is it also possible to be the initiator during the handshake?
--- No, only if you are the responder you get the required 5. handshake message
+    - No, only if you are the responder you get the required 5. handshake message
