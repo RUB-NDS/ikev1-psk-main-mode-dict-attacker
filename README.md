@@ -38,5 +38,5 @@ This repository contains a python 3 attacker against IKEv1 in main mode with pre
 ## FAQ
 - Is it also possible to be the initiator during the handshake?
     - No, only if you are the responder you get the required 5. handshake message
-- Is it enaugh to only passivly capture the handshake
+- Is it enough to only passivly capture the handshake
     - No, because you need to know the Diffie-Hellman Secret
