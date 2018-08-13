@@ -19,6 +19,7 @@ This repository contains a python 3 attacker against IKEv1 in main mode with pre
 - The captured must contain at least the first 5 Handshake messages of the IKEv1 Phase 1
 - The 5. message containts the required encrypted data from the initiator
 - You must be the responder during the handshake to know the shared Diffie-Hellman Secret (g^xy)
+- THis Diffie-Hellman secret must be specified in the main.py
 
 ## Directory Structure
 
