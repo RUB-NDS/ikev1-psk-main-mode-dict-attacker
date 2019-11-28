@@ -47,8 +47,8 @@ def checkIDValue(psk,dhSecret,initCookie,respCookie,initNonce,respNonce,iv,ciphe
 dhSecret = binascii.unhexlify("34B52971CD61F18048EE97D20DA488A4634125F300DC2D1F470BDBB68B989FB999A2721328084C165CBEBDCA0C08B516799132B8F647AE46BD2601028EC7E3954AAF612828826A031FF08B7AE4057CAE0ADB51453BAAE84691705E913BA95067B816385C37D2BD85701501F94A1AA27FFC20A9546EC9DEFF8A1CB33588819A55")
 pcapPath = "pcaps/ikev1-psk-main-mode-incomplete.pcapng"
 #pcapPath = "pcaps/ikev1-psk-aggressive-mode-simple.pcapng"
-#dictPath = "dict/list-simple.txt"
-dictPath = "dict/list.txt"
+dictPath = "dict/list-simple.txt"
+#dictPath = "dict/list.txt"
 # idHex  = ...||PayloadLength||IDType||ProtocolID||Port||IPAddress
 idHex = "0800000c01000000c0a80064"
 idPlainValue = binascii.unhexlify(idHex)
@@ -70,7 +70,8 @@ if __name__ == '__main__':
         initKEX = ikeParser.getISAKMPPayloadFromPackets(packets,initIP, ikeParser.KEX)
         respKEX = ikeParser.getISAKMPPayloadFromPackets(packets,respIP, ikeParser.KEX)
 
-        ciphertext = getEncryptedPayload(packets,initIP)
+        ciphertext = ikeParser.getEncryptedData(packets,initIP)[1]
+        #print(ciphertext.decode('ascii'))
         iv = computeIV(initKEX,respKEX)[:16]
 
         #k_2 = computeKeys("XMd3azP95q".encode("ascii"), dhSecret, initNonce + respNonce, initCookie + respCookie)

@@ -54,4 +54,13 @@ def getCookieFromPackets(packets, responder):
             if(packet.haslayer("ISAKMP")):
                 return packet[ISAKMP].init_cookie
 
+def getEncryptedData(packets, senderIP):
+    encData = []
+    for packet in packets:
+        if(packet[IP].src == senderIP):
+            if(packet.haslayer('ISAKMP')):
+                if packet['ISAKMP'].flags == 1:
+                    encData.append(packet['ISAKMP'].load)
+    return encData
+
 
